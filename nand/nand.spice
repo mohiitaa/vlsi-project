@@ -1,0 +1,34 @@
+* SPICE3 file created from nand.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/t14y_tsmc_025_level3.txt
+
+M1000 out A vdd w_n17_4# cmosp w=3u l=2u
++  ad=38p pd=36u as=38p ps=36u
+M1001 vdd B out w_5_4# cmosp w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1002 out A a_n17_n8# Gnd cmosn w=3u l=2u
++  ad=19p pd=18u as=38p ps=36u
+M1003 gnd B a_n17_n8# Gnd cmosn w=3u l=2u
++  ad=19p pd=18u as=0p ps=0u
+C0 a_n17_n8# Gnd 4.37fF
+C1 B Gnd 3.41fF
+C2 out Gnd 3.67fF
+C3 A Gnd 4.05fF
+C4 vdd Gnd 5.36fF
+
+
+*Power Sources Excitation
+
+v_dd vdd 0 5
+*v_ss Gnd 0 0
+vin_A A 0 5
+vin_B B 0 5
+vin_A A 0 PULSE(0 5 0 0.1n 0.1n 2n 4n)
+
+.control
+tran 0.01n 12n
+run
+plot A out
+.endc
+
+.end
