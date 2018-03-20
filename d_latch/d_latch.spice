@@ -1,0 +1,40 @@
+* SPICE3 file created from d_latch.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/t14y_tsmc_025_level3.txt
+
+M1000 e_bar e vdd vdd cmosp w=6u l=2u
++  ad=66p pd=34u as=54p ps=30u
+M1001 out e_bar D vdd cmosp w=7u l=2u
++  ad=228p pd=112u as=71p ps=36u
+M1002 out e out vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1003 e_bar e gnd Gnd cmosn w=3u l=2u
++  ad=37p pd=30u as=31p ps=26u
+M1004 out e D Gnd cmosn w=3u l=2u
++  ad=126p pd=100u as=43p ps=34u
+M1005 out e_bar out Gnd cmosn w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+
+C0 vdd e 4.01fF
+C1 vdd e_bar 2.79fF
+C2 out vdd 7.03fF
+C3 out e 2.12fF
+C4 gnd Gnd 18.05fF
+C5 out Gnd 5.50fF
+C6 D Gnd 2.07fF
+C7 e_bar Gnd 11.35fF
+C8 e Gnd 16.49fF
+C9 vdd Gnd 16.78fF
+
+v_dd vdd 0 5
+v_D D 0 PULSE(0 5 0 0.1n 0.1n 7n 14n)
+gd gnd 0 0
+v_clk e 0 PULSE(0 5 0 0.1n 0.1n 6n 12n)
+
+.control
+tran 0.1n 200n
+run
+plot (out) (0.5*D) (0.25*e)
+.endc
+.end
+
