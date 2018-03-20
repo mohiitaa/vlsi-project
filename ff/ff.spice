@@ -1,0 +1,55 @@
+* SPICE3 file created from ff.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/t14y_tsmc_025_level3.txt
+
+M1000 e_bar e vdd vdd cmosp w=6u l=2u
++  ad=132p pd=68u as=108p ps=60u
+M1001 out_l1 e_bar out_l1 vdd cmosp w=7u l=2u
++  ad=298p pd=148u as=0p ps=0u
+M1002 D e out_l1 vdd cmosp w=6u l=2u
++  ad=72p pd=36u as=0p ps=0u
+M1003 e_bar e vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 out e_bar out_l1 vdd cmosp w=7u l=2u
++  ad=228p pd=112u as=0p ps=0u
+M1005 out e out vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1006 e_bar e gnd Gnd cmosn w=3u l=2u
++  ad=74p pd=60u as=62p ps=52u
+M1007 out_l1 e out_l1 Gnd cmosn w=3u l=2u
++  ad=181p pd=142u as=0p ps=0u
+M1008 D e_bar out_l1 Gnd cmosn w=3u l=2u
++  ad=31p pd=26u as=0p ps=0u
+M1009 e_bar e gnd Gnd cmosn w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1010 out e out_l1 Gnd cmosn w=3u l=2u
++  ad=126p pd=100u as=0p ps=0u
+M1011 out e_bar out Gnd cmosn w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+
+C0 out e 2.12fF
+C1 out vdd 7.03fF
+C2 out_l1 e 2.92fF
+C3 e_bar e 3.50fF
+C4 out_l1 vdd 14.65fF
+C5 e_bar vdd 5.58fF
+C6 e vdd 8.03fF
+C7 gnd Gnd 35.11fF
+C8 out Gnd 5.50fF
+C9 out_l1 Gnd 12.36fF
+C10 e_bar Gnd 19.62fF
+C11 e Gnd 32.91fF
+C12 vdd Gnd 33.28fF
+
+v_dd vdd 0 5
+v_D D 0 PULSE(0 5 0 0.1n 0.1n 5u 10u)
+v_clk e 0 PULSE(0 5 0 0.1n 0.1n 1u 2u)
+gd gnd 0 0
+
+.control
+tran 0.1n 20u
+run
+plot (out) (0.5*D) (0.25*e)
+.endc
+
+.end

@@ -1,0 +1,38 @@
+* SPICE3 file created from mux.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/lab1/t14y_tsmc_025_level3.txt
+
+M1000 e_bar e vdd vdd cmosp w=6u l=2u
++  ad=66p pd=34u as=54p ps=30u
+M1001 out e_bar A vdd cmosp w=7u l=2u
++  ad=156p pd=76u as=71p ps=36u
+M1002 B e out vdd cmosp w=6u l=2u
++  ad=72p pd=36u as=0p ps=0u
+M1003 e_bar e gnd Gnd cmosn w=3u l=2u
++  ad=37p pd=30u as=31p ps=26u
+M1004 out e A Gnd cmosn w=3u l=2u
++  ad=95p pd=74u as=43p ps=34u
+M1005 B e_bar out Gnd cmosn w=3u l=2u
++  ad=31p pd=26u as=0p ps=0u
+
+v_dd vdd 0 5
+v_a A 0 PULSE(0 5 0 0.1n 0.1n 50n 100n)
+v_b B 0 PULSE(0 5 0 0.1n 0.1n 40n 80n)
+v_c e 0 PULSE(0 5 0 0.1n 0.1n 30n 60n)
+
+C0 e vdd 4.01fF
+C1 e_bar vdd 2.79fF
+C2 gnd Gnd 16.36fF
+C3 out Gnd 4.37fF
+C4 A Gnd 2.07fF
+C5 e_bar Gnd 11.12fF
+C6 e Gnd 16.47fF
+C7 vdd Gnd 14.95fF
+
+.control
+tran 0.1n 300n
+run
+plot (out) (0.5*A) (0.25*B) (0.125*e) 
+.endc
+
+.end

@@ -1,0 +1,127 @@
+* SPICE3 file created from fa.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/lab1/t14y_tsmc_025_level3.txt
+
+
+M1000 vdd son so w_0_36# cmosp w=25u l=2u
++  ad=2101p pd=542u as=151p ps=64u
+M1001 son con vdd w_0_36# cmosp w=13u l=2u
++  ad=328p pd=132u as=0p ps=0u
+M1002 a_38_42# b son w_0_36# cmosp w=25u l=2u
++  ad=125p pd=60u as=0p ps=0u
+M1003 vdd a a_38_42# w_0_36# cmosp w=25u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 con a vdd w_0_36# cmosp w=28u l=2u
++  ad=448p pd=144u as=0p ps=0u
+M1005 vdd b con w_0_36# cmosp w=28u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1006 co con vdd w_0_36# cmosp w=28u l=2u
++  ad=166p pd=70u as=0p ps=0u
+M1007 vdd son sum vdd cmosp w=25u l=2u
++  ad=0p pd=0u as=151p ps=64u
+M1008 son con vdd vdd cmosp w=13u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1009 vss son so w_0_0# cmosn w=13u l=2u
++  ad=757p pd=312u as=77p ps=40u
+M1010 n2 con vss w_0_0# cmosn w=10u l=2u
++  ad=408p pd=184u as=0p ps=0u
+M1011 son b n2 w_0_0# cmosn w=14u l=2u
++  ad=224p pd=88u as=0p ps=0u
+M1012 n2 a son w_0_0# cmosn w=14u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1013 a_65_10# a con w_0_0# cmosn w=20u l=2u
++  ad=100p pd=50u as=224p ps=108u
+M1014 vss b a_65_10# w_0_0# cmosn w=20u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_157_42# c son vdd cmosp w=25u l=2u
++  ad=125p pd=60u as=0p ps=0u
+M1016 vdd so a_157_42# vdd cmosp w=25u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1017 con so vdd vdd cmosp w=28u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1018 vdd c con vdd cmosp w=28u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1019 c1 con vdd vdd cmosp w=28u l=2u
++  ad=166p pd=70u as=0p ps=0u
+M1020 vdd zn carry vdd cmosp w=18u l=2u
++  ad=0p pd=0u as=116p ps=50u
+M1021 a_259_49# c1 vdd vdd cmosp w=21u l=2u
++  ad=105p pd=52u as=0p ps=0u
+M1022 zn co a_259_49# vdd cmosp w=21u l=2u
++  ad=117p pd=56u as=0p ps=0u
+M1023 co con vss w_0_0# cmosn w=14u l=2u
++  ad=84p pd=42u as=0p ps=0u
+M1024 vss son sum vss cmosn w=13u l=2u
++  ad=0p pd=0u as=77p ps=40u
+M1025 n2 con vss vss cmosn w=10u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1026 son c n2 vss cmosn w=14u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1027 n2 so son vss cmosn w=14u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1028 a_184_10# so con vss cmosn w=20u l=2u
++  ad=100p pd=50u as=0p ps=0u
+M1029 vss c a_184_10# vss cmosn w=20u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1030 c1 con vss vss cmosn w=14u l=2u
++  ad=84p pd=42u as=0p ps=0u
+M1031 vss zn carry vss cmosn w=9u l=2u
++  ad=0p pd=0u as=57p ps=32u
+M1032 zn c1 vss vss cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1033 vss co zn vss cmosn w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+C0 vdd co 14.56fF
+C1 w_0_36# con 13.38fF
+C2 w_0_36# a 9.21fF
+C3 w_0_36# vdd 31.49fF
+C4 sum vss 2.91fF
+C5 vss co 5.26fF
+C6 co zn 2.29fF
+C7 c vdd 13.98fF
+C8 w_0_0# con 12.60fF
+C9 son n2 5.17fF
+C10 w_0_0# a 10.72fF
+C11 w_0_36# so 3.17fF
+C12 c vss 8.26fF
+C13 con vdd 32.66fF
+C14 vdd c1 9.88fF
+C15 w_0_36# b 10.12fF
+C16 w_0_0# vss 33.13fF
+C17 con vss 17.14fF
+C18 vss c1 13.75fF
+C19 vdd zn 10.42fF
+C20 w_0_0# so 4.04fF
+C21 so a 2.54fF
+C22 vdd so 11.26fF
+C23 vdd carry 3.38fF
+C24 vss zn 6.57fF
+C25 w_0_0# b 7.96fF
+C26 w_0_36# son 5.08fF
+C27 vss so 12.32fF
+C28 vdd b 3.86fF
+C29 w_0_0# son 8.97fF
+C30 w_0_36# co 3.57fF
+C31 con son 3.79fF
+C32 vdd son 5.56fF
+C33 vss son 9.45fF
+C34 w_0_0# co 3.29fF
+C35 con co 4.68fF
+C36 sum vdd 3.67fF
+C37 vss 0 5.64fF
+C38 vdd 0 5.64fF
+
+v_dd vdd 0 5
+v_ss vss 0 0
+v_a a 0 PULSE(0 5 0 2n 2n 50n 100n)
+v_b b 0 PULSE(0 5 0 2n 2n 40n 80n)
+v_c c 0 PULSE(0 5 0 2n 2n 30n 60n)
+
+
+.control
+tran 0.1n 300n
+run
+plot (sum) (1.1*carry) (0.5*a) (0.25*b) (0.125*c) 
+.endc
+
+.end

@@ -1,0 +1,71 @@
+* SPICE3 file created from ha2v0x2.ext - technology: scmos
+
+
+.include /home/mohiitaa/Documents/VLSI/t14y_tsmc_025_level3.txt
+
+
+M1000 vdd son so w_n4_32# cmosp w=25u l=2u
++  ad=917p pd=232u as=151p ps=64u
+M1001 son con vdd w_n4_32# cmosp w=13u l=2u
++  ad=164p pd=66u as=0p ps=0u
+M1002 a_34_38# b son w_n4_32# cmosp w=25u l=2u
++  ad=125p pd=60u as=0p ps=0u
+M1003 vdd a a_34_38# w_n4_32# cmosp w=25u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 con a vdd w_n4_32# cmosp w=28u l=2u
++  ad=224p pd=72u as=0p ps=0u
+M1005 vdd b con w_n4_32# cmosp w=28u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1006 co con vdd w_n4_32# cmosp w=28u l=2u
++  ad=166p pd=70u as=0p ps=0u
+M1007 vss son so w_n4_n4# cmosn w=13u l=2u
++  ad=263p pd=100u as=77p ps=40u
+M1008 n2 con vss w_n4_n4# cmosn w=10u l=2u
++  ad=204p pd=92u as=0p ps=0u
+M1009 son b n2 w_n4_n4# cmosn w=14u l=2u
++  ad=112p pd=44u as=0p ps=0u
+M1010 n2 a son w_n4_n4# cmosn w=14u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1011 a_61_6# a con w_n4_n4# cmosn w=20u l=2u
++  ad=100p pd=50u as=112p ps=54u
+M1012 vss b a_61_6# w_n4_n4# cmosn w=20u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1013 co con vss w_n4_n4# cmosn w=14u l=2u
++  ad=84p pd=42u as=0p ps=0u
+
+C0 con vdd 9.64fF
+C1 w_n4_n4# vss 32.38fF
+C2 vss co 2.16fF
+C3 b vdd 3.86fF
+C4 w_n4_n4# co 3.29fF
+C5 vss con 2.27fF
+C6 w_n4_32# con 13.38fF
+C7 son w_n4_32# 5.08fF
+C8 w_n4_32# a 9.21fF 
+C9 w_n4_n4# con 12.60fF
+C10 son n2 2.58fF
+C11 son w_n4_n4# 8.97fF
+C12 so w_n4_32# 2.44fF
+C13 w_n4_32# b 10.12fF
+C14 w_n4_n4# a 10.72fF
+C15 so w_n4_n4# 2.44fF
+C16 w_n4_n4# b 7.96fF
+C17 w_n4_32# vdd 30.74fF
+
+
+
+
+
+v_dd vdd 0 5 
+v_ss vss 0 0 
+
+v_a a 0 PULSE(0 5 0 0.1n 0.1n 20n 40n)
+v_b b 0 PULSE(0 5 0 0.1n 0.1n 30n 60n)
+
+.control
+tran 0.1n 200n
+run
+plot (so) (0.5*co) (0.125*a) (0.25*b)
+
+.endc
+.end

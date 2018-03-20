@@ -1,0 +1,87 @@
+timestamp 1179385786
+version 8.1
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_61_6#" 107 0 61 6 ndiff 100 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vss" 197 0 11 6 ndiff 263 100 0 0 0 0 0 0 0 0 0 0 846 236 0 0 0 0
+node "n2" 220 0 21 9 ndiff 204 92 0 0 0 0 0 0 0 0 0 0 136 76 0 0 0 0
+equiv "n2" "n2"
+node "co" 387 0 79 6 ndiff 84 42 166 70 0 0 0 0 0 0 0 0 246 122 0 0 0 0
+equiv "co" "co"
+equiv "co" "co"
+equiv "co" "co"
+node "a_34_38#" 298 0 34 38 pdiff 0 0 125 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "con" 1791 0 15 32 p 112 54 224 72 300 276 0 0 0 0 0 0 596 304 0 0 0 0
+equiv "con" "con"
+equiv "con" "con"
+equiv "con" "con"
+equiv "con" "con"
+equiv "con" "con"
+equiv "con" "con"
+node "a" 1323 0 39 7 p 0 0 0 0 366 290 0 0 0 0 0 0 96 56 0 0 0 0
+equiv "a" "a"
+node "b" 1503 0 29 7 p 0 0 0 0 306 282 0 0 0 0 0 0 251 126 0 0 0 0
+equiv "b" "b"
+equiv "b" "b"
+equiv "b" "b"
+equiv "b" "b"
+node "vdd" 751 0 11 41 pdiff 0 0 917 232 0 0 0 0 0 0 0 0 938 262 0 0 0 0
+node "so" 348 0 2 13 ndiff 77 40 151 64 0 0 0 0 0 0 0 0 235 118 0 0 0 0
+equiv "so" "so"
+node "son" 1078 0 9 2 p 112 44 164 66 160 148 0 0 0 0 0 0 216 116 0 0 0 0
+equiv "son" "son"
+equiv "son" "son"
+equiv "son" "son"
+node "w_n4_n4#" 0 0 -4 -4 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n4_32#" 5923 0 -4 32 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4576 296
+cap "con" "a_61_6#" 1316
+cap "son" "con" 1894
+cap "vdd" "b" 3864
+cap "w_n4_32#" "b" 10119
+cap "co" "vss" 2162
+cap "w_n4_n4#" "co" 3290
+cap "vdd" "a" 480
+cap "w_n4_32#" "a" 9212
+cap "co" "a_61_6#" 188
+cap "w_n4_n4#" "n2" 752
+cap "vdd" "con" 9640
+cap "w_n4_32#" "con" 13378
+cap "w_n4_n4#" "vss" 32383
+cap "son" "n2" 2585
+cap "b" "con" 1504
+cap "vss" "a_61_6#" 470
+cap "son" "vss" 240
+cap "b" "a_34_38#" 940
+cap "vdd" "co" 470
+cap "w_n4_32#" "co" 1739
+cap "w_n4_n4#" "son" 8969
+cap "so" "vss" 470
+cap "w_n4_n4#" "so" 2444
+cap "con" "a_34_38#" 1128
+cap "b" "vss" 300
+cap "son" "vdd" 240
+cap "w_n4_n4#" "b" 7957
+cap "w_n4_32#" "son" 5078
+cap "a" "vss" 300
+cap "so" "vdd" 1222
+cap "w_n4_n4#" "a" 10716
+cap "w_n4_32#" "so" 2444
+cap "con" "vss" 2266
+cap "w_n4_n4#" "con" 12604
+cap "w_n4_32#" "vdd" 30738
+device mosfet nfet 77 6 78 7 2 14 "w_n4_n4#" "con" 4 0 "vss" 14 0 "co" 14 0
+device mosfet nfet 66 6 67 7 2 20 "w_n4_n4#" "b" 4 0 "a_61_6#" 20 0 "vss" 20 0
+device mosfet nfet 59 6 60 7 2 20 "w_n4_n4#" "a" 4 0 "con" 20 0 "a_61_6#" 20 0
+device mosfet nfet 39 12 40 13 2 14 "w_n4_n4#" "a" 4 0 "son" 14 0 "n2" 14 0
+device mosfet nfet 29 12 30 13 2 14 "w_n4_n4#" "b" 4 0 "n2" 14 0 "son" 14 0
+device mosfet nfet 19 9 20 10 2 10 "w_n4_n4#" "con" 4 0 "vss" 10 0 "n2" 10 0
+device mosfet nfet 9 6 10 7 2 13 "w_n4_n4#" "son" 4 0 "so" 13 0 "vss" 13 0
+device mosfet pfet 77 38 78 39 2 28 "w_n4_32#" "con" 4 0 "vdd" 28 0 "co" 28 0
+device mosfet pfet 67 38 68 39 2 28 "w_n4_32#" "b" 4 0 "con" 28 0 "vdd" 28 0
+device mosfet pfet 57 38 58 39 2 28 "w_n4_32#" "a" 4 0 "vdd" 28 0 "con" 28 0
+device mosfet pfet 39 38 40 39 2 25 "w_n4_32#" "a" 4 0 "a_34_38#" 25 0 "vdd" 25 0
+device mosfet pfet 32 38 33 39 2 25 "w_n4_32#" "b" 4 0 "son" 25 0 "a_34_38#" 25 0
+device mosfet pfet 22 41 23 42 2 13 "w_n4_32#" "con" 4 0 "vdd" 13 0 "son" 13 0
+device mosfet pfet 9 41 10 42 2 25 "w_n4_32#" "son" 4 0 "so" 25 0 "vdd" 25 0
