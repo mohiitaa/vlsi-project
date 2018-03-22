@@ -1,0 +1,169 @@
+* SPICE3 file created from adder2.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/lab1/t14y_tsmc_025_level3.txt
+
+M1000 vdd co_n co vdd cmosp w=12u l=2u
++  ad=2165p pd=608u as=72p ps=38u
+M1001 co_n a1 vdd vdd cmosp w=10u l=2u
++  ad=80p pd=36u as=0p ps=0u
+M1002 vdd a1 co_n vdd cmosp w=10u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1003 vss co_n co vss cmosn w=6u l=2u
++  ad=1145p pd=482u as=42p ps=26u
+M1004 vdd a1 b1n vdd cmosp w=27u l=2u
++  ad=0p pd=0u as=294p ps=136u
+M1005 a_276_82# a1 vdd vdd cmosp w=18u l=2u
++  ad=144p pd=52u as=0p ps=0u
+M1006 x1 b1n a_276_82# vdd cmosp w=18u l=2u
++  ad=355p pd=140u as=0p ps=0u
+M1007 b1n a_276_82# x1 vdd cmosp w=27u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1008 vdd x1 a_335_90# vdd cmosp w=27u l=2u
++  ad=0p pd=0u as=294p ps=136u
+M1009 s1n x1 vdd vdd cmosp w=18u l=2u
++  ad=144p pd=52u as=0p ps=0u
+M1010 s1 a_335_90# s1n vdd cmosp w=18u l=2u
++  ad=189p pd=70u as=0p ps=0u
+M1011 a_335_90# s1n s1 vdd cmosp w=27u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1012 vdd zc1_n c1 vdd cmosp w=12u l=2u
++  ad=0p pd=0u as=72p ps=38u
+M1013 zc1_n x1 vdd vdd cmosp w=10u l=2u
++  ad=80p pd=36u as=0p ps=0u
+M1014 vdd x1 zc1_n vdd cmosp w=10u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_194_79# a1 vss vss cmosn w=9u l=2u
++  ad=45p pd=28u as=0p ps=0u
+M1016 co_n a1 a_194_79# vss cmosn w=9u l=2u
++  ad=57p pd=32u as=0p ps=0u
+M1017 vss a1 b1n vss cmosn w=9u l=2u
++  ad=0p pd=0u as=57p ps=32u
+M1018 a_276_82# a1 vss vss cmosn w=9u l=2u
++  ad=72p pd=34u as=0p ps=0u
+M1019 x1 a1 a_276_82# vss cmosn w=9u l=2u
++  ad=171p pd=82u as=0p ps=0u
+M1020 a_296_79# b1n x1 vss cmosn w=12u l=2u
++  ad=60p pd=34u as=0p ps=0u
+M1021 vss a_276_82# a_296_79# vss cmosn w=12u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1022 vss x1 a_335_90# vss cmosn w=9u l=2u
++  ad=0p pd=0u as=57p ps=32u
+M1023 s1n x1 vss vss cmosn w=9u l=2u
++  ad=72p pd=34u as=0p ps=0u
+M1024 s1 x1 s1n vss cmosn w=9u l=2u
++  ad=87p pd=40u as=0p ps=0u
+M1025 a_380_79# a_335_90# s1 vss cmosn w=12u l=2u
++  ad=60p pd=34u as=0p ps=0u
+M1026 vss s1n a_380_79# vss cmosn w=12u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1027 vss zc1_n c1 vss cmosn w=6u l=2u
++  ad=0p pd=0u as=42p ps=26u
+M1028 a_426_79# x1 vss vss cmosn w=9u l=2u
++  ad=45p pd=28u as=0p ps=0u
+M1029 zc1_n x1 a_426_79# vss cmosn w=9u l=2u
++  ad=57p pd=32u as=0p ps=0u
+M1030 vss con x1 vss cmosn w=14u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1031 a_182_45# a_177_36# vss vss cmosn w=20u l=2u
++  ad=100p pd=50u as=0p ps=0u
+M1032 con a0 a_182_45# vss cmosn w=20u l=2u
++  ad=112p pd=54u as=0p ps=0u
+M1033 son a0 n2 vss cmosn w=14u l=2u
++  ad=112p pd=44u as=204p ps=92u
+M1034 n2 a_177_36# son vss cmosn w=14u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1035 vss con n2 vss cmosn w=10u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1036 s0 son vss vss cmosn w=13u l=2u
++  ad=77p pd=40u as=0p ps=0u
+M1037 s2n c1 vss vss cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1038 vss co s2n vss cmosn w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1039 s2 s2n vss vss cmosn w=6u l=2u
++  ad=42p pd=26u as=0p ps=0u
+M1040 vdd con x1 vdd cmosp w=28u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1041 con a_177_36# vdd vdd cmosp w=28u l=2u
++  ad=224p pd=72u as=0p ps=0u
+M1042 vdd a0 con vdd cmosp w=28u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1043 a_209_8# a0 vdd vdd cmosp w=25u l=2u
++  ad=125p pd=60u as=0p ps=0u
+M1044 son a_177_36# a_209_8# vdd cmosp w=25u l=2u
++  ad=164p pd=66u as=0p ps=0u
+M1045 vdd con son vdd cmosp w=13u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1046 s0 son vdd vdd cmosp w=25u l=2u
++  ad=151p pd=64u as=0p ps=0u
+M1047 a_275_6# c1 s2n vdd cmosp w=18u l=2u
++  ad=90p pd=46u as=102p ps=50u
+M1048 vdd co a_275_6# vdd cmosp w=18u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1049 s2 s2n vdd vdd cmosp w=12u l=2u
++  ad=72p pd=38u as=0p ps=0u
+C0 x1 vss 63.95fF
+C1 a_276_82# vdd 5.22fF
+C2 con vss 14.87fF
+C3 a_177_36# vdd 13.98fF
+C4 x1 vdd 42.82fF
+C5 a_335_90# vss 7.28fF
+C6 con vdd 23.02fF
+C7 b1n a_276_82# 2.05fF
+C8 s1n vss 9.30fF
+C9 a_335_90# vdd 16.07fF
+C10 s1 a_335_90# 2.91fF
+C11 b1n x1 2.91fF
+C12 c1 co 2.06fF
+C13 s2 vss 2.54fF
+C14 s1n vdd 5.22fF
+C15 co vss 9.35fF
+C16 s2n vss 8.11fF
+C17 s2 vdd 4.37fF
+C18 co_n vss 9.07fF
+C19 co vdd 14.79fF
+C20 s0 vss 2.91fF
+C21 s2n vdd 11.91fF
+C22 a1 vss 45.92fF
+C23 co_n vdd 5.96fF
+C24 c1 vss 14.41fF
+C25 x1 a_335_90# 7.12fF
+C26 s0 vdd 3.67fF
+C27 n2 son 2.58fF
+C28 a1 vdd 39.88fF
+C29 zc1_n vss 9.07fF
+C30 c1 vdd 11.31fF
+C31 a_177_36# co 5.13fF
+C32 son vss 9.21fF
+C33 a_335_90# s1n 2.05fF
+C34 s1 vss 4.89fF
+C35 b1n a1 3.03fF
+C36 zc1_n vdd 5.96fF
+C37 son vdd 5.32fF
+C38 b1n vss 7.28fF
+C39 s1 vdd 3.29fF
+C40 a0 vss 11.02fF
+C41 b1n vdd 16.07fF
+C42 a_276_82# vss 9.30fF
+C43 a_177_36# vss 8.26fF
+C44 a0 vdd 9.69fF
+C45 n2 x1 2.76fF
+C46 x1 0 3.88fF
+C47 vss 0 5.17fF
+C48 vdd 0 45.12fF
+
+
+v_ss vss 0 0
+v_dd vdd 0 5
+v_a0 a0 0 PULSE(0 5 0s 0.1ns 0.1ns 50ns 100ns)
+v_a1 a1 0 PULSE(0 5 0s 0.1ns 0.1ns 40ns 80ns)
+v_b0 b0 0 PULSE(0 5 0s 0.1ns 0.1ns 30ns 60ns)
+v_b1 b1 0 PULSE(0 5 0s 0.1ns 0.1ns 25ns 50ns)
+
+.control
+tran 0.1ns 300ns
+run
+plot (0.125*a0) (0.25*b0) (0.5*c0)
+.endc
+
+.end
