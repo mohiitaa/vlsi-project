@@ -1,6 +1,8 @@
 # vlsi-project
 For VLSI Lab Project
+
 _Authors - Mohita Chowdhury and N. Subbalakshmi_
+
 The following parts have been implemented successfully :-
 * Nand gate
 * And gate
