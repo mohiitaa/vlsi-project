@@ -6,6 +6,7 @@ _Authors - Mohita Chowdhury and N. Subbalakshmi_
 The following parts have been implemented successfully :-
 * Nand gate
 * And gate
+* Multiplexer (2:1)
 * D flip flop
 * D latch
 * Half adder
