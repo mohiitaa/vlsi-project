@@ -1,0 +1,132 @@
+* SPICE3 file created from dff5.ext - technology: scmos
+
+.include /home/mohiitaa/Documents/VLSI/lab1/t14y_tsmc_025_level3.txt
+
+
+M1000 en_bar_D5 en_D5 vdd vdd cmosp w=6u l=2u
++  ad=216p pd=84u as=1278p ps=558u
+M1001 D_bar_D5 D_D5 vdd vdd cmosp w=6u l=2u
++  ad=120p pd=52u as=0p ps=0u
+M1002 vdd D_D5 out_n1_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1003 out_n1_D5 en_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 vdd en_D5 out_n2_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1005 out_n2_D5 D_bar_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1006 vdd out_n1_D5 q_l1_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1007 q_l1_D5 q_l1_bar_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1008 vdd out_n2_D5 q_l1_bar_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1009 q_l1_bar_D5 q_l1_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1010 en_bar_D5 en_D5 gnd Gnd cmosn w=3u l=2u
++  ad=67p pd=50u as=627p ps=370u
+M1011 D_bar_D5 D_D5 gnd Gnd cmosn w=3u l=2u
++  ad=67p pd=50u as=0p ps=0u
+M1012 n1_D5 D_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1013 out_n1_D5 en_D5 n1_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1014 n2_D5 en_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1015 out_n2_D5 D_bar_D5 n2_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1016 n3_D5 out_n1_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1017 q_l1_D5 q_l1_bar_D5 n3_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1018 n4_D5 out_n2_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1019 q_l1_bar_D5 q_l1_D5 n4_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1020 n6_D5 q_l1_D5 gnd Gnd cmosn w=3u l=2u
++  ad=67p pd=50u as=0p ps=0u
+M1021 n7_D5 q_l1_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1022 out_n7_D5 en_bar_D5 n7_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1023 n8_D5 en_bar_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1024 out_n8_D5 n6_D5 n8_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1025 n9_D5 out_n7_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1026 q_D5 q_bar_D5 n9_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1027 n10_D5 out_n8_D5 gnd Gnd cmosn w=6u l=2u
++  ad=114p pd=50u as=0p ps=0u
+M1028 q_bar_D5 q_D5 n10_D5 Gnd cmosn w=6u l=2u
++  ad=48p pd=28u as=0p ps=0u
+M1029 n6_D5 q_l1_D5 vdd vdd cmosp w=6u l=2u
++  ad=120p pd=52u as=0p ps=0u
+M1030 vdd q_l1_D5 out_n7_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1031 out_n7_D5 en_bar_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1032 vdd en_bar_D5 out_n8_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1033 out_n8_D5 n6_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1034 vdd out_n7_D5 q_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1035 q_D5 q_bar_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1036 vdd out_n8_D5 q_bar_D5 vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=108p ps=60u
+M1037 q_bar_D5 q_D5 vdd vdd cmosp w=6u l=2u
++  ad=0p pd=0u as=0p ps=0u
+C0 q_bar_D5 vdd 9.21fF
+C1 en_bar_D5 vdd 12.03fF
+C2 q_l1_D5 out_n2_D5 3.08fF
+C3 out_n7_D5 vdd 9.99fF
+C4 en_D5 vdd 13.76fF
+C5 q_l1_D5 vdd 16.36fF
+C6 out_n2_D5 vdd 9.21fF
+C7 n6_D5 vdd 4.56fF
+C8 q_l1_bar_D5 vdd 9.21fF
+C9 out_n2_D5 out_n1_D5 3.51fF
+C10 out_n8_D5 out_n7_D5 3.62fF
+C11 out_n1_D5 vdd 9.99fF
+C12 q_D5 vdd 9.89fF
+C13 D_bar_D5 vdd 4.56fF
+C14 out_n8_D5 vdd 9.21fF
+C15 gnd q_l1_D5 17.41fF
+C16 out_n7_D5 en_bar_D5 2.60fF
+C17 D_D5 vdd 21.44fF
+C18 q_D5 Gnd 16.12fF
+C19 out_n8_D5 Gnd 19.67fF
+C20 q_bar_D5 Gnd 8.83fF
+C21 out_n7_D5 Gnd 17.19fF
+C22 n6_D5 Gnd 17.94fF
+C23 gnd Gnd 92.92fF
+C24 q_l1_D5 Gnd 46.22fF
+C25 out_n2_D5 Gnd 18.70fF
+C26 q_l1_bar_D5 Gnd 15.41fF
+C27 out_n1_D5 Gnd 17.19fF
+C28 D_bar_D5 Gnd 17.94fF
+C29 D_D5 Gnd 20.80fF
+C30 en_bar_D5 Gnd 28.84fF
+C31 en_D5 Gnd 30.74fF
+C32 vdd Gnd 135.50fF
+
+
+v_dd vdd 0 5
+v_ss vss 0 0 
+
+
+v_D D_D5 0 PULSE(0 5 0 0.1n 0.1n 30n 60n)
+v_clk en_D5 0 PULSE(0 5 0 0.1n 0.1n 16n 32n)
+
+
+.control
+tran 0.1n 300n
+run
+plot (0.25*D_D5) (0.5*en_D5) (q_D5)
+.endc
+
+
+.end

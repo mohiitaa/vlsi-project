@@ -1,0 +1,2456 @@
+| units: 100 tech: scmos format: MIT
+p xor_4_A1 zc4_n_A1 vdd 2 10 1671 465
+n xor_4_A1 a_1701_459# zc4_n_A1 2 9 1701 464
+n c3_A1 vss a_1701_459# 2 9 1701 457
+p c3_A1 vdd zc4_n_A1 2 10 1671 455
+n b2_M1 q0b2_n_M1 a_123_425# 2 11 121 425
+n q0_M1 a_123_425# vss 2 11 128 425
+n q0b2_n_M1 vss q0b2_M1 2 9 141 425
+n b1_M1 q0b1_n_M1 a_210_425# 2 11 208 425
+n q0_M1 a_210_425# vss 2 11 215 425
+n q0b1_n_M1 vss q0b1_M1 2 9 228 425
+n b0_M1 q0b0_n_M1 a_303_425# 2 11 301 425
+n q0_M1 a_303_425# vss 2 11 308 425
+n q0b0_n_M1 vss a_A1 2 9 321 425
+n q1b0_n_M1 q1b0_M1 vss 2 9 541 427
+n q1_M1 vss a_556_427# 2 11 554 427
+n b0_M1 a_556_427# q1b0_n_M1 2 11 561 427
+n q1b1_n_M1 q1b1_M1 vss 2 9 634 427
+n q1_M1 vss a_649_427# 2 11 647 427
+n b1_M1 a_649_427# q1b1_n_M1 2 11 654 427
+n q1b2_n_M1 q1b2_M1 vss 2 9 721 427
+n q1_M1 vss a_736_427# 2 11 734 427
+n b2_M1 a_736_427# q1b2_n_M1 2 11 741 427
+p en vdd en_bar_D1 2 6 1042 428
+p zc4_n_A1 n16_A1 vdd 2 12 1669 445
+n zc4_n_A1 n16_A1 vss 2 6 1698 445
+n n18_nA1 vss n18_A1 2 6 1582 436
+p q1_M1 vdd D_bar_D1 2 6 1114 428
+p q1_M1 out_n1_D1 vdd 2 6 1153 428
+p en vdd out_n1_D1 2 6 1174 428
+p en out_n2_D1 vdd 2 6 1207 428
+p D_bar_D1 vdd out_n2_D1 2 6 1228 428
+p out_n1_D1 q_l1_D1 vdd 2 6 1263 428
+p q_l1_bar_D1 vdd q_l1_D1 2 6 1284 428
+p out_n2_D1 q_l1_bar_D1 vdd 2 6 1317 428
+p q_l1_D1 vdd q_l1_bar_D1 2 6 1338 428
+p n18_nA1 vdd n18_A1 2 12 1605 436
+p b2_M1 vdd q0b2_n_M1 2 13 121 390
+p q0_M1 q0b2_n_M1 vdd 2 13 131 390
+p q0b2_n_M1 vdd q0b2_M1 2 18 141 392
+p b1_M1 vdd q0b1_n_M1 2 13 208 390
+p q0_M1 q0b1_n_M1 vdd 2 13 218 390
+p q0b1_n_M1 vdd q0b1_M1 2 18 228 392
+p b0_M1 vdd q0b0_n_M1 2 13 301 390
+p q0_M1 q0b0_n_M1 vdd 2 13 311 390
+p q0b0_n_M1 vdd a_A1 2 18 321 392
+p q1b0_n_M1 q1b0_M1 vdd 2 18 541 394
+p q1_M1 vdd q1b0_n_M1 2 13 551 392
+p b0_M1 q1b0_n_M1 vdd 2 13 561 392
+p q1b1_n_M1 q1b1_M1 vdd 2 18 634 394
+p q1_M1 vdd q1b1_n_M1 2 13 644 392
+p b1_M1 q1b1_n_M1 vdd 2 13 654 392
+p q1b2_n_M1 q1b2_M1 vdd 2 18 721 394
+p a5_A1 n18_nA1 vdd 2 10 1605 426
+n a5_A1 a_1576_419# vss 2 9 1576 424
+n b5_A1 n18_nA1 a_1576_419# 2 9 1576 417
+p q1_M1 vdd q1b2_n_M1 2 13 731 392
+p b2_M1 q1b2_n_M1 vdd 2 13 741 392
+n en vss en_bar_D1 2 3 1042 392
+p b5_A1 vdd n18_nA1 2 10 1605 416
+p n15_A1 s5_A1 n14_A1 2 27 1653 419
+n n15_A1 a_1698_413# vss 2 12 1698 418
+n n14_A1 s5_A1 a_1698_413# 2 12 1698 411
+p n14_A1 n15_A1 s5_A1 2 18 1662 409
+n c3_A1 n15_A1 s5_A1 2 9 1698 401
+p xor_4_A1 vdd n15_A1 2 18 1662 399
+n q1_M1 vss D_bar_D1 2 3 1114 391
+n q1_M1 vss n1_D1 2 6 1153 391
+n en n1_D1 out_n1_D1 2 6 1174 391
+n en vss n2_D1 2 6 1207 391
+n D_bar_D1 n2_D1 out_n2_D1 2 6 1228 391
+n out_n1_D1 vss n3_D1 2 6 1263 391
+n q_l1_bar_D1 n3_D1 q_l1_D1 2 6 1284 391
+n out_n2_D1 vss n4_D1 2 6 1317 391
+n q_l1_D1 n4_D1 q_l1_bar_D1 2 6 1338 391
+n xor_4_A1 vss n15_A1 2 9 1698 391
+p c3_A1 n14_A1 vdd 2 27 1653 383
+n c3_A1 n14_A1 vss 2 9 1693 375
+p co_n1_M1 co_1_M1 vdd 2 12 43 336
+p q0b1_M1 vdd co_n1_M1 2 10 53 336
+p q1b0_M1 co_n1_M1 vdd 2 10 63 336
+n co_n1_M1 co_1_M1 vss 2 6 43 313
+p q1b0_M1 bn_n_M1 vdd 2 27 129 337
+p q0b1_M1 vdd an_1_M1 2 18 145 337
+p bn_n_M1 an_1_M1 so_1_M1 2 18 155 337
+p an_1_M1 so_1_M1 bn_n_M1 2 27 165 337
+p vss a_198_318# vdd 2 27 213 337
+p so_1_M1 vdd a1_n_M1 2 18 229 337
+p a_198_318# a1_n_M1 a1_A1 2 18 239 337
+p a1_n_M1 a1_A1 a_198_318# 2 27 249 337
+p zc1_n1_M1 c1_1_M1 vdd 2 12 275 336
+p vss vdd zc1_n1_M1 2 10 285 336
+p so_1_M1 zc1_n1_M1 vdd 2 10 295 336
+p co_n2_M1 co_2_M1 vdd 2 12 372 338
+p q1b1_M1 vdd co_n2_M1 2 10 382 338
+p c_fa1_M1 co_n2_M1 vdd 2 10 392 338
+n q0b1_M1 vss a_57_307# 2 9 55 307
+n q1b0_M1 a_57_307# co_n1_M1 2 9 62 307
+n q1b0_M1 bn_n_M1 vss 2 9 121 315
+n q0b1_M1 vss an_1_M1 2 9 137 310
+n q1b0_M1 an_1_M1 so_1_M1 2 9 147 310
+n bn_n_M1 so_1_M1 a_159_307# 2 12 157 307
+n an_1_M1 a_159_307# vss 2 12 164 307
+n vss a_198_318# vss 2 9 205 315
+n so_1_M1 vss a1_n_M1 2 9 221 310
+n vss a1_n_M1 a1_A1 2 9 231 310
+n a_198_318# a1_A1 a_243_307# 2 12 241 307
+n a1_n_M1 a_243_307# vss 2 12 248 307
+n zc1_n1_M1 c1_1_M1 vss 2 6 275 313
+n vss vss a_289_307# 2 9 287 307
+n so_1_M1 a_289_307# zc1_n1_M1 2 9 294 307
+n co_n2_M1 co_2_M1 vss 2 6 372 315
+p c_fa1_M1 bn_2_M1 vdd 2 27 458 339
+p q1b1_M1 vdd an_2_M1 2 18 474 339
+p bn_2_M1 an_2_M1 so_2_M1 2 18 484 339
+p an_2_M1 so_2_M1 bn_2_M1 2 27 494 339
+p q0b2_M1 cn2_M1 vdd 2 27 542 339
+p so_2_M1 vdd son_2_M1 2 18 558 339
+p cn2_M1 son_2_M1 s_fa2_M1 2 18 568 339
+p son_2_M1 s_fa2_M1 cn2_M1 2 27 578 339
+p zc1_2_n_M1 c1_2_M1 vdd 2 12 604 338
+p q0b2_M1 vdd zc1_2_n_M1 2 10 614 338
+p so_2_M1 zc1_2_n_M1 vdd 2 10 624 338
+p co_n3_M1 co_3_M1 vdd 2 12 699 341
+p q1b2_M1 vdd co_n3_M1 2 10 709 341
+p c_fa2_M1 co_n3_M1 vdd 2 10 719 341
+n q1b1_M1 vss a_386_309# 2 9 384 309
+n c_fa1_M1 a_386_309# co_n2_M1 2 9 391 309
+n c_fa1_M1 bn_2_M1 vss 2 9 450 317
+n q1b1_M1 vss an_2_M1 2 9 466 312
+n c_fa1_M1 an_2_M1 so_2_M1 2 9 476 312
+n bn_2_M1 so_2_M1 a_488_309# 2 12 486 309
+n an_2_M1 a_488_309# vss 2 12 493 309
+n q0b2_M1 cn2_M1 vss 2 9 534 317
+n so_2_M1 vss son_2_M1 2 9 550 312
+n q0b2_M1 son_2_M1 s_fa2_M1 2 9 560 312
+n cn2_M1 s_fa2_M1 a_572_309# 2 12 570 309
+n son_2_M1 a_572_309# vss 2 12 577 309
+n zc1_2_n_M1 c1_2_M1 vss 2 6 604 315
+n co_n3_M1 co_3_M1 vss 2 6 699 318
+p c_fa2_M1 bn3_M1 vdd 2 27 785 342
+p q1b2_M1 vdd a_795_315# 2 18 801 342
+p bn3_M1 a_795_315# so_3_M1 2 18 811 342
+p a_795_315# so_3_M1 bn3_M1 2 27 821 342
+p vss cn_3_M1 vdd 2 27 869 342
+p so_3_M1 vdd s_fa3_n_M1 2 18 885 342
+p cn_3_M1 s_fa3_n_M1 s_fa3_M1 2 18 895 342
+p s_fa3_n_M1 s_fa3_M1 cn_3_M1 2 27 905 342
+n q_l1_D1 vss n6_D1 2 3 1118 369
+p zc1_n_3_M1 c1_3_M1 vdd 2 12 931 341
+n q_l1_D1 vss n7_D1 2 6 1157 366
+n en_bar_D1 n7_D1 out_n7_D1 2 6 1178 366
+n en_bar_D1 vss n8_D1 2 6 1211 366
+n n6_D1 n8_D1 out_n8_D1 2 6 1232 366
+n out_n7_D1 vss n9_D1 2 6 1267 366
+n q_bar_D1 n9_D1 q_D1 2 6 1288 366
+n out_n8_D1 vss n10_D1 2 6 1321 366
+n q_D1 n10_D1 q_bar_D1 2 6 1342 366
+n b5_A1 vss b5n_A1 2 9 1584 358
+p vss vdd zc1_n_3_M1 2 10 941 341
+p so_3_M1 zc1_n_3_M1 vdd 2 10 951 341
+n q0b2_M1 vss a_618_309# 2 9 616 309
+n so_2_M1 a_618_309# zc1_2_n_M1 2 9 623 309
+n q1b2_M1 vss a_713_312# 2 9 711 312
+n c_fa2_M1 a_713_312# co_n3_M1 2 9 718 312
+n c_fa2_M1 bn3_M1 vss 2 9 777 320
+n q1b2_M1 vss a_795_315# 2 9 793 315
+n c_fa2_M1 a_795_315# so_3_M1 2 9 803 315
+n bn3_M1 so_3_M1 a_815_312# 2 12 813 312
+n a_795_315# a_815_312# vss 2 12 820 312
+n vss cn_3_M1 vss 2 9 861 320
+n so_3_M1 vss s_fa3_n_M1 2 9 877 315
+n vss s_fa3_n_M1 s_fa3_M1 2 9 887 315
+n cn_3_M1 s_fa3_M1 a_899_312# 2 12 897 312
+n s_fa3_n_M1 a_899_312# vss 2 12 904 312
+n zc1_n_3_M1 c1_3_M1 vss 2 6 931 318
+p n21_A1 a_1503_338# cout5_n_A1 2 18 1503 343
+n n21_A1 cout5_n_A1 vss 2 6 1548 343
+p n18_A1 vdd a_1503_338# 2 18 1503 336
+p q_l1_D1 vdd n6_D1 2 6 1118 329
+p q_l1_D1 out_n7_D1 vdd 2 6 1157 329
+p en_bar_D1 vdd out_n7_D1 2 6 1178 329
+p en_bar_D1 out_n8_D1 vdd 2 6 1211 329
+p n6_D1 vdd out_n8_D1 2 6 1232 329
+p out_n7_D1 q_D1 vdd 2 6 1267 329
+p q_bar_D1 vdd q_D1 2 6 1288 329
+p out_n8_D1 q_bar_D1 vdd 2 6 1321 329
+p q_D1 vdd q_bar_D1 2 6 1342 329
+n n18_A1 vss cout5_n_A1 2 6 1548 333
+p cout5_n_A1 c5_A1 vdd 2 12 1512 323
+n cout5_n_A1 c5_A1 vss 2 6 1548 323
+n vss vss a_945_312# 2 9 943 312
+n so_3_M1 a_945_312# zc1_n_3_M1 2 9 950 312
+p b5_A1 vdd b5n_A1 2 27 1606 350
+n a5_A1 a5n_A1 vss 2 9 1579 342
+p a5_A1 a5n_A1 vdd 2 18 1606 334
+p a_1649_335# xor_4_A1 b4n_A1 2 27 1653 335
+n b5_A1 xor_5_A1 a5n_A1 2 9 1579 332
+n a_1649_335# a_1698_329# vss 2 12 1698 334
+n b4n_A1 xor_4_A1 a_1698_329# 2 12 1698 327
+p b5n_A1 xor_5_A1 a5n_A1 2 18 1606 324
+p b4n_A1 a_1649_335# xor_4_A1 2 18 1662 325
+n b5n_A1 a_1576_317# xor_5_A1 2 12 1576 322
+n a5n_A1 vss a_1576_317# 2 12 1576 315
+n b4_A1 a_1649_335# xor_4_A1 2 9 1698 317
+p a5n_A1 b5n_A1 xor_5_A1 2 27 1606 314
+p a4_A1 vdd a_1649_335# 2 18 1662 315
+n a4_A1 vss a_1649_335# 2 9 1698 307
+n c1_1_M1 vss c_fa1_n_M1 2 6 136 279
+n co_1_M1 c_fa1_n_M1 vss 2 6 146 279
+n c_fa1_n_M1 vss c_fa1_M1 2 6 156 279
+n c1_2_M1 vss c_fa_n_M1 2 6 465 281
+n co_2_M1 c_fa_n_M1 vss 2 6 475 281
+n c_fa_n_M1 vss c_fa2_M1 2 6 485 281
+n c1_3_M1 vss c_fa3_n_M1 2 6 792 284
+n co_3_M1 c_fa3_n_M1 vss 2 6 802 284
+n c_fa3_n_M1 vss c_fa3_M1 2 6 812 284
+p c1_1_M1 c_fa1_n_M1 a_138_234# 2 18 136 234
+p co_1_M1 a_138_234# vdd 2 18 143 234
+p c_fa1_n_M1 vdd c_fa1_M1 2 12 156 243
+p en vdd en_bar_D2 2 6 1042 283
+p q0_M1 vdd D_bar_D2 2 6 1114 283
+p q0_M1 out_n1_D2 vdd 2 6 1153 283
+p en vdd out_n1_D2 2 6 1174 283
+p en out_n2_D2 vdd 2 6 1207 283
+p D_bar_D2 vdd out_n2_D2 2 6 1228 283
+p out_n1_D2 q_l1_D2 vdd 2 6 1263 283
+p q_l1_bar_D2 vdd q_l1_D2 2 6 1284 283
+p out_n2_D2 q_l1_bar_D2 vdd 2 6 1317 283
+p q_l1_D2 vdd q_l1_bar_D2 2 6 1338 283
+p q_D1 q_D1_n vdd 2 17 1383 276
+p q_D1_n vdd q1_M2 2 28 1395 276
+p b4_A1 b4n_A1 vdd 2 27 1653 299
+n cout4n_A1 vss c4_A1 2 6 1732 326
+p cout4n_A1 vdd c4_A1 2 12 1762 326
+n n17_A1 cout4n_A1 vss 2 6 1732 316
+p n17_A1 a_1765_308# vdd 2 18 1765 313
+n n16_A1 vss cout4n_A1 2 6 1732 306
+p n16_A1 cout4n_A1 a_1765_308# 2 18 1765 306
+n b4_A1 b4n_A1 vss 2 9 1693 291
+n c4_A1 vss n20_A1 2 9 1584 274
+p c1_2_M1 c_fa_n_M1 a_467_236# 2 18 465 236
+p co_2_M1 a_467_236# vdd 2 18 472 236
+p c_fa_n_M1 vdd c_fa2_M1 2 12 485 245
+p c1_3_M1 c_fa3_n_M1 a_794_239# 2 18 792 239
+p co_3_M1 a_794_239# vdd 2 18 799 239
+p c_fa3_n_M1 vdd c_fa3_M1 2 12 812 248
+n en vss en_bar_D2 2 3 1042 247
+n q_D1 q_D1_n vss 2 10 1383 254
+n q0_M1 vss D_bar_D2 2 3 1114 246
+n q0_M1 vss n1_D2 2 6 1153 246
+n en n1_D2 out_n1_D2 2 6 1174 246
+n en vss n2_D2 2 6 1207 246
+n D_bar_D2 n2_D2 out_n2_D2 2 6 1228 246
+n out_n1_D2 vss n3_D2 2 6 1263 246
+n q_l1_bar_D2 n3_D2 q_l1_D2 2 6 1284 246
+n out_n2_D2 vss n4_D2 2 6 1317 246
+n q_l1_D2 n4_D2 q_l1_bar_D2 2 6 1338 246
+n q_D1_n vss q1_M2 2 14 1395 250
+p c4_A1 vdd n20_A1 2 27 1606 266
+n xor_5_A1 n19_A1 vss 2 9 1579 258
+p xor_5_A1 n19_A1 vdd 2 18 1606 250
+n c4_A1 s6_A1 n19_A1 2 9 1579 248
+p n20_A1 s6_A1 n19_A1 2 18 1606 240
+n n20_A1 a_1576_233# s6_A1 2 12 1576 238
+p co_n4_M1 co_4_M1 vdd 2 12 42 190
+p c_fa3_M1 vdd co_n4_M1 2 10 52 190
+p c_fa5_M1 co_n4_M1 vdd 2 10 62 190
+n co_n4_M1 co_4_M1 vss 2 6 42 167
+p c_fa5_M1 bn4_M1 vdd 2 27 128 191
+p c_fa3_M1 vdd a_138_164# 2 18 144 191
+p bn4_M1 a_138_164# so_4_M1 2 18 154 191
+p a_138_164# so_4_M1 bn4_M1 2 27 164 191
+p q2b2_M1 cn_1_M1 vdd 2 27 212 191
+p so_4_M1 vdd s_fa4_n_M1 2 18 228 191
+p cn_1_M1 s_fa4_n_M1 a4_A1 2 18 238 191
+p s_fa4_n_M1 a4_A1 cn_1_M1 2 27 248 191
+p zc1_4_M1 c1_4_M1 vdd 2 12 274 190
+p q2b2_M1 vdd zc1_4_M1 2 10 284 190
+p so_4_M1 zc1_4_M1 vdd 2 10 294 190
+p co_5__M1 a_364_169# vdd 2 12 371 192
+p q2b1_M1 vdd co_5__M1 2 10 381 192
+p c_fa6_M1 co_5__M1 vdd 2 10 391 192
+n c_fa3_M1 vss a_56_161# 2 9 54 161
+n c_fa5_M1 a_56_161# co_n4_M1 2 9 61 161
+n c_fa5_M1 bn4_M1 vss 2 9 120 169
+n c_fa3_M1 vss a_138_164# 2 9 136 164
+n c_fa5_M1 a_138_164# so_4_M1 2 9 146 164
+n bn4_M1 so_4_M1 a_158_161# 2 12 156 161
+n a_138_164# a_158_161# vss 2 12 163 161
+n q2b2_M1 cn_1_M1 vss 2 9 204 169
+n so_4_M1 vss s_fa4_n_M1 2 9 220 164
+n q2b2_M1 s_fa4_n_M1 a4_A1 2 9 230 164
+n cn_1_M1 a4_A1 a_242_161# 2 12 240 161
+n s_fa4_n_M1 a_242_161# vss 2 12 247 161
+n zc1_4_M1 c1_4_M1 vss 2 6 274 167
+n q2b2_M1 vss a_288_161# 2 9 286 161
+n so_4_M1 a_288_161# zc1_4_M1 2 9 293 161
+n co_5__M1 a_364_169# vss 2 6 371 169
+p c_fa6_M1 bn_5_M1 vdd 2 27 457 193
+p q2b1_M1 vdd a_467_166# 2 18 473 193
+p bn_5_M1 a_467_166# so_5_M1 2 18 483 193
+p a_467_166# so_5_M1 bn_5_M1 2 27 493 193
+p s_fa3_M1 cn_5_M1 vdd 2 27 541 193
+p so_5_M1 vdd s_fa5_n_M1 2 18 557 193
+p cn_5_M1 s_fa5_n_M1 a3_A1 2 18 567 193
+p s_fa5_n_M1 a3_A1 cn_5_M1 2 27 577 193
+p zc1_n_5_M1 c1_5_M1 vdd 2 12 603 192
+p s_fa3_M1 vdd zc1_n_5_M1 2 10 613 192
+p so_5_M1 zc1_n_5_M1 vdd 2 10 623 192
+p co_n_6_M1 co_6_M1 vdd 2 12 698 195
+p vss vdd co_n_6_M1 2 10 708 195
+p q2b0_M1 co_n_6_M1 vdd 2 10 718 195
+n q2b1_M1 vss a_385_163# 2 9 383 163
+n c_fa6_M1 a_385_163# co_5__M1 2 9 390 163
+n c_fa6_M1 bn_5_M1 vss 2 9 449 171
+n q2b1_M1 vss a_467_166# 2 9 465 166
+n c_fa6_M1 a_467_166# so_5_M1 2 9 475 166
+n bn_5_M1 so_5_M1 a_487_163# 2 12 485 163
+n a_467_166# a_487_163# vss 2 12 492 163
+n s_fa3_M1 cn_5_M1 vss 2 9 533 171
+n so_5_M1 vss s_fa5_n_M1 2 9 549 166
+n s_fa3_M1 s_fa5_n_M1 a3_A1 2 9 559 166
+n cn_5_M1 a3_A1 a_571_163# 2 12 569 163
+n s_fa5_n_M1 a_571_163# vss 2 12 576 163
+n zc1_n_5_M1 c1_5_M1 vss 2 6 603 169
+n co_n_6_M1 co_6_M1 vss 2 6 698 172
+p q2b0_M1 an_6_M1 vdd 2 27 784 196
+p vss vdd a_794_169# 2 18 800 196
+p an_6_M1 a_794_169# so_6_M1 2 18 810 196
+p a_794_169# so_6_M1 an_6_M1 2 27 820 196
+p s_fa2_M1 cn_6_M1 vdd 2 27 868 196
+p so_6_M1 vdd s_fa_6_n_M1 2 18 884 196
+p cn_6_M1 s_fa_6_n_M1 a2_A1 2 18 894 196
+p s_fa_6_n_M1 a2_A1 cn_6_M1 2 27 904 196
+n q_l1_D2 vss n6_D2 2 3 1118 224
+p zc1_6_n_M1 c1_6_M1 vdd 2 12 930 195
+n q_l1_D2 vss n7_D2 2 6 1157 221
+n en_bar_D2 n7_D2 out_n7__D2 2 6 1178 221
+n en_bar_D2 vss n8_D2 2 6 1211 221
+n n6_D2 n8_D2 out_n8_D2 2 6 1232 221
+n out_n7__D2 vss n9_D2 2 6 1267 221
+n q_bar_D2 n9_D2 q_D2 2 6 1288 221
+n out_n8_D2 vss n10_D2 2 6 1321 221
+n q_D2 n10_D2 q_bar_D2 2 6 1342 221
+n n19_A1 vss a_1576_233# 2 12 1576 231
+p n19_A1 n20_A1 s6_A1 2 27 1606 230
+n q_D2 q_n_D2 vss 2 10 1384 215
+n q_n_D2 vss q0_M2 2 14 1396 215
+p b4_A1 n17n_A1 vdd 2 10 1671 233
+n b4_A1 a_1701_227# n17n_A1 2 9 1701 232
+n a4_A1 vss a_1701_227# 2 9 1701 225
+p a4_A1 vdd n17n_A1 2 10 1671 223
+p n17n_A1 n17_A1 vdd 2 12 1669 213
+n n17n_A1 n17_A1 vss 2 6 1698 213
+p s_fa2_M1 vdd zc1_6_n_M1 2 10 940 195
+p so_6_M1 zc1_6_n_M1 vdd 2 10 950 195
+n zc5_n_A1 vss n21_A1 2 6 1582 204
+n s_fa3_M1 vss a_617_163# 2 9 615 163
+n so_5_M1 a_617_163# zc1_n_5_M1 2 9 622 163
+n vss vss a_712_166# 2 9 710 166
+n q2b0_M1 a_712_166# co_n_6_M1 2 9 717 166
+n q2b0_M1 an_6_M1 vss 2 9 776 174
+n vss vss a_794_169# 2 9 792 169
+n q2b0_M1 a_794_169# so_6_M1 2 9 802 169
+n an_6_M1 so_6_M1 a_814_166# 2 12 812 166
+n a_794_169# a_814_166# vss 2 12 819 166
+n s_fa2_M1 cn_6_M1 vss 2 9 860 174
+n so_6_M1 vss s_fa_6_n_M1 2 9 876 169
+n s_fa2_M1 s_fa_6_n_M1 a2_A1 2 9 886 169
+n cn_6_M1 a2_A1 a_898_166# 2 12 896 166
+n s_fa_6_n_M1 a_898_166# vss 2 12 903 166
+n zc1_6_n_M1 c1_6_M1 vss 2 6 930 172
+p q_l1_D2 vdd n6_D2 2 6 1118 184
+p q_l1_D2 out_n7__D2 vdd 2 6 1157 184
+p en_bar_D2 vdd out_n7__D2 2 6 1178 184
+p en_bar_D2 out_n8_D2 vdd 2 6 1211 184
+p n6_D2 vdd out_n8_D2 2 6 1232 184
+p out_n7__D2 q_D2 vdd 2 6 1267 184
+p q_bar_D2 vdd q_D2 2 6 1288 184
+p out_n8_D2 q_bar_D2 vdd 2 6 1321 184
+p q_D2 vdd q_bar_D2 2 6 1342 184
+p q_D2 q_n_D2 vdd 2 17 1384 186
+n s_fa2_M1 vss a_944_166# 2 9 942 166
+n so_6_M1 a_944_166# zc1_6_n_M1 2 9 949 166
+p q_n_D2 vdd q0_M2 2 28 1396 175
+p zc5_n_A1 vdd n21_A1 2 12 1605 204
+p c4_A1 zc5_n_A1 vdd 2 10 1605 194
+n c4_A1 a_1576_187# vss 2 9 1576 192
+n xor_5_A1 zc5_n_A1 a_1576_187# 2 9 1576 185
+p xor_5_A1 vdd zc5_n_A1 2 10 1605 184
+n c1_4_M1 vss a5_n_M1 2 6 135 133
+n co_4_M1 a5_n_M1 vss 2 6 145 133
+n a5_n_M1 vss a5_A1 2 6 155 133
+n c1_5_M1 vss c_fa5_n_M1 2 6 464 135
+n a_364_169# c_fa5_n_M1 vss 2 6 474 135
+n c_fa5_n_M1 vss c_fa5_M1 2 6 484 135
+n c1_6_M1 vss c_fa6_n_M1 2 6 791 138
+n co_6_M1 c_fa6_n_M1 vss 2 6 801 138
+n c_fa6_n_M1 vss c_fa6_M1 2 6 811 138
+p en vdd en_bar_D3 2 6 1041 141
+p q2_M1 vdd D_bar_D3 2 6 1113 141
+p q2_M1 out_n1_D3 vdd 2 6 1152 141
+p en vdd out_n1_D3 2 6 1173 141
+p en out_n2_D3 vdd 2 6 1206 141
+p D_bar_D3 vdd out_n2_D3 2 6 1227 141
+p out_n1_D3 q_l1_D3 vdd 2 6 1262 141
+p q_l1_bar_D3 vdd q_l1_D3 2 6 1283 141
+p out_n2_D3 q_l1_bar_D3 vdd 2 6 1316 141
+p q_l1_D3 vdd q_l1_bar_D3 2 6 1337 141
+p c1_4_M1 a5_n_M1 a_137_88# 2 18 135 88
+p co_4_M1 a_137_88# vdd 2 18 142 88
+p a5_n_M1 vdd a5_A1 2 12 155 97
+p q_D3 q_D3_n vdd 2 17 1383 136
+p q_D3_n vdd q2_M2 2 28 1395 136
+p c1_5_M1 c_fa5_n_M1 a_466_90# 2 18 464 90
+p a_364_169# a_466_90# vdd 2 18 471 90
+p c_fa5_n_M1 vdd c_fa5_M1 2 12 484 99
+p c1_6_M1 c_fa6_n_M1 a_793_93# 2 18 791 93
+p co_6_M1 a_793_93# vdd 2 18 798 93
+p c_fa6_n_M1 vdd c_fa6_M1 2 12 811 102
+n en vss en_bar_D3 2 3 1041 105
+n q_D3 q_D3_n vss 2 10 1383 114
+n q2_M1 vss D_bar_D3 2 3 1113 104
+n q2_M1 vss n1_D3 2 6 1152 104
+n en n1_D3 out_n1_D3 2 6 1173 104
+n en vss n2_D3 2 6 1206 104
+n D_bar_D3 n2_D3 out_n2_D3 2 6 1227 104
+n out_n1_D3 vss n3_D3 2 6 1262 104
+n q_l1_bar_D3 n3_D3 q_l1_D3 2 6 1283 104
+n out_n2_D3 vss n4_D3 2 6 1316 104
+n q_l1_D3 n4_D3 q_l1_bar_D3 2 6 1337 104
+n q_D3_n vss q2_M2 2 14 1395 110
+p xor_2_A1 zc2_n_A1 vdd 2 10 1673 105
+n xor_2_A1 a_1703_99# zc2_n_A1 2 9 1703 104
+n s2_A1 vss a_1703_99# 2 9 1703 97
+p s2_A1 vdd zc2_n_A1 2 10 1673 95
+n q_l1_D3 vss n6_D3 2 3 1117 82
+p q2b2_n_M1 q2b2_M1 vdd 2 18 336 43
+p q2_M1 vdd q2b2_n_M1 2 13 346 50
+p b2_M1 q2b2_n_M1 vdd 2 13 356 50
+p q2b1_n_M1 q2b1_M1 vdd 2 18 429 43
+p q2_M1 vdd q2b1_n_M1 2 13 439 50
+p b1_M1 q2b1_n_M1 vdd 2 13 449 50
+n q_l1_D3 vss n7_D3 2 6 1156 79
+n en_bar_D3 n7_D3 out_n7_D3 2 6 1177 79
+n en_bar_D3 vss n8_D3 2 6 1210 79
+n n6_D3 n8_D3 out_n8_D3 2 6 1231 79
+n out_n7_D3 vss n9_D3 2 6 1266 79
+n q_bar_D3 n9_D3 q_D3 2 6 1287 79
+n out_n8_D3 vss n10 2 6 1320 79
+n q_D3 n10 q_bar_D3 2 6 1341 79
+p zc2_n_A1 n8_A1 vdd 2 12 1671 85
+n zc2_n_A1 n8_A1 vss 2 6 1700 85
+n n10_nA1 vss n10_A1 2 6 1584 76
+p n10_nA1 vdd n10_A1 2 12 1607 76
+p a3_A1 n10_nA1 vdd 2 10 1607 66
+n a3_A1 a_1578_59# vss 2 9 1578 64
+p q2b0_n_M1 q2b0_M1 vdd 2 18 516 43
+p q2_M1 vdd q2b0_n_M1 2 13 526 50
+p b0_M1 q2b0_n_M1 vdd 2 13 536 50
+n b3_A1 n10_nA1 a_1578_59# 2 9 1578 57
+p b3_A1 vdd n10_nA1 2 10 1607 56
+p n7_A1 s3_A1 n6_A1 2 27 1655 59
+n n7_A1 a_1700_53# vss 2 12 1700 58
+n n6_A1 s3_A1 a_1700_53# 2 12 1700 51
+p n6_A1 n7_A1 s3_A1 2 18 1664 49
+p q_l1_D3 vdd n6_D3 2 6 1117 42
+p q_l1_D3 out_n7_D3 vdd 2 6 1156 42
+p en_bar_D3 vdd out_n7_D3 2 6 1177 42
+p en_bar_D3 out_n8_D3 vdd 2 6 1210 42
+p n6_D3 vdd out_n8_D3 2 6 1231 42
+p out_n7_D3 q_D3 vdd 2 6 1266 42
+p q_bar_D3 vdd q_D3 2 6 1287 42
+p out_n8_D3 q_bar_D3 vdd 2 6 1320 42
+p q_D3 vdd q_bar_D3 2 6 1341 42
+n s2_A1 n7_A1 s3_A1 2 9 1700 41
+p xor_2_A1 vdd n7_A1 2 18 1664 39
+n xor_2_A1 vss n7_A1 2 9 1700 31
+n q2b2_n_M1 q2b2_M1 vss 2 9 336 19
+n q2_M1 vss a_351_17# 2 11 349 17
+n b2_M1 a_351_17# q2b2_n_M1 2 11 356 17
+n q2b1_n_M1 q2b1_M1 vss 2 9 429 19
+n q2_M1 vss a_444_17# 2 11 442 17
+n b1_M1 a_444_17# q2b1_n_M1 2 11 449 17
+n q2b0_n_M1 q2b0_M1 vss 2 9 516 19
+n q2_M1 vss a_531_17# 2 11 529 17
+n b0_M1 a_531_17# q2b0_n_M1 2 11 536 17
+p s2_A1 n6_A1 vdd 2 27 1655 23
+n s2_A1 n6_A1 vss 2 9 1695 15
+n b3_A1 vss b3n_A1 2 9 1586 -2
+p n13_A1 a_1505_n22# cout3_n_A1 2 18 1505 -17
+n n13_A1 cout3_n_A1 vss 2 6 1550 -17
+p n10_A1 vdd a_1505_n22# 2 18 1505 -24
+n n10_A1 vss cout3_n_A1 2 6 1550 -27
+p cout3_n_A1 c3_A1 vdd 2 12 1514 -37
+n cout3_n_A1 c3_A1 vss 2 6 1550 -37
+p b3_A1 vdd b3n_A1 2 27 1608 -10
+n a3_A1 a3n_A1 vss 2 9 1581 -18
+p a3_A1 a3n_A1 vdd 2 18 1608 -26
+p a_1651_n25# xor_2_A1 b2n_A1 2 27 1655 -25
+n b3_A1 xor_3_A1 a3n_A1 2 9 1581 -28
+n a_1651_n25# a_1700_n31# vss 2 12 1700 -26
+n b2n_A1 xor_2_A1 a_1700_n31# 2 12 1700 -33
+p b3n_A1 xor_3_A1 a3n_A1 2 18 1608 -36
+p b2n_A1 a_1651_n25# xor_2_A1 2 18 1664 -35
+n b3n_A1 a_1578_n43# xor_3_A1 2 12 1578 -38
+n a3n_A1 vss a_1578_n43# 2 12 1578 -45
+n b2_A1 a_1651_n25# xor_2_A1 2 9 1700 -43
+p a3n_A1 b3n_A1 xor_3_A1 2 27 1608 -46
+p a2_A1 vdd a_1651_n25# 2 18 1664 -45
+n a2_A1 vss a_1651_n25# 2 9 1700 -53
+n b2_M2 q0b2_n_M2 a_134_n81# 2 11 132 -81
+n q0_M2 a_134_n81# vss 2 11 139 -81
+n q0b2_n_M2 vss q0b2_M2 2 9 152 -81
+n b1_M2 q0b1_n_M2 a_221_n81# 2 11 219 -81
+n q0_M2 a_221_n81# vss 2 11 226 -81
+n q0b1_n_M2 vss q0b1_M2 2 9 239 -81
+n b0_M2 q0b0_n_M2 a_314_n81# 2 11 312 -81
+n q0_M2 a_314_n81# vss 2 11 319 -81
+n q0b0_n_M2 vss b_A1 2 9 332 -81
+n q1b0_n_M2 q1b0_M2 vss 2 9 552 -79
+n q1_M2 vss a_567_n79# 2 11 565 -79
+n b0_M2 a_567_n79# q1b0_n_M2 2 11 572 -79
+p b2_A1 b2n_A1 vdd 2 27 1655 -61
+n q1b1_n_M2 q1b1_M2 vss 2 9 645 -79
+n q1_M2 vss a_660_n79# 2 11 658 -79
+n b1_M2 a_660_n79# q1b1_n_M2 2 11 665 -79
+n cout2_n_A1 vss c2_A1 2 6 1734 -34
+p cout2_n_A1 vdd c2_A1 2 12 1764 -34
+n n9_A1 cout2_n_A1 vss 2 6 1734 -44
+p n9_A1 a_1767_n52# vdd 2 18 1767 -47
+n n8_A1 vss cout2_n_A1 2 6 1734 -54
+p n8_A1 cout2_n_A1 a_1767_n52# 2 18 1767 -54
+n q1b2_n_M2 q1b2_M2 vss 2 9 732 -79
+n q1_M2 vss a_747_n79# 2 11 745 -79
+n b2_M2 a_747_n79# q1b2_n_M2 2 11 752 -79
+n b2_A1 b2n_A1 vss 2 9 1695 -69
+p b2_M2 vdd q0b2_n_M2 2 13 132 -116
+p q0_M2 q0b2_n_M2 vdd 2 13 142 -116
+p q0b2_n_M2 vdd q0b2_M2 2 18 152 -114
+p b1_M2 vdd q0b1_n_M2 2 13 219 -116
+p q0_M2 q0b1_n_M2 vdd 2 13 229 -116
+p q0b1_n_M2 vdd q0b1_M2 2 18 239 -114
+p b0_M2 vdd q0b0_n_M2 2 13 312 -116
+p q0_M2 q0b0_n_M2 vdd 2 13 322 -116
+p q0b0_n_M2 vdd b_A1 2 18 332 -114
+p q1b0_n_M2 q1b0_M2 vdd 2 18 552 -112
+p q1_M2 vdd q1b0_n_M2 2 13 562 -114
+p b0_M2 q1b0_n_M2 vdd 2 13 572 -114
+p q1b1_n_M2 q1b1_M2 vdd 2 18 645 -112
+p q1_M2 vdd q1b1_n_M2 2 13 655 -114
+p b1_M2 q1b1_n_M2 vdd 2 13 665 -114
+p q1b2_n_M2 q1b2_M2 vdd 2 18 732 -112
+p en_D4 w_1024_n235# en_bar_D4 2 6 1063 -83
+p q1_M2 w_1024_n235# D_bar_D4 2 6 1135 -83
+p q1_M2 out_n1_D4 w_1024_n235# 2 6 1174 -83
+p en_D4 w_1024_n235# out_n1_D4 2 6 1195 -83
+p en_D4 out_n2_D4 w_1024_n235# 2 6 1228 -83
+p D_bar_D4 w_1024_n235# out_n2_D4 2 6 1249 -83
+p out_n1_D4 q_l1_D4 w_1024_n235# 2 6 1284 -83
+p q_l1_bar_D4 w_1024_n235# q_l1_D4 2 6 1305 -83
+p out_n2_D4 q_l1_bar_D4 w_1024_n235# 2 6 1338 -83
+p q_l1_D4 w_1024_n235# q_l1_bar_D4 2 6 1359 -83
+n c2_A1 vss n12_A1 2 9 1586 -86
+p q1_M2 vdd q1b2_n_M2 2 13 742 -114
+p b2_M2 q1b2_n_M2 vdd 2 13 752 -114
+n en_D4 w_1402_n264# en_bar_D4 2 3 1063 -119
+p c2_A1 vdd n12_A1 2 27 1608 -94
+n xor_3_A1 n11_A1 vss 2 9 1581 -102
+p xor_3_A1 n11_A1 vdd 2 18 1608 -110
+n c2_A1 s4_a1 n11_A1 2 9 1581 -112
+n q1_M2 w_1402_n264# D_bar_D4 2 3 1135 -120
+n q1_M2 w_1402_n264# n1_D4 2 6 1174 -120
+n en_D4 n1_D4 out_n1_D4 2 6 1195 -120
+n en_D4 w_1402_n264# n2_D4 2 6 1228 -120
+n D_bar_D4 n2_D4 out_n2_D4 2 6 1249 -120
+n out_n1_D4 w_1402_n264# n3_D4 2 6 1284 -120
+n q_l1_bar_D4 n3_D4 q_l1_D4 2 6 1305 -120
+n out_n2_D4 w_1402_n264# n4_D4 2 6 1338 -120
+n q_l1_D4 n4_D4 q_l1_bar_D4 2 6 1359 -120
+p n12_A1 s4_a1 n11_A1 2 18 1608 -120
+n n12_A1 a_1578_n127# s4_a1 2 12 1578 -122
+n n11_A1 vss a_1578_n127# 2 12 1578 -129
+p n11_A1 n12_A1 s4_a1 2 27 1608 -130
+p co_n1_M2 co_1_M2 vdd 2 12 54 -170
+p q0b1_M2 vdd co_n1_M2 2 10 64 -170
+p q1b0_M2 co_n1_M2 vdd 2 10 74 -170
+n co_n1_M2 co_1_M2 vss 2 6 54 -193
+p q1b0_M2 bn_1_M1 vdd 2 27 140 -169
+p q0b1_M2 vdd an_1_M2 2 18 156 -169
+p bn_1_M1 an_1_M2 so_1_M2 2 18 166 -169
+p an_1_M2 so_1_M2 bn_1_M1 2 27 176 -169
+p vss a_209_n188# vdd 2 27 224 -169
+p so_1_M2 vdd a1_1_M2 2 18 240 -169
+p a_209_n188# a1_1_M2 b1_A1 2 18 250 -169
+p a1_1_M2 b1_A1 a_209_n188# 2 27 260 -169
+p zc1_n1_M2 c1_1_M2 vdd 2 12 286 -170
+p vss vdd zc1_n1_M2 2 10 296 -170
+p so_1_M2 zc1_n1_M2 vdd 2 10 306 -170
+p co_n2_M2 co_2_M2 vdd 2 12 383 -168
+p q1b1_M2 vdd co_n2_M2 2 10 393 -168
+p c_fa1_M2 co_n2_M2 vdd 2 10 403 -168
+n q0b1_M2 vss a_68_n199# 2 9 66 -199
+n q1b0_M2 a_68_n199# co_n1_M2 2 9 73 -199
+n q1b0_M2 bn_1_M1 vss 2 9 132 -191
+n q0b1_M2 vss an_1_M2 2 9 148 -196
+n q1b0_M2 an_1_M2 so_1_M2 2 9 158 -196
+n bn_1_M1 so_1_M2 a_170_n199# 2 12 168 -199
+n an_1_M2 a_170_n199# vss 2 12 175 -199
+n vss a_209_n188# vss 2 9 216 -191
+n so_1_M2 vss a1_1_M2 2 9 232 -196
+n vss a1_1_M2 b1_A1 2 9 242 -196
+n a_209_n188# b1_A1 a_254_n199# 2 12 252 -199
+n a1_1_M2 a_254_n199# vss 2 12 259 -199
+n zc1_n1_M2 c1_1_M2 vss 2 6 286 -193
+n vss vss a_300_n199# 2 9 298 -199
+n so_1_M2 a_300_n199# zc1_n1_M2 2 9 305 -199
+n co_n2_M2 co_2_M2 vss 2 6 383 -191
+p c_fa1_M2 bn_2_M2 vdd 2 27 469 -167
+p q1b1_M2 vdd an_2_M2 2 18 485 -167
+p bn_2_M2 an_2_M2 so_2_M2 2 18 495 -167
+p an_2_M2 so_2_M2 bn_2_M2 2 27 505 -167
+p q0b2_M2 cn2_M2 vdd 2 27 553 -167
+p so_2_M2 vdd son_2_M2 2 18 569 -167
+p cn2_M2 son_2_M2 s_fa2_M2 2 18 579 -167
+p son_2_M2 s_fa2_M2 cn2_M2 2 27 589 -167
+p zc1_2_n_M2 c1_2_M2 vdd 2 12 615 -168
+p q0b2_M2 vdd zc1_2_n_M2 2 10 625 -168
+p so_2_M2 zc1_2_n_M2 vdd 2 10 635 -168
+p co_n3_M2 co_3_M2 vdd 2 12 710 -165
+p q1b2_M2 vdd co_n3_M2 2 10 720 -165
+p c_fa2_M2 co_n3_M2 vdd 2 10 730 -165
+n q1b1_M2 vss a_397_n197# 2 9 395 -197
+n c_fa1_M2 a_397_n197# co_n2_M2 2 9 402 -197
+n c_fa1_M2 bn_2_M2 vss 2 9 461 -189
+n q1b1_M2 vss an_2_M2 2 9 477 -194
+n c_fa1_M2 an_2_M2 so_2_M2 2 9 487 -194
+n bn_2_M2 so_2_M2 a_499_n197# 2 12 497 -197
+n an_2_M2 a_499_n197# vss 2 12 504 -197
+n q0b2_M2 cn2_M2 vss 2 9 545 -189
+n so_2_M2 vss son_2_M2 2 9 561 -194
+n q0b2_M2 son_2_M2 s_fa2_M2 2 9 571 -194
+n cn2_M2 s_fa2_M2 a_583_n197# 2 12 581 -197
+n son_2_M2 a_583_n197# vss 2 12 588 -197
+n zc1_2_n_M2 c1_2_M2 vss 2 6 615 -191
+n co_n3_M2 co_3_M2 vss 2 6 710 -188
+p c_fa2_M2 an3_M2 vdd 2 27 796 -164
+p q1b2_M2 vdd a_806_n191# 2 18 812 -164
+p an3_M2 a_806_n191# so_3_M2 2 18 822 -164
+p a_806_n191# so_3_M2 an3_M2 2 27 832 -164
+p vss cn_3_M2 vdd 2 27 880 -164
+p so_3_M2 vdd s_fa3_n_M2 2 18 896 -164
+p cn_3_M2 s_fa3_n_M2 s_fa3_M2 2 18 906 -164
+p s_fa3_n_M2 s_fa3_M2 cn_3_M2 2 27 916 -164
+p b2_A1 n9_n_A1 vdd 2 10 1673 -127
+n b2_A1 a_1703_n133# n9_n_A1 2 9 1703 -128
+n a2_A1 vss a_1703_n133# 2 9 1703 -135
+p a2_A1 vdd n9_n_A1 2 10 1673 -137
+n q_l1_D4 w_1402_n264# n6_D4 2 3 1139 -142
+p zc1_n_3_M2 c1_3_M2 vdd 2 12 942 -165
+p vss vdd zc1_n_3_M2 2 10 952 -165
+p so_3_M2 zc1_n_3_M2 vdd 2 10 962 -165
+n q_l1_D4 w_1402_n264# n7_D4 2 6 1178 -145
+n en_bar_D4 n7_D4 out_n7_D4 2 6 1199 -145
+n en_bar_D4 w_1402_n264# n8_D4 2 6 1232 -145
+n n6_D4 n8_D4 out_n8_D4 2 6 1253 -145
+n out_n7_D4 w_1402_n264# n9_D4 2 6 1288 -145
+n q_bar_D4 n9_D4 q_D4 2 6 1309 -145
+n out_n8_D4 w_1402_n264# n10_D4 2 6 1342 -145
+n q_D4 n10_D4 q_bar_D4 2 6 1363 -145
+p n9_n_A1 n9_A1 vdd 2 12 1671 -147
+n n9_n_A1 n9_A1 vss 2 6 1700 -147
+n zc3_n_A1 vss n13_A1 2 6 1584 -156
+p zc3_n_A1 vdd n13_A1 2 12 1607 -156
+n q0b2_M2 vss a_629_n197# 2 9 627 -197
+n so_2_M2 a_629_n197# zc1_2_n_M2 2 9 634 -197
+n q1b2_M2 vss a_724_n194# 2 9 722 -194
+n c_fa2_M2 a_724_n194# co_n3_M2 2 9 729 -194
+n c_fa2_M2 an3_M2 vss 2 9 788 -186
+n q1b2_M2 vss a_806_n191# 2 9 804 -191
+n c_fa2_M2 a_806_n191# so_3_M2 2 9 814 -191
+n an3_M2 so_3_M2 a_826_n194# 2 12 824 -194
+n a_806_n191# a_826_n194# vss 2 12 831 -194
+n vss cn_3_M2 vss 2 9 872 -186
+n so_3_M2 vss s_fa3_n_M2 2 9 888 -191
+n vss s_fa3_n_M2 s_fa3_M2 2 9 898 -191
+n cn_3_M2 s_fa3_M2 a_910_n194# 2 12 908 -194
+n s_fa3_n_M2 a_910_n194# vss 2 12 915 -194
+n zc1_n_3_M2 c1_3_M2 vss 2 6 942 -188
+p c2_A1 zc3_n_A1 vdd 2 10 1607 -166
+n c2_A1 a_1578_n173# vss 2 9 1578 -168
+n xor_3_A1 zc3_n_A1 a_1578_n173# 2 9 1578 -175
+p q_l1_D4 w_1024_n235# n6_D4 2 6 1139 -182
+p q_l1_D4 out_n7_D4 w_1024_n235# 2 6 1178 -182
+p en_bar_D4 w_1024_n235# out_n7_D4 2 6 1199 -182
+p en_bar_D4 out_n8_D4 w_1024_n235# 2 6 1232 -182
+p n6_D4 w_1024_n235# out_n8_D4 2 6 1253 -182
+p out_n7_D4 q_D4 w_1024_n235# 2 6 1288 -182
+p q_bar_D4 w_1024_n235# q_D4 2 6 1309 -182
+p out_n8_D4 q_bar_D4 w_1024_n235# 2 6 1342 -182
+p q_D4 w_1024_n235# q_bar_D4 2 6 1363 -182
+p xor_3_A1 vdd zc3_n_A1 2 10 1607 -176
+n vss vss a_956_n194# 2 9 954 -194
+n so_3_M2 a_956_n194# zc1_n_3_M2 2 9 961 -194
+n c1_1_M2 vss c_fa1_n_M2 2 6 147 -227
+n co_1_M2 c_fa1_n_M2 vss 2 6 157 -227
+n c_fa1_n_M2 vss c_fa1_M2 2 6 167 -227
+n c1_2_M2 vss c_fa2_n_M2 2 6 476 -225
+n co_2_M2 c_fa2_n_M2 vss 2 6 486 -225
+n c_fa2_n_M2 vss c_fa2_M2 2 6 496 -225
+n c1_3_M2 vss c_fa3_n_M2 2 6 803 -222
+n co_3_M2 c_fa3_n_M2 vss 2 6 813 -222
+n c_fa3_n_M2 vss c_fa3_M2 2 6 823 -222
+p c1_1_M2 c_fa1_n_M2 a_149_n272# 2 18 147 -272
+p co_1_M2 a_149_n272# vdd 2 18 154 -272
+p c_fa1_n_M2 vdd c_fa1_M2 2 12 167 -263
+p en_D5 w_1024_n235# en_bar_D5 2 6 1061 -228
+p q0_M2 w_1024_n235# D_bar_D5 2 6 1133 -228
+p q0_M2 out_n1_D5 w_1024_n235# 2 6 1172 -228
+p en_D5 w_1024_n235# out_n1_D5 2 6 1193 -228
+p en_D5 out_n2_D5 w_1024_n235# 2 6 1226 -228
+p D_bar_D5 w_1024_n235# out_n2_D5 2 6 1247 -228
+p out_n1_D5 q_l1_D5 w_1024_n235# 2 6 1282 -228
+p q_l1_bar_D5 w_1024_n235# q_l1_D5 2 6 1303 -228
+p out_n2_D5 q_l1_bar_D5 w_1024_n235# 2 6 1336 -228
+p q_l1_D5 w_1024_n235# q_l1_bar_D5 2 6 1357 -228
+p c1_2_M2 c_fa2_n_M2 a_478_n270# 2 18 476 -270
+p co_2_M2 a_478_n270# vdd 2 18 483 -270
+p c_fa2_n_M2 vdd c_fa2_M2 2 12 496 -261
+p c1_3_M2 c_fa3_n_M2 a_805_n267# 2 18 803 -267
+p co_3_M2 a_805_n267# vdd 2 18 810 -267
+p c_fa3_n_M2 vdd c_fa3_M2 2 12 823 -258
+n en_D5 w_1402_n264# en_bar_D5 2 3 1061 -264
+n q_D4 q_D4_n w_1402_n264# 2 10 1415 -258
+n q_D4_n w_1402_n264# buf_q_D4 2 14 1427 -258
+p xor1_A1 zc1_n_A1 vdd 2 10 1665 -251
+n xor1_A1 a_1695_n257# zc1_n_A1 2 9 1695 -252
+n q0_M2 w_1402_n264# D_bar_D5 2 3 1133 -265
+n q0_M2 w_1402_n264# n1_D5 2 6 1172 -265
+n en_D5 n1_D5 out_n1_D5 2 6 1193 -265
+n en_D5 w_1402_n264# n2_D5 2 6 1226 -265
+n D_bar_D5 n2_D5 out_n2_D5 2 6 1247 -265
+n out_n1_D5 w_1402_n264# n3_D5 2 6 1282 -265
+n q_l1_bar_D5 n3_D5 q_l1_D5 2 6 1303 -265
+n out_n2_D5 w_1402_n264# n4_D5 2 6 1336 -265
+n q_l1_D5 n4_D5 q_l1_bar_D5 2 6 1357 -265
+n co_A1 vss a_1695_n257# 2 9 1695 -259
+p co_A1 vdd zc1_n_A1 2 10 1665 -261
+p co_n4_M2 co_4_M2 vdd 2 12 53 -316
+p c_fa3_M2 vdd co_n4_M2 2 10 63 -316
+p c_fa5_M2 co_n4_M2 vdd 2 10 73 -316
+n co_n4_M2 co_4_M2 vss 2 6 53 -339
+p c_fa5_M2 bn4_M2 vdd 2 27 139 -315
+p c_fa3_M2 vdd a_149_n342# 2 18 155 -315
+p bn4_M2 a_149_n342# so_4_M2 2 18 165 -315
+p a_149_n342# so_4_M2 bn4_M2 2 27 175 -315
+p q2b2_M2 cn_1_M2 vdd 2 27 223 -315
+p so_4_M2 vdd s_fa4_n_M2 2 18 239 -315
+p cn_1_M2 s_fa4_n_M2 b4_A1 2 18 249 -315
+p s_fa4_n_M2 b4_A1 cn_1_M2 2 27 259 -315
+p zc1_4_M2 c1_4_M2 vdd 2 12 285 -316
+p q2b2_M2 vdd zc1_4_M2 2 10 295 -316
+p so_4_M2 zc1_4_M2 vdd 2 10 305 -316
+p co_5_M2 a_375_n337# vdd 2 12 382 -314
+p q2b1_M2 vdd co_5_M2 2 10 392 -314
+p c_fa6_M2 co_5_M2 vdd 2 10 402 -314
+n c_fa3_M2 vss a_67_n345# 2 9 65 -345
+n c_fa5_M2 a_67_n345# co_n4_M2 2 9 72 -345
+n c_fa5_M2 bn4_M2 vss 2 9 131 -337
+n c_fa3_M2 vss a_149_n342# 2 9 147 -342
+n c_fa5_M2 a_149_n342# so_4_M2 2 9 157 -342
+n bn4_M2 so_4_M2 a_169_n345# 2 12 167 -345
+n a_149_n342# a_169_n345# vss 2 12 174 -345
+n q2b2_M2 cn_1_M2 vss 2 9 215 -337
+n so_4_M2 vss s_fa4_n_M2 2 9 231 -342
+n q2b2_M2 s_fa4_n_M2 b4_A1 2 9 241 -342
+n cn_1_M2 b4_A1 a_253_n345# 2 12 251 -345
+n s_fa4_n_M2 a_253_n345# vss 2 12 258 -345
+n zc1_4_M2 c1_4_M2 vss 2 6 285 -339
+n q2b2_M2 vss a_299_n345# 2 9 297 -345
+n so_4_M2 a_299_n345# zc1_4_M2 2 9 304 -345
+n co_5_M2 a_375_n337# vss 2 6 382 -337
+p c_fa6_M2 bn_5_M2 vdd 2 27 468 -313
+p q2b1_M2 vdd a_478_n340# 2 18 484 -313
+p bn_5_M2 a_478_n340# so_5_M2 2 18 494 -313
+p a_478_n340# so_5_M2 bn_5_M2 2 27 504 -313
+p s_fa3_M2 cn_5_M2 vdd 2 27 552 -313
+p so_5_M2 vdd s_fa_5_n_M2 2 18 568 -313
+p cn_5_M2 s_fa_5_n_M2 b3_A1 2 18 578 -313
+p s_fa_5_n_M2 b3_A1 cn_5_M2 2 27 588 -313
+p zc1_n_5_M2 c1_5_M2 vdd 2 12 614 -314
+p s_fa3_M2 vdd zc1_n_5_M2 2 10 624 -314
+p so_5_M2 zc1_n_5_M2 vdd 2 10 634 -314
+p co_n_6_M2 co_6_M2 vdd 2 12 709 -311
+p vss vdd co_n_6_M2 2 10 719 -311
+p q2b0_M2 co_n_6_M2 vdd 2 10 729 -311
+n q2b1_M2 vss a_396_n343# 2 9 394 -343
+n c_fa6_M2 a_396_n343# co_5_M2 2 9 401 -343
+n c_fa6_M2 bn_5_M2 vss 2 9 460 -335
+n q2b1_M2 vss a_478_n340# 2 9 476 -340
+n c_fa6_M2 a_478_n340# so_5_M2 2 9 486 -340
+n bn_5_M2 so_5_M2 a_498_n343# 2 12 496 -343
+n a_478_n340# a_498_n343# vss 2 12 503 -343
+n s_fa3_M2 cn_5_M2 vss 2 9 544 -335
+n so_5_M2 vss s_fa_5_n_M2 2 9 560 -340
+n s_fa3_M2 s_fa_5_n_M2 b3_A1 2 9 570 -340
+n cn_5_M2 b3_A1 a_582_n343# 2 12 580 -343
+n s_fa_5_n_M2 a_582_n343# vss 2 12 587 -343
+n zc1_n_5_M2 c1_5_M2 vss 2 6 614 -337
+n co_n_6_M2 co_6_M2 vss 2 6 709 -334
+p q2b0_M2 an_6_M2 vdd 2 27 795 -310
+p vss vdd a_805_n337# 2 18 811 -310
+p an_6_M2 a_805_n337# so_6_M2 2 18 821 -310
+p a_805_n337# so_6_M2 an_6_M2 2 27 831 -310
+p s_fa2_M2 cn_6_M2 vdd 2 27 879 -310
+p so_6_M2 vdd s_fa_6_n_M2 2 18 895 -310
+p cn_6_M2 s_fa_6_n_M2 b2_A1 2 18 905 -310
+p s_fa_6_n_M2 b2_A1 cn_6_M2 2 27 915 -310
+n q_l1_D5 w_1402_n264# n6_D5 2 3 1137 -287
+p zc1_6_n_M2 c1_6_M2 vdd 2 12 941 -311
+p s_fa2_M2 vdd zc1_6_n_M2 2 10 951 -311
+p so_6_M2 zc1_6_n_M2 vdd 2 10 961 -311
+n q_l1_D5 w_1402_n264# n7_D5 2 6 1176 -290
+n en_bar_D5 n7_D5 out_n7_D5 2 6 1197 -290
+n en_bar_D5 w_1402_n264# n8_D5 2 6 1230 -290
+n n6_D5 n8_D5 out_n8_D5 2 6 1251 -290
+n out_n7_D5 w_1402_n264# n9_D5 2 6 1286 -290
+n q_bar_D5 n9_D5 q_D5 2 6 1307 -290
+n out_n8_D5 w_1402_n264# n10_D5 2 6 1340 -290
+n q_D5 n10_D5 q_bar_D5 2 6 1361 -290
+p q_D4 q_D4_n w_1024_n235# 2 17 1415 -287
+p q_D4_n w_1024_n235# buf_q_D4 2 28 1427 -298
+p zc1_n_A1 c1_A1 vdd 2 12 1663 -271
+n zc1_n_A1 c1_A1 vss 2 6 1692 -271
+p n4_A1 s1_A1 n3_A1 2 27 1647 -297
+n n4_A1 a_1692_n303# vss 2 12 1692 -298
+n n3_A1 s1_A1 a_1692_n303# 2 12 1692 -305
+p n3_A1 n4_A1 s1_A1 2 18 1656 -307
+n s_fa3_M2 vss a_628_n343# 2 9 626 -343
+n so_5_M2 a_628_n343# zc1_n_5_M2 2 9 633 -343
+n vss vss a_723_n340# 2 9 721 -340
+n q2b0_M2 a_723_n340# co_n_6_M2 2 9 728 -340
+n q2b0_M2 an_6_M2 vss 2 9 787 -332
+n vss vss a_805_n337# 2 9 803 -337
+n q2b0_M2 a_805_n337# so_6_M2 2 9 813 -337
+n an_6_M2 so_6_M2 a_825_n340# 2 12 823 -340
+n a_805_n337# a_825_n340# vss 2 12 830 -340
+n s_fa2_M2 cn_6_M2 vss 2 9 871 -332
+n so_6_M2 vss s_fa_6_n_M2 2 9 887 -337
+n s_fa2_M2 s_fa_6_n_M2 b2_A1 2 9 897 -337
+n cn_6_M2 b2_A1 a_909_n340# 2 12 907 -340
+n s_fa_6_n_M2 a_909_n340# vss 2 12 914 -340
+n zc1_6_n_M2 c1_6_M2 vss 2 6 941 -334
+n co_A1 n4_A1 s1_A1 2 9 1692 -315
+p xor1_A1 vdd n4_A1 2 18 1656 -317
+p q_l1_D5 w_1024_n235# n6_D5 2 6 1137 -327
+p q_l1_D5 out_n7_D5 w_1024_n235# 2 6 1176 -327
+p en_bar_D5 w_1024_n235# out_n7_D5 2 6 1197 -327
+p en_bar_D5 out_n8_D5 w_1024_n235# 2 6 1230 -327
+p n6_D5 w_1024_n235# out_n8_D5 2 6 1251 -327
+p out_n7_D5 q_D5 w_1024_n235# 2 6 1286 -327
+p q_bar_D5 w_1024_n235# q_D5 2 6 1307 -327
+p out_n8_D5 q_bar_D5 w_1024_n235# 2 6 1340 -327
+p q_D5 w_1024_n235# q_bar_D5 2 6 1361 -327
+n xor1_A1 vss n4_A1 2 9 1692 -325
+n s_fa2_M2 vss a_955_n340# 2 9 953 -340
+n so_6_M2 a_955_n340# zc1_6_n_M2 2 9 960 -340
+n c1_4_M2 vss a5_n_M2 2 6 146 -373
+n co_4_M2 a5_n_M2 vss 2 6 156 -373
+n a5_n_M2 vss b5_A1 2 6 166 -373
+n c1_5_M2 vss c_fa5_n_M2 2 6 475 -371
+n a_375_n337# c_fa5_n_M2 vss 2 6 485 -371
+n c_fa5_n_M2 vss c_fa5_M2 2 6 495 -371
+n c1_6_M2 vss c_fa6_n_M2 2 6 802 -368
+n co_6_M2 c_fa6_n_M2 vss 2 6 812 -368
+n c_fa6_n_M2 vss c_fa6_M2 2 6 822 -368
+p c1_4_M2 a5_n_M2 a_148_n418# 2 18 146 -418
+p co_4_M2 a_148_n418# vdd 2 18 153 -418
+p a5_n_M2 vdd b5_A1 2 12 166 -409
+p en_D6 w_1024_n235# en_bar_D6 2 6 1062 -370
+p q_D5 q_D5_n w_1024_n235# 2 17 1417 -359
+p q_D5_n w_1024_n235# buf_q_D5 2 28 1429 -359
+p co_A1 n3_A1 vdd 2 27 1647 -333
+n co_A1 n3_A1 vss 2 9 1687 -341
+p q2_M2 w_1024_n235# D_Bar_D6 2 6 1134 -370
+p q2_M2 out_n1_D6 w_1024_n235# 2 6 1173 -370
+p en_D6 w_1024_n235# out_n1_D6 2 6 1194 -370
+p en_D6 out_n2_D6 w_1024_n235# 2 6 1227 -370
+p D_Bar_D6 w_1024_n235# out_n2_D6 2 6 1248 -370
+p out_n1_D6 q_l1_D6 w_1024_n235# 2 6 1283 -370
+p q_l1_bar_D6 w_1024_n235# q_l1_D6 2 6 1304 -370
+p out_n2_D6 q_l1_bar_D6 w_1024_n235# 2 6 1337 -370
+p q_l1_D6 w_1024_n235# q_l1_bar_D6 2 6 1358 -370
+n q_D5 q_D5_n w_1402_n264# 2 10 1417 -381
+p c1_5_M2 c_fa5_n_M2 a_477_n416# 2 18 475 -416
+p a_375_n337# a_477_n416# vdd 2 18 482 -416
+p c_fa5_n_M2 vdd c_fa5_M2 2 12 495 -407
+p c1_6_M2 c_fa6_n_M2 a_804_n413# 2 18 802 -413
+p co_6_M2 a_804_n413# vdd 2 18 809 -413
+p c_fa6_n_M2 vdd c_fa6_M2 2 12 822 -404
+n q_D5_n w_1402_n264# buf_q_D5 2 14 1429 -385
+p a1n_A1 xor1_A1 bn_A1 2 27 1647 -381
+n en_D6 w_1402_n264# en_bar_D6 2 3 1062 -406
+n a1n_A1 a_1692_n387# vss 2 12 1692 -382
+n bn_A1 xor1_A1 a_1692_n387# 2 12 1692 -389
+p bn_A1 a1n_A1 xor1_A1 2 18 1656 -391
+n b1_A1 a1n_A1 xor1_A1 2 9 1692 -399
+p a1_A1 vdd a1n_A1 2 18 1656 -401
+n q2_M2 w_1402_n264# D_Bar_D6 2 3 1134 -407
+n q2_M2 w_1402_n264# n1_D6 2 6 1173 -407
+n en_D6 n1_D6 out_n1_D6 2 6 1194 -407
+n en_D6 w_1402_n264# n2_D6 2 6 1227 -407
+n D_Bar_D6 n2_D6 out_n2_D6 2 6 1248 -407
+n out_n1_D6 w_1402_n264# n3_D6 2 6 1283 -407
+n q_l1_bar_D6 n3_D6 q_l1_D6 2 6 1304 -407
+n out_n2_D6 w_1402_n264# n4_D6 2 6 1337 -407
+n q_l1_D6 n4_D6 q_l1_bar_D6 2 6 1358 -407
+n a1_A1 vss a1n_A1 2 9 1692 -409
+p b1_A1 bn_A1 vdd 2 27 1647 -417
+n q_l1_D6 w_1402_n264# n6_D6 2 3 1138 -429
+p q2b2_n_M2 q2b2_M2 vdd 2 18 347 -463
+p q2_M2 vdd q2b2_n_M2 2 13 357 -456
+p b2_M2 q2b2_n_M2 vdd 2 13 367 -456
+p q2b1_n_M2 q2b1_M2 vdd 2 18 440 -463
+p q2_M2 vdd q2b1_n_M2 2 13 450 -456
+p b1_M2 q2b1_n_M2 vdd 2 13 460 -456
+p q2b0_n_M2 q2b0_M2 vdd 2 18 527 -463
+p q2_M2 vdd q2b0_n_M2 2 13 537 -456
+p b0_M2 q2b0_n_M2 vdd 2 13 547 -456
+n q_l1_D6 w_1402_n264# n7_D6 2 6 1177 -432
+n en_bar_D6 n7_D6 out_n7_D6 2 6 1198 -432
+n en_bar_D6 w_1402_n264# n8_D6 2 6 1231 -432
+n n6_D6 n8_D6 out_n8_D6 2 6 1252 -432
+n out_n7_D6 w_1402_n264# n9_D6 2 6 1287 -432
+n q_bar_D6 n9_D6 q_D6 2 6 1308 -432
+n out_n8_D6 w_1402_n264# n10_D6 2 6 1341 -432
+n q_D6 n10_D6 q_bar_D6 2 6 1362 -432
+n q_D6 q_D6_n w_1402_n264# 2 10 1419 -437
+n q_D6_n w_1402_n264# buf_q_D6 2 14 1431 -437
+n cout_n_A1 vss s2_A1 2 6 1726 -390
+p cout_n_A1 vdd s2_A1 2 12 1756 -390
+n n5_A1 cout_n_A1 vss 2 6 1726 -400
+p n5_A1 a_1759_n408# vdd 2 18 1759 -403
+n c1_A1 vss cout_n_A1 2 6 1726 -410
+p c1_A1 cout_n_A1 a_1759_n408# 2 18 1759 -410
+n b1_A1 bn_A1 vss 2 9 1687 -425
+n son_A1 vss so_A1 2 13 1716 -438
+p son_A1 vdd so_A1 2 25 1751 -438
+n con_A1 n2_A1 vss 2 10 1719 -448
+p q_l1_D6 w_1024_n235# n6_D6 2 6 1138 -469
+p q_l1_D6 out_n7_D6 w_1024_n235# 2 6 1177 -469
+p en_bar_D6 w_1024_n235# out_n7_D6 2 6 1198 -469
+p en_bar_D6 out_n8_D6 w_1024_n235# 2 6 1231 -469
+p n6_D6 w_1024_n235# out_n8_D6 2 6 1252 -469
+p out_n7_D6 q_D6 w_1024_n235# 2 6 1287 -469
+p q_bar_D6 w_1024_n235# q_D6 2 6 1308 -469
+p out_n8_D6 q_bar_D6 w_1024_n235# 2 6 1341 -469
+p q_D6 w_1024_n235# q_bar_D6 2 6 1362 -469
+p q_D6 q_D6_n w_1024_n235# 2 17 1419 -466
+n q2b2_n_M2 q2b2_M2 vss 2 9 347 -487
+n q2_M2 vss a_362_n489# 2 11 360 -489
+n b2_M2 a_362_n489# q2b2_n_M2 2 11 367 -489
+n q2b1_n_M2 q2b1_M2 vss 2 9 440 -487
+n q2_M2 vss a_455_n489# 2 11 453 -489
+n b1_M2 a_455_n489# q2b1_n_M2 2 11 460 -489
+n q2b0_n_M2 q2b0_M2 vss 2 9 527 -487
+n q2_M2 vss a_542_n489# 2 11 540 -489
+n b0_M2 a_542_n489# q2b0_n_M2 2 11 547 -489
+p q_D6_n w_1024_n235# buf_q_D6 2 28 1431 -477
+p con_A1 son_A1 vdd 2 13 1751 -451
+n b_A1 son_A1 n2_A1 2 14 1722 -458
+p b_A1 a_1748_n466# son_A1 2 25 1748 -461
+n a_A1 n2_A1 son_A1 2 14 1722 -468
+p a_A1 vdd a_1748_n466# 2 25 1748 -468
+p b1_A1 n1_A1 vdd 2 10 1665 -483
+n b1_A1 a_1695_n489# n1_A1 2 9 1695 -484
+n a_A1 a_1716_n493# con_A1 2 20 1716 -488
+p a_A1 con_A1 vdd 2 28 1748 -486
+n a1_A1 vss a_1695_n489# 2 9 1695 -491
+p a1_A1 vdd n1_A1 2 10 1665 -493
+p n1_A1 n5_A1 vdd 2 12 1663 -503
+n b_A1 vss a_1716_n493# 2 20 1716 -495
+p b_A1 vdd con_A1 2 28 1748 -496
+n n1_A1 n5_A1 vss 2 6 1692 -503
+n con_A1 co_A1 vss 2 14 1716 -506
+p con_A1 co_A1 vdd 2 28 1748 -506
+C vdd co_A1 30.35
+C vdd out_n1_D2 9.99
+C n11_A1 s4_a1 2.73
+C a1_A1 c_fa_n_M1 2.35
+C c_fa6_M2 q2b1_M2 2.80
+C n20_A1 n19_A1 2.05
+C vdd out_n8_D1 9.21
+C vss n9_n_A1 9.07
+C w_1024_n235# q_D4 16.64
+C vdd b4_A1 31.02
+C w_1024_n235# out_n2_D5 9.21
+C vdd out_n1_D3 9.99
+C vdd q2b2_n_M2 7.83
+C w_1024_n235# out_n8_D6 9.21
+C cn_6_M2 s_fa_6_n_M2 2.05
+C a3_A1 b3n_A1 2.13
+C bn4_M2 so_4_M2 2.91
+C q1b2_M1 vss 20.30
+C vss bn3_M1 7.28
+C vss a_806_n191# 9.30
+C vdd so_3_M2 12.52
+C a1_A1 n1_A1 3.45
+C vss c_fa2_n_M2 8.11
+C vss n21_A1 14.95
+C vdd c_fa3_n_M2 11.91
+C co_2_M2 c1_2_M2 2.06
+C c3_A1 n13_A1 2.29
+C vss a1n_A1 9.30
+C q2_M2 b1_M2 39.66
+C vdd n6_D3 4.56
+C b3n_A1 xor_3_A1 2.91
+C q1b0_n_M1 vss 8.96
+C q1_M1 vdd 45.93
+C vss an_2_M1 9.30
+C vdd so_2_M1 12.52
+C vss s_fa2_M2 32.97
+C vdd c_fa2_M2 26.07
+C vdd q_n_D2 8.26
+C w_1402_n264# q_D4 11.57
+C vdd zc1_n1_M1 5.96
+C vss c_fa1_M1 35.73
+C vss co_2_M2 8.24
+C vdd bn_2_M2 16.07
+C vss co_6_M2 8.11
+C vss s_fa4_n_M1 9.30
+C a1_A1 b1_A1 4.64
+C vss a_794_169# 9.30
+C vdd so_6_M1 12.52
+C vdd q1b1_M2 36.95
+C vss q1b1_n_M2 8.96
+C n6_A1 s3_A1 2.91
+C vss bn_1_M1 7.28
+C vdd an_1_M2 5.22
+C vdd q_D2 16.65
+C vdd q2b0_M1 28.04
+C vss a3_A1 29.54
+C vss q0b2_M2 26.13
+C vss n18_nA1 9.07
+C vdd a5_A1 28.65
+C xor1_A1 bn_A1 2.91
+C q0b1_M2 bn_1_M1 2.13
+C w_1024_n235# q_l1_D4 16.36
+C vss n12_A1 7.28
+C vdd n11_A1 5.22
+C vss s_fa4_n_M2 9.30
+C vdd c_fa6_M2 27.74
+C bn3_M1 so_3_M1 2.91
+C cn_3_M2 s_fa3_n_M2 2.05
+C vdd bn_5_M1 16.07
+C vss a_364_169# 8.11
+C vss so_6_M2 29.74
+C vdd cn_6_M2 16.07
+C q2_M1 q2b1_n_M1 2.58
+C vss xor_3_A1 29.74
+C vdd c2_A1 47.78
+C s2_A1 n6_A1 4.74
+C vdd en 49.60
+C vdd q1b2_M2 28.26
+C q1_M2 q1b1_n_M2 2.96
+C vss co_A1 39.91
+C vdd q_l1_bar_D2 9.21
+C a_364_169# c1_5_M1 2.06
+C n20_A1 s6_A1 5.26
+C vdd q_D1 22.40
+C vdd zc1_n_3_M2 5.96
+C vss b4_A1 38.01
+C vdd a4_A1 46.86
+C cn2_M1 son_2_M1 2.05
+C w_1024_n235# q_l1_D5 16.36
+C vdd q_l1_bar_D3 9.21
+C vss q2b2_n_M2 8.96
+C vdd q2b1_n_M2 7.83
+C w_1024_n235# q_D6 17.09
+C out_n1_D4 out_n2_D4 3.51
+C w_1402_n264# q_l1_D4 17.41
+C a3_A1 cout3_n_A1 2.00
+C vdd n10_A1 13.09
+C vss so_3_M2 31.50
+C vdd cn_3_M2 16.07
+C vss c_fa3_n_M2 8.11
+C vdd c_fa3_M2 53.36
+C bn_2_M1 an_2_M1 2.05
+C an_6_M2 a_805_n337# 2.05
+C vdd out_n7_D3 9.99
+C q1_M1 vss 24.16
+C q1b0_M1 vdd 27.02
+C vss c_fa2_M2 35.53
+C vdd zc1_2_n_M2 5.96
+C vdd cn2_M1 16.07
+C vss so_2_M1 29.74
+C vdd zc3_n_A1 5.96
+C vss q_n_D2 7.00
+C b2_M1 vdd 32.72
+C w_1024_n235# en_bar_D6 12.03
+C w_1402_n264# q_l1_D5 17.41
+C vss bn_2_M2 7.28
+C vss zc1_n1_M1 10.01
+C vdd c1_1_M1 11.31
+C w_1402_n264# q_D6 5.01
+C a_198_318# a1_n_M1 2.05
+C co_1_M1 c1_1_M1 2.06
+C cn_6_M1 s_fa_6_n_M1 2.05
+C vss so_6_M1 29.74
+C vdd cn_6_M1 16.07
+C vss q1b1_M2 20.30
+C a5_A1 b5n_A1 2.13
+C vss an_1_M2 9.30
+C vdd so_1_M2 12.52
+C vdd co_n1_M1 5.96
+C vdd a_478_n340# 5.22
+C vdd c_fa5_M1 34.81
+C vss q_D2 4.73
+C vdd zc1_n_5_M1 5.96
+C vss q2b0_M1 38.46
+C vdd b0_M2 62.75
+C a_375_n337# c1_5_M2 2.06
+C out_n1_D5 out_n2_D5 3.51
+C vdd s4_a1 10.37
+C vss n11_A1 9.30
+C vss a5_A1 27.20
+C vss c_fa6_M2 39.47
+C vdd q2b1_M2 25.56
+C out_n7_D6 out_n8_D6 3.62
+C cn_3_M2 s_fa3_M2 3.85
+C vss cn_6_M2 7.28
+C vdd s_fa_6_n_M2 5.22
+C q2_M1 q2b0_n_M1 2.02
+C vss bn_5_M1 7.28
+C vss c2_A1 29.96
+C vss en 7.83
+C vss q1b2_M2 20.30
+C vdd c_fa5_M2 34.81
+C vdd out_n2_D2 9.21
+C an3_M2 a_806_n191# 2.05
+C n18_A1 n21_A1 2.06
+C a5_A1 b5_A1 2.26
+C vss zc1_n_3_M2 10.01
+C vdd c1_3_M2 11.31
+C vss q_D1 4.73
+C vdd s_fa3_M1 56.03
+C out_n7_D3 out_n8_D3 3.62
+C a4_A1 a2_A1 10.17
+C q1_M1 q1b1_n_M1 2.96
+C co_A1 n3_A1 4.74
+C cn2_M1 s_fa2_M1 2.91
+C vdd q_D1_n 8.26
+C vss a4_A1 24.23
+C vss q2b1_n_M2 8.96
+C vdd q2b0_n_M2 7.83
+C vdd out_n2_D3 9.21
+C out_n2_D1 q_l1_D1 3.08
+C n16_A1 n17_A1 2.06
+C q0_M1 a_A1 8.05
+C b2_A1 cn_6_M2 2.91
+C vss n10_A1 7.70
+C vdd n8_A1 11.31
+C vss cn_3_M2 12.02
+C vdd s_fa3_n_M2 5.22
+C vss c_fa3_M2 21.80
+C bn_2_M1 so_2_M1 2.91
+C out_n1_D6 out_n2_D6 3.51
+C vdd c5_A1 6.66
+C vdd q_D3_n 8.26
+C an_6_M2 so_6_M2 2.91
+C s_fa2_M1 cn_6_M1 4.74
+C out_n2_D2 q_l1_D2 3.08
+C vdd q_bar_D3 9.21
+C q1b0_M1 vss 37.88
+C a_A1 vdd 21.87
+C vss zc1_2_n_M2 9.07
+C vdd co_n3_M2 5.96
+C vdd son_2_M1 5.22
+C vss cn2_M1 7.28
+C b1_M1 vdd 46.03
+C vss zc3_n_A1 9.07
+C b2_M1 vss 36.53
+C q0_M1 vdd 41.33
+C w_1024_n235# D_Bar_D6 4.56
+C vdd q0_M2 23.56
+C c4_A1 n20_A1 4.74
+C vdd co_n2_M1 5.96
+C vss c1_1_M1 14.41
+C a_198_318# a1_A1 2.91
+C cn_6_M1 a2_A1 2.91
+C vdd s_fa_6_n_M1 5.22
+C vss cn_6_M1 7.28
+C q2b2_M1 cn_1_M1 4.74
+C vdd q1b2_n_M2 7.83
+C a5_A1 cout5_n_A1 2.55
+C vss so_1_M2 30.02
+C vdd a_209_n188# 16.07
+C vss co_n1_M1 9.07
+C vdd co_1_M1 13.09
+C vss a_478_n340# 9.30
+C vdd so_5_M2 12.52
+C out_n2_D3 q_l1_D3 3.08
+C q2_M2 q2b2_n_M2 2.40
+C vdd co_n4_M1 5.96
+C vss c_fa5_M1 40.02
+C an_6_M1 a_794_169# 2.05
+C vdd co_n_6_M1 5.96
+C vss zc1_n_5_M1 9.07
+C vss b0_M2 12.22
+C vdd q0b0_n_M2 7.83
+C xor_2_A1 b2n_A1 2.91
+C b4n_A1 a4_A1 2.13
+C vdd n14_A1 16.07
+C vss s4_a1 28.92
+C vss q2b1_M2 24.88
+C vdd zc1_4_M2 5.96
+C s_fa3_n_M2 s_fa3_M2 2.03
+C vss s_fa_6_n_M2 9.30
+C b1_M2 b_A1 2.65
+C vdd en_bar_D1 12.03
+C vss c_fa5_M2 40.02
+C vdd q_l1_D2 16.36
+C vdd co_n4_M2 5.96
+C an3_M2 so_3_M2 2.91
+C vdd b3n_A1 16.07
+C vss c1_3_M2 14.41
+C vss s_fa3_M1 30.06
+C vdd c_fa1_n_M1 11.91
+C q1_M2 b0_M2 2.06
+C q0b2_M1 cn2_M1 4.74
+C en_bar_D6 out_n7_D6 2.60
+C w_1024_n235# a4_A1 8.06
+C vss q_D1_n 7.00
+C vss q2b0_n_M2 8.96
+C vdd q_l1_D3 16.36
+C q0_M1 q0b1_n_M1 2.40
+C en_bar_D2 out_n7__D2 2.60
+C vss n8_A1 14.41
+C q2b2_M2 cn_1_M2 4.74
+C vdd n10_nA1 5.96
+C vdd s_fa3_M2 56.03
+C vss s_fa3_n_M2 9.54
+C vdd a_795_315# 5.22
+C q0_M1 q0b2_n_M1 2.40
+C vdd a5n_A1 5.22
+C vss c5_A1 2.54
+C cn2_M2 son_2_M2 2.05
+C vdd q_D3 15.84
+C vss q_D3_n 7.00
+C a3_A1 b3_A1 2.26
+C vdd out_n8_D3 9.21
+C a_A1 vss 18.39
+C vss co_n3_M2 9.07
+C vss son_2_M1 9.30
+C vdd s_fa2_M1 48.09
+C vdd c1_2_M2 11.31
+C b1_M1 vss 15.00
+C q0b1_n_M1 vdd 7.83
+C q0_M1 vss 25.70
+C q0b2_n_M1 vdd 7.83
+C vdd b5n_A1 16.07
+C bn_2_M2 an_2_M2 2.05
+C w_1024_n235# out_n1_D6 9.99
+C vdd n17n_A1 5.96
+C vss q0_M2 26.71
+C vdd cout_n_A1 11.91
+C w_1402_n264# a4_A1 4.18
+C vss co_n2_M1 9.07
+C vdd co_2_M1 13.09
+C vdd a2_A1 69.57
+C vss s_fa_6_n_M1 9.30
+C vdd vss 168.96
+C vss q1b2_n_M2 8.96
+C vdd cout2_n_A1 11.91
+C n10_A1 n13_A1 2.06
+C c_fa3_M2 bn4_M2 3.88
+C vss a_209_n188# 12.02
+C vdd bn_n_M1 16.07
+C vss co_1_M1 8.24
+C vdd a1_1_M2 5.22
+C vss co_n4_M1 9.07
+C vdd co_4_M1 13.09
+C vss so_5_M2 29.74
+C vdd cn_5_M2 16.07
+C q2_M2 q2b1_n_M2 2.58
+C an_6_M1 so_6_M1 2.91
+C q1b2_M2 an3_M2 2.13
+C co_1_M2 c1_1_M2 2.06
+C a_209_n188# a1_1_M2 2.05
+C vdd c1_A1 10.69
+C vss co_n_6_M1 10.01
+C vdd c1_5_M1 11.31
+C vss q0b0_n_M2 8.96
+C vdd q0b1_M2 42.49
+C c_fa6_M2 c_fa5_n_M2 2.00
+C vdd b5_A1 37.39
+C vss n14_A1 7.28
+C q1_M2 q0_M2 2.70
+C vss zc1_4_M2 9.07
+C vdd c1_4_M2 11.31
+C co_3_M2 c1_3_M2 2.06
+C q_bar_D6 q_D6 2.54
+C co_A1 so_A1 2.47
+C vdd b2_A1 34.49
+C vdd D_bar_D1 4.56
+C vss q_l1_D2 17.41
+C vdd q1_M2 23.10
+C vss co_n4_M2 9.07
+C vdd co_4_M2 13.09
+C q1_M2 q1b2_n_M2 2.96
+C cn_5_M1 s_fa5_n_M1 2.05
+C vss b3n_A1 7.28
+C vdd cout3_n_A1 11.91
+C b5n_A1 a5n_A1 2.05
+C cout5_n_A1 c5_A1 4.04
+C w_1024_n235# q_D4_n 8.26
+C vdd zc1_n_A1 5.96
+C vss c_fa1_n_M1 8.11
+C vdd c_fa_n_M1 11.91
+C vss q_l1_D3 17.41
+C bn_5_M1 a_467_166# 2.05
+C out_n2_D4 q_l1_D4 3.08
+C co_3_M1 c1_3_M1 2.06
+C n8_A1 n9_A1 2.06
+C vss n10_nA1 9.07
+C vss s_fa3_M2 30.06
+C vss a_795_315# 9.30
+C vdd so_3_M1 12.52
+C w_1024_n235# en_D5 13.76
+C vdd b4n_A1 16.07
+C vss a5n_A1 9.30
+C cn2_M2 s_fa2_M2 2.91
+C s_fa3_M2 cn_5_M2 5.24
+C vdd a5_n_M1 11.91
+C vss q_D3 5.41
+C q2b1_M1 bn_5_M1 2.13
+C a1_A1 bn_A1 2.13
+C vdd n1_A1 5.96
+C b2n_A1 a_1651_n25# 2.05
+C vdd q2b2_n_M1 7.83
+C q1b1_n_M1 vdd 7.83
+C vdd co_3_M2 13.09
+C vdd c_fa2_M1 26.07
+C vss s_fa2_M1 32.97
+C vss c1_2_M2 14.41
+C q0b1_n_M1 vss 8.96
+C q0b2_M1 vdd 51.43
+C vdd cout5_n_A1 11.91
+C vss b5n_A1 7.28
+C q0b2_n_M1 vss 8.96
+C bn_2_M2 so_2_M2 2.91
+C w_1024_n235# q_l1_bar_D6 9.21
+C vss n17n_A1 9.07
+C w_1024_n235# q0_M2 22.25
+C vdd n5_A1 17.37
+C w_1024_n235# buf_q_D6 3.76
+C vss cout_n_A1 8.11
+C w_1402_n264# q_D4_n 7.00
+C vdd bn_2_M1 16.07
+C vss co_2_M1 8.24
+C vss a2_A1 23.72
+C vdd a5_n_M2 11.91
+C vdd zc1_6_n_M1 5.96
+C vss cout2_n_A1 8.11
+C vdd n9_A1 13.09
+C vdd b1_A1 34.45
+C q0b2_M2 cn2_M2 4.74
+C vdd an_1_M1 5.22
+C vss bn_n_M1 7.28
+C vss a1_1_M2 9.54
+C cn_3_M1 s_fa3_M1 3.85
+C vdd bn4_M1 16.07
+C vss co_4_M1 7.70
+C vss cn_5_M2 7.28
+C vdd s_fa_5_n_M2 5.22
+C q2_M2 q2b0_n_M2 2.02
+C a_209_n188# b1_A1 2.91
+C vss c1_A1 16.19
+C vdd n3_A1 16.07
+C vss c1_5_M1 14.41
+C vdd co_6_M1 13.09
+C vss q0b1_M2 20.30
+C out_n2_D5 q_l1_D5 3.08
+C vss b5_A1 47.31
+C vdd n15_A1 5.22
+C c_fa6_M2 c_fa6_n_M2 3.20
+C vdd n19_A1 5.22
+C vss c1_4_M2 14.41
+C vdd co_5_M2 5.96
+C w_1024_n235# n6_D5 4.56
+C a2_A1 b2_A1 3.47
+C vss b2_A1 37.20
+C vdd b2_M2 32.00
+C out_n7__D2 out_n8_D2 3.62
+C vdd out_n1_D1 9.99
+C w_1024_n235# en_D4 13.82
+C vdd cout4n_A1 11.91
+C vss q1_M2 28.81
+C q0_M2 q2_M2 2.70
+C vss co_4_M2 7.70
+C vdd bn4_M2 16.07
+C n14_A1 n15_A1 2.05
+C cn_5_M1 a3_A1 2.91
+C vdd an_6_M2 16.07
+C vdd c_fa6_M1 26.43
+C vss cout3_n_A1 8.11
+C vdd n13_A1 11.31
+C w_1024_n235# buf_q_D4 3.76
+C vss zc1_n_A1 9.07
+C vdd xor1_A1 12.52
+C vss c_fa_n_M1 8.11
+C vdd c_fa3_n_M1 11.91
+C bn_A1 a1n_A1 2.05
+C vdd q2_M2 23.61
+C bn_5_M1 so_5_M1 2.91
+C vdd n6_A1 16.07
+C co_4_M2 c1_4_M2 2.06
+C vdd cn_3_M1 16.07
+C vss so_3_M1 31.50
+C vdd a_1649_335# 5.22
+C b0_M1 b1_M1 4.33
+C vss b4n_A1 7.28
+C out_n2_D6 q_l1_D6 3.08
+C vss a5_n_M1 8.11
+C vdd c_fa5_n_M1 11.91
+C vss n1_A1 9.07
+C vdd q2b1_n_M1 7.83
+C vss q2b2_n_M1 8.96
+C q1b1_n_M1 vss 8.96
+C n18_A1 vdd 13.09
+C vdd zc1_2_n_M1 5.96
+C vss c_fa2_M1 35.70
+C q0b2_M1 vss 26.13
+C vdd an3_M2 16.07
+C vss co_3_M2 8.24
+C cout_n_A1 n5_A1 2.15
+C b3_A1 s4_a1 2.02
+C vss cout5_n_A1 8.11
+C w_1024_n235# out_n2_D6 9.21
+C vdd zc5_n_A1 5.96
+C vss n5_A1 10.38
+C b0_M1 vdd 63.21
+C vdd an_2_M2 5.22
+C vss bn_2_M1 7.28
+C en_bar_D5 out_n7_D5 2.60
+C a1_A1 c_fa1_M1 3.01
+C w_1024_n235# q_D5_n 8.26
+C vss a5_n_M2 8.11
+C vss zc1_6_n_M1 9.07
+C vdd c1_6_M1 11.31
+C vdd c_fa5_n_M2 11.91
+C vss n9_A1 9.73
+C cn_1_M1 s_fa4_n_M1 2.05
+C c1_A1 n5_A1 2.19
+C a2_A1 b1_A1 4.95
+C vdd c_fa1_M2 26.25
+C vss an_1_M1 9.30
+C vdd so_1_M1 12.52
+C vss b1_A1 40.83
+C out_n7_D1 out_n8_D1 3.62
+C s_fa3_n_M1 s_fa3_M1 2.03
+C vdd a_138_164# 5.22
+C vss bn4_M1 7.28
+C vss s_fa_5_n_M2 9.30
+C vdd q2b0_M2 28.04
+C bn_n_M1 an_1_M1 2.05
+C q0_M2 q0b2_n_M2 2.40
+C vss n3_A1 7.28
+C vdd an_6_M1 16.07
+C vss co_6_M1 8.11
+C vdd n4_A1 5.22
+C vdd q1b0_n_M2 7.83
+C cn_5_M2 s_fa_5_n_M2 2.05
+C a1_A1 a3_A1 7.51
+C vss n15_A1 9.30
+C vdd s5_A1 6.75
+C co_6_M2 c1_6_M2 2.06
+C vdd s6_A1 30.09
+C vss n19_A1 9.30
+C vss co_5_M2 9.07
+C vdd a_375_n337# 13.09
+C w_1024_n235# out_n7_D5 9.99
+C vdd a_467_166# 5.22
+C vss b2_M2 36.80
+C vdd q0b2_n_M2 7.83
+C bn_5_M2 a_478_n340# 2.05
+C vdd q_l1_bar_D1 9.21
+C w_1024_n235# en_bar_D4 12.03
+C w_1402_n264# q_D5_n 7.00
+C q1b2_M1 bn3_M1 2.13
+C vss cout4n_A1 8.11
+C vdd n17_A1 13.09
+C w_1024_n235# q1_M2 11.44
+C vss bn4_M2 7.28
+C vdd a_149_n342# 5.22
+C zc4_n_A1 vdd 5.96
+C n14_A1 s5_A1 2.91
+C vss an_6_M2 9.41
+C en_bar_D3 out_n7_D3 2.60
+C vdd q2b1_M1 25.33
+C vss c_fa6_M1 39.20
+C vss n13_A1 14.41
+C q2b1_M2 bn_5_M2 2.13
+C q1_M1 q1b2_n_M1 2.96
+C vss xor1_A1 29.74
+C vss c_fa3_n_M1 8.11
+C vdd c_fa3_M1 53.36
+C vss q2_M2 27.97
+C vdd b3_A1 34.94
+C vss n6_A1 7.28
+C cn_1_M2 s_fa4_n_M2 2.05
+C vdd s_fa3_n_M1 5.22
+C vss cn_3_M1 12.02
+C w_1024_n235# n6_D4 4.56
+C a_A1 so_A1 129.46
+C vss a_1649_335# 9.30
+C vdd xor_5_A1 12.52
+C w_1024_n235# en_bar_D5 12.03
+C q1_M2 b2_M2 2.50
+C vss c_fa5_n_M1 8.11
+C vdd c_fa6_n_M1 11.91
+C q0_M1 q0b0_n_M1 2.56
+C q1b1_M1 vdd 36.95
+C n18_A1 vss 7.70
+C vdd q2b0_n_M1 7.83
+C vss q2b1_n_M1 8.96
+C vdd co_n3_M1 5.96
+C vss zc1_2_n_M1 9.07
+C vss an3_M2 7.28
+C w_1024_n235# q_l1_D6 16.36
+C vss zc5_n_A1 9.07
+C vdd zc2_n_A1 5.96
+C b0_M1 vss 11.87
+C q0b0_n_M1 vdd 7.83
+C vdd so_A1 2.16
+C b4_A1 cn_1_M2 2.91
+C vss an_2_M2 9.30
+C vdd so_2_M2 12.52
+C en_bar_D4 out_n7_D4 2.60
+C vss c1_6_M1 14.41
+C vss c_fa5_n_M2 8.11
+C vdd c_fa6_n_M2 11.91
+C vss c_fa1_M2 36.75
+C vdd zc1_n1_M2 5.96
+C vdd a_198_318# 16.07
+C vss so_1_M1 30.02
+C vdd q2b2_M1 30.59
+C vss a_138_164# 9.30
+C vss q2b0_M2 38.23
+C vdd zc1_n_5_M2 5.96
+C bn_n_M1 so_1_M1 2.91
+C vss an_6_M1 9.41
+C vss n4_A1 9.30
+C vdd s1_A1 32.78
+C vss q1b0_n_M2 8.96
+C vdd q1b0_M2 27.02
+C vss s5_A1 4.89
+C w_1402_n264# q_l1_D6 17.41
+C vdd n6_D2 4.56
+C vss a_375_n337# 8.11
+C vdd bn_5_M2 16.07
+C vss s6_A1 4.89
+C w_1024_n235# q_bar_D5 9.21
+C vss a_467_166# 9.30
+C vdd so_5_M1 12.52
+C bn_5_M2 so_5_M2 2.91
+C vss q0b2_n_M2 8.96
+C b4n_A1 a_1649_335# 2.05
+C w_1024_n235# D_bar_D4 4.56
+C vdd out_n2_D1 9.21
+C vss a_149_n342# 9.30
+C vdd q2b2_M2 30.59
+C vss n17_A1 9.05
+C xor_4_A1 vdd 12.89
+C zc4_n_A1 vss 9.07
+C vdd zc1_4_M1 5.96
+C vss q2b1_M1 24.93
+C vdd a3n_A1 5.22
+C b1_M2 b0_M2 4.74
+C b5n_A1 xor_5_A1 2.91
+C vss c_fa3_M1 21.80
+C q1_M2 q1b0_n_M2 2.08
+C w_1024_n235# q2_M2 24.84
+C out_n7_D5 out_n8_D5 3.62
+C vss b3_A1 50.95
+C vdd n7_A1 5.22
+C a4_A1 cn_1_M1 2.91
+C vss s_fa3_n_M1 9.54
+C vdd n6_D1 4.56
+C w_1024_n235# out_n7_D4 9.99
+C son_A1 n2_A1 2.58
+C vdd c4_A1 47.78
+C vss xor_5_A1 29.74
+C b3_A1 cn_5_M2 2.91
+C w_1024_n235# D_bar_D5 4.56
+C vss c_fa6_n_M1 8.11
+C vdd en_bar_D3 12.03
+C w_1024_n235# n6_D6 4.56
+C s_fa3_M1 cn_5_M1 5.24
+C vss q2b0_n_M1 8.96
+C q1b1_M1 vss 20.30
+C vss co_n3_M1 9.07
+C vdd c1_2_M1 11.31
+C w_1024_n235# buf_q_D5 3.76
+C q2_M2 b2_M2 2.22
+C vdd xor_2_A1 12.89
+C vss zc2_n_A1 9.07
+C q0b0_n_M1 vss 8.96
+C q0b1_M1 vdd 42.49
+C b3n_A1 a3n_A1 2.05
+C vss so_A1 13.35
+C vdd son_A1 5.32
+C vss so_2_M2 29.74
+C vdd cn2_M2 16.07
+C w_1402_n264# q2_M2 2.16
+C vdd zc1_n_3_M1 5.96
+C vss c_fa6_n_M2 8.11
+C vss zc1_n1_M2 10.01
+C vdd c1_1_M2 11.31
+C vdd a1_n_M1 5.22
+C vss a_198_318# 12.02
+C vdd so_4_M1 12.52
+C vss q2b2_M1 28.29
+C vss zc1_n_5_M2 9.07
+C vdd co_n_6_M2 5.96
+C co_6_M1 c1_6_M1 2.06
+C c_fa6_M1 c_fa5_n_M1 2.00
+C vss s1_A1 8.28
+C bn4_M1 a_138_164# 2.05
+C vss q1b0_M2 38.42
+C vdd b_A1 31.08
+C s_fa2_M2 cn_6_M2 4.74
+C vdd co_n1_M2 5.96
+C vdd out_n7__D2 9.99
+C vss bn_5_M2 7.28
+C n3_A1 n4_A1 2.05
+C bn_1_M1 an_1_M2 2.05
+C vdd cn_5_M1 16.07
+C vss so_5_M1 29.74
+C w_1024_n235# out_n8_D5 9.21
+C vdd zc1_6_n_M2 5.96
+C vdd b1_M2 45.31
+C vdd q_l1_D1 16.36
+C w_1024_n235# out_n1_D4 9.99
+C vss q2b2_M2 28.29
+C vdd n20_A1 16.07
+C vdd so_4_M2 12.52
+C xor_4_A1 vss 30.27
+C c3_A1 vdd 50.98
+C vss zc1_4_M1 9.07
+C vdd c1_4_M1 11.31
+C b1_M1 q2_M1 39.48
+C vss a3n_A1 9.30
+C vdd b2n_A1 16.07
+C n19_A1 s6_A1 2.73
+C vdd en_bar_D2 11.66
+C q1_M2 q1b0_M2 7.33
+C n12_A1 n11_A1 2.05
+C c3_A1 n14_A1 4.74
+C vss n7_A1 9.30
+C vdd s3_A1 8.22
+C c_fa3_M1 bn4_M1 3.88
+C w_1024_n235# b3_A1 17.58
+C vdd out_n7_D1 9.99
+C w_1024_n235# q_bar_D4 9.21
+C c2_A1 n12_A1 4.74
+C q1b1_M1 bn_2_M1 3.55
+C vss c4_A1 29.96
+C w_1024_n235# out_n1_D5 9.99
+C co_2_M1 c1_2_M1 2.06
+C vdd q2_M1 40.80
+C w_1024_n235# out_n7_D6 9.99
+C bn4_M2 a_149_n342# 2.05
+C q1b2_n_M1 vdd 7.83
+C vss c1_2_M1 14.41
+C vdd co_3_M1 13.09
+C vdd c_fa1_n_M2 11.91
+C vdd bn_A1 16.07
+C c_fa6_M1 q2b1_M1 2.80
+C vdd con_A1 22.83
+C vss xor_2_A1 30.27
+C vdd s2_A1 50.15
+C q0b1_M1 vss 20.30
+C vss son_A1 9.21
+C vss cn2_M2 7.28
+C vdd son_2_M2 5.22
+C b5_A1 m1_907_n416# 3.24
+C q0b1_M1 bn_n_M1 2.13
+C en_bar_D1 out_n7_D1 2.60
+C vss zc1_n_3_M1 10.01
+C vdd c1_3_M1 11.31
+C w_1402_n264# b3_A1 2.57
+C xor_4_A1 b4n_A1 2.91
+C vss c1_1_M2 14.41
+C vss a1_n_M1 9.54
+C vdd a1_A1 33.86
+C vdd co_n2_M2 5.96
+C q1b1_M2 bn_2_M2 3.55
+C vdd c1_5_M2 11.31
+C vdd cn_1_M1 16.07
+C vss so_4_M1 29.74
+C vss co_n_6_M2 10.01
+C c_fa6_M1 c_fa6_n_M1 3.20
+C q0_M2 q0b1_n_M2 2.40
+C vss b_A1 17.74
+C b4_A1 a4_A1 2.47
+C vss co_n1_M2 9.07
+C vdd co_1_M2 13.09
+C vdd q_bar_D2 9.21
+C cn_3_M1 s_fa3_n_M1 2.05
+C q1_M1 en 3.89
+C n3_A1 s1_A1 2.91
+C bn_1_M1 so_1_M2 2.91
+C vdd c1_6_M2 11.31
+C vdd s_fa5_n_M1 5.22
+C vss cn_5_M1 7.28
+C w_1024_n235# q_D5 17.49
+C vss zc1_6_n_M2 9.07
+C vdd q0b1_n_M2 7.83
+C vss b1_M2 11.99
+C vss q_l1_D1 17.41
+C vdd n16_A1 11.31
+C w_1024_n235# q_l1_bar_D4 9.21
+C vdd cn_1_M2 16.07
+C vss n20_A1 7.28
+C vss so_4_M2 29.74
+C c3_A1 vss 26.70
+C vdd a_805_n337# 5.22
+C vdd co_5__M1 5.96
+C vss c1_4_M1 14.41
+C a2_A1 b2n_A1 2.13
+C vdd a_1651_n25# 5.22
+C vss b2n_A1 7.28
+C b2_A1 b_A1 2.70
+C co_4_M1 c1_4_M1 2.06
+C vdd D_bar_D2 4.56
+C w_1024_n235# q_D6_n 8.26
+C n12_A1 s4_a1 5.26
+C vss s3_A1 6.27
+C vdd q_bar_D1 9.21
+C vdd n9_n_A1 5.96
+C w_1024_n235# out_n8_D4 9.21
+C w_1402_n264# q_D5 4.73
+C w_1024_n235# q_l1_bar_D5 9.21
+C q1_M2 b1_M2 2.29
+C vdd D_bar_D3 4.56
+C vss q2_M1 25.55
+C w_1024_n235# q_bar_D6 9.21
+C out_n1_D1 out_n2_D1 3.51
+C q1b2_n_M1 vss 8.96
+C q1b2_M1 vdd 28.26
+C vdd bn3_M1 16.07
+C vss co_3_M1 8.24
+C vdd a_806_n191# 5.22
+C vdd c_fa2_n_M2 11.91
+C vdd n21_A1 11.31
+C vss c_fa1_n_M2 8.11
+C vdd a1n_A1 5.22
+C vss bn_A1 7.28
+C vss s2_A1 28.89
+C out_n1_D2 out_n2_D2 3.51
+C vss con_A1 14.27
+C q1b0_n_M1 vdd 7.83
+C vdd an_2_M1 5.22
+C vss son_2_M2 9.30
+C vdd s_fa2_M2 48.09
+C w_1402_n264# q_D6_n 7.00
+C vss c1_3_M1 14.41
+C w_1024_n235# en_D6 13.76
+C a1_A1 a2_A1 2.43
+C vdd c_fa1_M1 26.25
+C vss a1_A1 38.34
+C vss co_n2_M2 9.07
+C vdd co_2_M2 13.09
+C vdd co_6_M2 13.09
+C vss c1_5_M2 14.41
+C vdd s_fa4_n_M1 5.22
+C vss cn_1_M1 7.28
+C vdd a_794_169# 5.22
+C vdd q1b1_n_M2 7.83
+C bn4_M1 so_4_M1 2.91
+C n6_A1 n7_A1 2.05
+C vss co_1_M2 8.24
+C vdd bn_1_M1 16.07
+C out_n7_D4 out_n8_D4 3.62
+C out_n1_D3 out_n2_D3 3.51
+C vdd out_n8_D2 9.21
+C co_A1 n2_A1 2.76
+C vss s_fa5_n_M1 9.30
+C vdd a3_A1 39.60
+C vss c1_6_M2 14.41
+C vdd q0b2_M2 51.43
+C vss q0b1_n_M2 8.96
+C vdd n18_nA1 5.96
+C vss n16_A1 14.41
+C w_1024_n235# out_n2_D4 9.21
+C vdd n12_A1 16.07
+C vdd s_fa4_n_M2 5.22
+C bn3_M1 a_795_315# 2.05
+C vss cn_1_M2 7.28
+C vss co_5__M1 9.07
+C vdd a_364_169# 13.09
+C vdd so_6_M2 12.52
+C vss a_805_n337# 9.30
+C vdd xor_3_A1 12.52
+C vss a_1651_n25# 9.30
+C m1_907_n416# GND 4.70
+R a_1716_n493# 107
+R a_1695_n489# 48
+R n1_A1 612
+R a_1748_n466# 298
+R n2_A1 220
+R a_542_n489# 59
+R a_455_n489# 59
+R a_362_n489# 59
+R con_A1 1767
+R son_A1 1078
+R so_A1 338
+R a_1759_n408# 214
+C n5_A1 GND 2.76
+R n5_A1 857
+R cout_n_A1 822
+R buf_q_D6 363
+R q_D6_n 987
+R n10_D6 84
+R n9_D6 84
+R n8_D6 84
+R n7_D6 84
+R q2b0_n_M2 717
+R q2b1_n_M2 717
+R q2b2_n_M2 717
+C q_D6 GND 18.15
+R q_D6 1616
+C out_n8_D6 GND 19.50
+R out_n8_D6 1025
+C q_bar_D6 GND 10.43
+R q_bar_D6 1025
+C out_n7_D6 GND 17.19
+R out_n7_D6 1025
+C n6_D6 GND 17.94
+R n6_D6 1012
+R n4_D6 84
+R n3_D6 84
+R n2_D6 84
+R n1_D6 84
+R a_1692_n387# 64
+R a1n_A1 909
+R bn_A1 1529
+R a_804_n413# 214
+R a_477_n416# 214
+R buf_q_D5 363
+C q_l1_D6 GND 45.99
+R q_l1_D6 2365
+R out_n2_D6 1025
+C q_l1_bar_D6 GND 15.18
+R q_l1_bar_D6 1025
+R out_n1_D6 1025
+C D_Bar_D6 GND 17.94
+R D_Bar_D6 1012
+C en_bar_D6 GND 28.62
+R en_bar_D6 1841
+R a_148_n418# 214
+C en_D6 GND 30.74
+R en_D6 1899
+R c_fa6_n_M2 822
+R c_fa5_n_M2 822
+R a5_n_M2 822
+R q_D5_n 987
+R a_955_n340# 48
+R a_909_n340# 64
+R a_825_n340# 64
+R a_723_n340# 48
+R a_628_n343# 48
+R a_1692_n303# 64
+C s1_A1 GND 166.64
+R s1_A1 333
+R n4_A1 909
+R n3_A1 1529
+C c1_A1 GND 6.90
+R c1_A1 852
+R n10_D5 84
+R n9_D5 84
+R n8_D5 84
+R n7_D5 84
+R c1_6_M2 852
+R zc1_6_n_M2 612
+C q_D5 GND 19.37
+R q_D5 1616
+R out_n8_D5 1025
+C q_bar_D5 GND 9.40
+R q_bar_D5 1025
+C out_n7_D5 GND 6.79
+R out_n7_D5 1025
+C n6_D5 GND 17.94
+R n6_D5 1012
+R s_fa_6_n_M2 909
+R cn_6_M2 1529
+R so_6_M2 1568
+R a_805_n337# 909
+R a_582_n343# 64
+R a_498_n343# 64
+R a_396_n343# 48
+R an_6_M2 1529
+C co_6_M2 GND 9.60
+R co_6_M2 856
+C c1_5_M2 GND 7.41
+R c1_5_M2 852
+R co_n_6_M2 612
+R zc1_n_5_M2 612
+C q2b0_M2 GND 28.07
+R q2b0_M2 2479
+R s_fa_5_n_M2 909
+R cn_5_M2 1529
+R so_5_M2 1568
+R a_478_n340# 909
+R a_299_n345# 48
+R a_253_n345# 64
+R a_169_n345# 64
+R a_67_n345# 48
+R bn_5_M2 1529
+C a_375_n337# GND 9.66
+R a_375_n337# 856
+R co_5_M2 612
+C c1_4_M2 GND 7.35
+R c1_4_M2 852
+R zc1_4_M2 612
+C q2b1_M2 GND 18.40
+R q2b1_M2 1581
+C c_fa6_M2 GND 49.04
+R c_fa6_M2 2433
+R s_fa4_n_M2 909
+R cn_1_M2 1529
+R so_4_M2 1568
+R q2b2_M2 2565
+R a_149_n342# 909
+R bn4_M2 1529
+C co_4_M2 GND 10.46
+R co_4_M2 856
+R co_n4_M2 612
+C c_fa5_M2 GND 32.80
+R c_fa5_M2 2433
+R a_1695_n257# 48
+C co_A1 GND 9.66
+R co_A1 2714
+R n4_D5 84
+R n3_D5 84
+R n2_D5 84
+R n1_D5 84
+R xor1_A1 1568
+R zc1_n_A1 612
+R buf_q_D4 363
+R q_D4_n 987
+R a_805_n267# 214
+R a_478_n270# 214
+C q_l1_D5 GND 46.22
+R q_l1_D5 2365
+C out_n2_D5 GND 18.70
+R out_n2_D5 1025
+C q_l1_bar_D5 GND 15.41
+R q_l1_bar_D5 1025
+C out_n1_D5 GND 17.19
+R out_n1_D5 1025
+C D_bar_D5 GND 17.94
+R D_bar_D5 1012
+C en_bar_D5 GND 28.84
+R en_bar_D5 1841
+R a_149_n272# 214
+C en_D5 GND 30.74
+R en_D5 1899
+C c_fa3_M2 GND 30.39
+R c_fa3_M2 1538
+R c_fa3_n_M2 822
+R c_fa2_n_M2 822
+R c_fa1_n_M2 822
+R a_956_n194# 48
+R a_1578_n173# 48
+R a_910_n194# 64
+R a_826_n194# 64
+R a_724_n194# 48
+R a_629_n197# 48
+R zc3_n_A1 612
+R n10_D4 84
+R n9_D4 84
+R n8_D4 84
+R n7_D4 84
+C c1_3_M2 GND 7.70
+R c1_3_M2 852
+R zc1_n_3_M2 612
+R a_1703_n133# 48
+R n9_n_A1 612
+C q_D4 GND 21.65
+R q_D4 1616
+C out_n8_D4 GND 19.67
+R out_n8_D4 1025
+C q_bar_D4 GND 10.60
+R q_bar_D4 1025
+C out_n7_D4 GND 17.19
+R out_n7_D4 1025
+C n6_D4 GND 17.94
+R n6_D4 1012
+C s_fa3_M2 GND 24.53
+R s_fa3_M2 2639
+R s_fa3_n_M2 909
+R cn_3_M2 1529
+R so_3_M2 1568
+R a_806_n191# 909
+R a_583_n197# 64
+R a_499_n197# 64
+R a_397_n197# 48
+R an3_M2 1529
+C co_3_M2 GND 9.49
+R co_3_M2 856
+C c1_2_M2 GND 6.95
+R c1_2_M2 852
+R co_n3_M2 612
+R zc1_2_n_M2 612
+C c_fa2_M2 GND 34.75
+R c_fa2_M2 2433
+C s_fa2_M2 GND 17.71
+R s_fa2_M2 2640
+R son_2_M2 909
+R cn2_M2 1529
+R so_2_M2 1568
+R an_2_M2 909
+R a_300_n199# 48
+R a_254_n199# 64
+R a_170_n199# 64
+R a_68_n199# 48
+R bn_2_M2 1529
+C co_2_M2 GND 9.83
+R co_2_M2 856
+R co_n2_M2 612
+C c1_1_M2 GND 7.64
+R c1_1_M2 852
+R zc1_n1_M2 612
+C c_fa1_M2 GND 46.01
+R c_fa1_M2 2432
+C b1_A1 GND 281.93
+R b1_A1 2580
+R a1_1_M2 909
+R a_209_n188# 1529
+R so_1_M2 1568
+R an_1_M2 909
+R bn_1_M1 1529
+C co_1_M2 GND 10.29
+R co_1_M2 856
+R co_n1_M2 612
+R a_1578_n127# 64
+R n4_D4 84
+R n3_D4 84
+R n2_D4 84
+R n1_D4 84
+C s4_a1 GND 51.45
+R s4_a1 321
+R n11_A1 909
+R n12_A1 1529
+C q_l1_D4 GND 46.22
+R q_l1_D4 2365
+C out_n2_D4 GND 18.70
+R out_n2_D4 1025
+C q_l1_bar_D4 GND 15.41
+R q_l1_bar_D4 1025
+C out_n1_D4 GND 17.19
+R out_n1_D4 1025
+C D_bar_D4 GND 17.94
+R D_bar_D4 1012
+C en_bar_D4 GND 28.84
+R en_bar_D4 1841
+C en_D4 GND 30.52
+R en_D4 1899
+R a_747_n79# 59
+C q1b2_M2 GND 9.66
+R q1b2_M2 1579
+R a_1767_n52# 214
+C n9_A1 GND 9.32
+R n9_A1 856
+R cout2_n_A1 822
+R q1b2_n_M2 717
+R a_660_n79# 59
+C q1b1_M2 GND 7.42
+R q1b1_M2 1580
+R q1b1_n_M2 717
+R a_567_n79# 59
+C b_A1 GND 293.85
+R b_A1 2841
+C q1b0_M2 GND 105.77
+R q1b0_M2 2484
+R q1b0_n_M2 717
+R a_314_n81# 59
+C q0b1_M2 GND 2.01
+R q0b1_M2 1579
+R q0b0_n_M2 717
+C b0_M2 GND 95.27
+R b0_M2 1993
+R a_221_n81# 59
+C q0b2_M2 GND 21.71
+R q0b2_M2 2564
+R q0b1_n_M2 717
+R b1_M2 1991
+R a_134_n81# 59
+R q0b2_n_M2 717
+C b2_M2 GND 4.24
+R b2_M2 1994
+C b2_A1 GND 252.64
+R b2_A1 2567
+R a_1578_n43# 64
+R a_1700_n31# 64
+C c2_A1 GND 6.04
+R c2_A1 2516
+R xor_3_A1 1568
+R a_1651_n25# 909
+R b2n_A1 1529
+R a3n_A1 909
+R a_1505_n22# 214
+C n13_A1 GND 7.52
+R n13_A1 852
+R cout3_n_A1 822
+R b3n_A1 1529
+R a_531_17# 59
+R a_444_17# 59
+R a_351_17# 59
+R a_1700_53# 64
+C s3_A1 GND 31.10
+R s3_A1 316
+R n7_A1 909
+C b3_A1 GND 96.64
+R b3_A1 2566
+R n6_A1 1529
+R a_1578_59# 48
+R n10_nA1 612
+R n8_A1 852
+C n10_A1 GND 10.11
+R n10_A1 856
+R n10 84
+R n9_D3 84
+R n8_D3 84
+R n7_D3 84
+R q2b0_n_M1 717
+R q2b1_n_M1 717
+R q2b2_n_M1 717
+C out_n8_D3 GND 19.67
+R out_n8_D3 1025
+C q_bar_D3 GND 13.45
+R q_bar_D3 1025
+C out_n7_D3 GND 17.19
+R out_n7_D3 1025
+C n6_D3 GND 17.94
+R n6_D3 1012
+R a_1703_99# 48
+C s2_A1 GND 51.24
+R s2_A1 2518
+R xor_2_A1 1568
+R zc2_n_A1 612
+R n4_D3 84
+R n3_D3 84
+R n2_D3 84
+R n1_D3 84
+R a_793_93# 214
+R a_466_90# 214
+C q2_M2 GND 204.92
+R q2_M2 3692
+R a_137_88# 214
+C q_l1_D3 GND 46.22
+R q_l1_D3 2365
+C out_n2_D3 GND 2.44
+R out_n2_D3 1025
+C q_l1_bar_D3 GND 15.41
+R q_l1_bar_D3 1025
+R out_n1_D3 1025
+C D_bar_D3 GND 17.94
+R D_bar_D3 1012
+C q2_M1 GND 96.81
+R q2_M1 3320
+C en_bar_D3 GND 28.84
+R en_bar_D3 1841
+R c_fa6_n_M1 822
+R c_fa5_n_M1 822
+R a5_n_M1 822
+C q_D3 GND 20.00
+R q_D3 1616
+R q_D3_n 987
+R a_1576_187# 48
+R a_944_166# 48
+R a_898_166# 64
+R a_814_166# 64
+R a_712_166# 48
+R a_617_163# 48
+R zc5_n_A1 612
+R a_1701_227# 48
+R n17n_A1 612
+R q0_M2 3694
+R a_1576_233# 64
+R q_n_D2 987
+R n10_D2 84
+R n9_D2 84
+R n8_D2 84
+R n7_D2 84
+R c1_6_M1 852
+R zc1_6_n_M1 612
+C a2_A1 GND 277.35
+R a2_A1 1675
+R s_fa_6_n_M1 909
+R cn_6_M1 1529
+R so_6_M1 1568
+R a_794_169# 909
+R a_571_163# 64
+R a_487_163# 64
+R a_385_163# 48
+R an_6_M1 1529
+C co_6_M1 GND 9.77
+R co_6_M1 856
+C c1_5_M1 GND 7.58
+R c1_5_M1 852
+R co_n_6_M1 612
+R zc1_n_5_M1 612
+C q2b0_M1 GND 27.77
+R q2b0_M1 2479
+C a3_A1 GND 168.05
+R a3_A1 1669
+R s_fa5_n_M1 909
+R cn_5_M1 1529
+R so_5_M1 1568
+R a_467_166# 909
+R a_288_161# 48
+R a_242_161# 64
+R a_158_161# 64
+R a_56_161# 48
+R bn_5_M1 1529
+C a_364_169# GND 9.71
+R a_364_169# 856
+R co_5__M1 612
+R c1_4_M1 852
+R zc1_4_M1 612
+C q2b1_M1 GND 18.52
+R q2b1_M1 1581
+C c_fa6_M1 GND 48.74
+R c_fa6_M1 2433
+R s_fa4_n_M1 909
+R cn_1_M1 1529
+R so_4_M1 1568
+R q2b2_M1 2565
+R a_138_164# 909
+R bn4_M1 1529
+C co_4_M1 GND 10.46
+R co_4_M1 856
+R co_n4_M1 612
+C c_fa5_M1 GND 3.62
+R c_fa5_M1 2433
+C q_D2 GND 16.01
+R q_D2 1615
+R out_n8_D2 1025
+C q_bar_D2 GND 15.41
+R q_bar_D2 1025
+R out_n7__D2 1025
+R n6_D2 1012
+C s6_A1 GND 9.58
+R s6_A1 315
+R n19_A1 909
+R n4_D2 84
+R n3_D2 84
+R n2_D2 84
+R n1_D2 84
+R a_794_239# 214
+R a_467_236# 214
+R n20_A1 1529
+R a_1765_308# 214
+C n17_A1 GND 2.15
+R n17_A1 856
+R cout4n_A1 822
+C q1_M2 GND 255.08
+R q1_M2 3694
+C q_l1_D2 GND 8.14
+R q_l1_D2 2365
+C out_n2_D2 GND 18.70
+R out_n2_D2 1025
+C q_l1_bar_D2 GND 15.41
+R q_l1_bar_D2 1025
+C out_n1_D2 GND 17.19
+R out_n1_D2 1025
+C D_bar_D2 GND 17.94
+R D_bar_D2 1012
+C en_bar_D2 GND 28.84
+R en_bar_D2 1841
+R a_138_234# 214
+C c_fa3_M1 GND 30.29
+R c_fa3_M1 1538
+R c_fa3_n_M1 822
+R c_fa_n_M1 822
+R c_fa1_n_M1 822
+R q_D1_n 987
+C a4_A1 GND 368.45
+R a4_A1 1683
+C b4_A1 GND 268.87
+R b4_A1 2568
+R a_1576_317# 64
+R a_1698_329# 64
+C c4_A1 GND 6.04
+R c4_A1 2516
+R xor_5_A1 1568
+R a_1649_335# 909
+R b4n_A1 1529
+R a5n_A1 909
+C c5_A1 GND 8.09
+R c5_A1 191
+R a_945_312# 48
+R a_1503_338# 214
+C n21_A1 GND 6.50
+R n21_A1 852
+R a_899_312# 64
+R a_815_312# 64
+R a_713_312# 48
+R a_618_309# 48
+R cout5_n_A1 822
+R b5n_A1 1529
+R n10_D1 84
+R n9_D1 84
+R n8_D1 84
+R n7_D1 84
+C c1_3_M1 GND 7.70
+R c1_3_M1 852
+R zc1_n_3_M1 612
+C s_fa3_M1 GND 24.53
+R s_fa3_M1 2639
+C q_D1 GND 18.71
+R q_D1 1616
+C out_n8_D1 GND 19.67
+R out_n8_D1 1025
+C q_bar_D1 GND 13.45
+R q_bar_D1 1025
+C out_n7_D1 GND 17.19
+R out_n7_D1 1025
+C n6_D1 GND 17.94
+R n6_D1 1012
+R s_fa3_n_M1 909
+R cn_3_M1 1529
+R so_3_M1 1568
+R a_795_315# 909
+R a_572_309# 64
+R a_488_309# 64
+R a_386_309# 48
+R bn3_M1 1529
+C co_3_M1 GND 9.66
+R co_3_M1 856
+C c1_2_M1 GND 7.52
+R c1_2_M1 852
+R co_n3_M1 612
+R zc1_2_n_M1 612
+C c_fa2_M1 GND 34.75
+R c_fa2_M1 2433
+C s_fa2_M1 GND 17.71
+R s_fa2_M1 2640
+R son_2_M1 909
+R cn2_M1 1529
+R so_2_M1 1568
+R an_2_M1 909
+R a_289_307# 48
+R a_243_307# 64
+R a_159_307# 64
+R a_57_307# 48
+R bn_2_M1 1529
+C co_2_M1 GND 10.00
+R co_2_M1 856
+R co_n2_M1 612
+C c1_1_M1 GND 7.64
+R c1_1_M1 852
+R zc1_n1_M1 612
+C c_fa1_M1 GND 46.01
+R c_fa1_M1 2432
+C a1_A1 GND 273.24
+R a1_A1 1679
+R a1_n_M1 909
+R a_198_318# 1529
+R so_1_M1 1568
+R an_1_M1 909
+R bn_n_M1 1529
+C co_1_M1 GND 10.29
+R co_1_M1 856
+R co_n1_M1 612
+R n4_D1 84
+R n3_D1 84
+R n2_D1 84
+R n1_D1 84
+R a_1698_413# 64
+C s5_A1 GND 7.30
+R s5_A1 312
+R n15_A1 909
+C b5_A1 GND 265.67
+R b5_A1 2452
+R n14_A1 1529
+R a_1576_419# 48
+C a5_A1 GND 256.41
+R a5_A1 1551
+R n18_nA1 612
+C n16_A1 GND 7.87
+R n16_A1 852
+C q_l1_D1 GND 46.22
+R q_l1_D1 2365
+C out_n2_D1 GND 18.70
+R out_n2_D1 1025
+C q_l1_bar_D1 GND 15.41
+R q_l1_bar_D1 1025
+C out_n1_D1 GND 17.19
+R out_n1_D1 1025
+C D_bar_D1 GND 3.83
+R D_bar_D1 1012
+C en_bar_D1 GND 28.62
+R en_bar_D1 1841
+C en GND 117.02
+R en 5798
+R a_736_427# 59
+R q1b2_M1 1579
+R q1b2_n_M1 717
+R a_649_427# 59
+R q1b1_M1 1580
+C n18_A1 GND 10.29
+R n18_A1 856
+R q1b1_n_M1 717
+R a_556_427# 59
+C a_A1 GND 238.14
+R a_A1 1581
+C q1b0_M1 GND 105.92
+R q1b0_M1 2484
+C q1_M1 GND 78.58
+R q1_M1 3316
+R q1b0_n_M1 717
+R a_303_425# 59
+C q0b1_M1 GND 2.01
+R q0b1_M1 1579
+R q0b0_n_M1 717
+C b0_M1 GND 89.50
+R b0_M1 1992
+R a_210_425# 59
+C q0b2_M1 GND 21.71
+R q0b2_M1 2564
+R q0b1_n_M1 717
+C b1_M1 GND 95.43
+R b1_M1 1990
+R a_123_425# 59
+R q0b2_n_M1 717
+C q0_M1 GND 141.78
+R q0_M1 3322
+C b2_M1 GND 136.24
+R b2_M1 1993
+R a_1701_459# 48
+C c3_A1 GND 25.70
+R c3_A1 2518
+R xor_4_A1 1568
+R zc4_n_A1 612
+R w_1402_n264# 5182
+C w_1024_n235# GND 369.65
+R w_1024_n235# 322101
+C vss GND 1072.96
+R vss 65248
+C vdd GND 1606.31
+R vdd 895309

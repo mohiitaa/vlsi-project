@@ -1,0 +1,520 @@
+| units: 100 tech: scmos format: MIT
+p cout3_n_A1 c3_A1 vdd 2 12 508 269
+p n10_A1 vdd a_523_272# 2 18 521 272
+p n13_A1 a_523_272# cout3_n_A1 2 18 528 272
+p cout5_n_A1 c5_A1 vdd 2 12 868 271
+p n18_A1 vdd a_883_274# 2 18 881 274
+p n21_A1 a_883_274# cout5_n_A1 2 18 888 274
+n cout3_n_A1 c3_A1 vss 2 6 508 239
+n n10_A1 vss cout3_n_A1 2 6 518 239
+n n13_A1 cout3_n_A1 vss 2 6 528 239
+n cout5_n_A1 c5_A1 vss 2 6 868 241
+n n18_A1 vss cout5_n_A1 2 6 878 241
+n n21_A1 cout5_n_A1 vss 2 6 888 241
+n xor_3_A1 zc3_n_A1 a_372_208# 2 9 370 208
+n c2_A1 a_372_208# vss 2 9 377 208
+n zc3_n_A1 vss n13_A1 2 6 389 205
+n n11_A1 vss a_418_205# 2 12 416 205
+n n12_A1 a_418_205# s4_a1 2 12 423 205
+n c2_A1 s4_a1 n11_A1 2 9 433 205
+n xor_3_A1 n11_A1 vss 2 9 443 205
+n c2_A1 vss n12_A1 2 9 459 200
+n a3n_A1 vss a_502_205# 2 12 500 205
+n b3n_A1 a_502_205# xor_3_A1 2 12 507 205
+n b3_A1 xor_3_A1 a3n_A1 2 9 517 205
+n a3_A1 a3n_A1 vss 2 9 527 205
+n b3_A1 vss b3n_A1 2 9 543 200
+n b3_A1 n10_nA1 a_604_208# 2 9 602 208
+n a3_A1 a_604_208# vss 2 9 609 208
+p xor_3_A1 vdd zc3_n_A1 2 10 369 178
+p c2_A1 zc3_n_A1 vdd 2 10 379 178
+p zc3_n_A1 vdd n13_A1 2 12 389 176
+p n11_A1 n12_A1 s4_a1 2 27 415 160
+p n12_A1 s4_a1 n11_A1 2 18 425 169
+p xor_3_A1 n11_A1 vdd 2 18 435 169
+p c2_A1 vdd n12_A1 2 27 451 160
+p a3n_A1 b3n_A1 xor_3_A1 2 27 499 160
+p b3n_A1 xor_3_A1 a3n_A1 2 18 509 169
+p a3_A1 a3n_A1 vdd 2 18 519 169
+p b3_A1 vdd b3n_A1 2 27 535 160
+n n10_nA1 vss n10_A1 2 6 621 205
+n xor_5_A1 zc5_n_A1 a_732_210# 2 9 730 210
+n c4_A1 a_732_210# vss 2 9 737 210
+n zc5_n_A1 vss n21_A1 2 6 749 207
+n n19_A1 vss a_778_207# 2 12 776 207
+n n20_A1 a_778_207# s6_A1 2 12 783 207
+n c4_A1 s6_A1 n19_A1 2 9 793 207
+n xor_5_A1 n19_A1 vss 2 9 803 207
+n c4_A1 vss n20_A1 2 9 819 202
+n a5n_A1 vss a_862_207# 2 12 860 207
+n b5n_A1 a_862_207# xor_5_A1 2 12 867 207
+n b5_A1 xor_5_A1 a5n_A1 2 9 877 207
+n a5_A1 a5n_A1 vss 2 9 887 207
+n b5_A1 vss b5n_A1 2 9 903 202
+n b5_A1 n18_nA1 a_964_210# 2 9 962 210
+n a5_A1 a_964_210# vss 2 9 969 210
+p b3_A1 vdd n10_nA1 2 10 601 178
+p a3_A1 n10_nA1 vdd 2 10 611 178
+p n10_nA1 vdd n10_A1 2 12 621 176
+p xor_5_A1 vdd zc5_n_A1 2 10 729 180
+p c4_A1 zc5_n_A1 vdd 2 10 739 180
+p zc5_n_A1 vdd n21_A1 2 12 749 178
+p n19_A1 n20_A1 s6_A1 2 27 775 162
+p n20_A1 s6_A1 n19_A1 2 18 785 171
+p xor_5_A1 n19_A1 vdd 2 18 795 171
+p c4_A1 vdd n20_A1 2 27 811 162
+p a5n_A1 b5n_A1 xor_5_A1 2 27 859 162
+p b5n_A1 xor_5_A1 a5n_A1 2 18 869 171
+p a5_A1 a5n_A1 vdd 2 18 879 171
+p b5_A1 vdd b5n_A1 2 27 895 162
+n n18_nA1 vss n18_A1 2 6 981 207
+p b5_A1 vdd n18_nA1 2 10 961 180
+p a5_A1 n18_nA1 vdd 2 10 971 180
+p n18_nA1 vdd n18_A1 2 12 981 178
+p n1_A1 n5_A1 vdd 2 12 42 120
+p a1_A1 vdd n1_A1 2 10 52 120
+p b1_A1 n1_A1 vdd 2 10 62 120
+n n1_A1 n5_A1 vss 2 6 42 97
+p b1_A1 bn_A1 vdd 2 27 128 121
+p a1_A1 vdd a1n_A1 2 18 144 121
+p bn_A1 a1n_A1 xor1_A1 2 18 154 121
+p a1n_A1 xor1_A1 bn_A1 2 27 164 121
+p co_A1 n3_A1 vdd 2 27 212 121
+p xor1_A1 vdd n4_A1 2 18 228 121
+p n3_A1 n4_A1 s1_A1 2 18 238 121
+p n4_A1 s1_A1 n3_A1 2 27 248 121
+p zc1_n_A1 c1_A1 vdd 2 12 274 120
+p co_A1 vdd zc1_n_A1 2 10 284 120
+p xor1_A1 zc1_n_A1 vdd 2 10 294 120
+n a1_A1 vss a_56_91# 2 9 54 91
+n b1_A1 a_56_91# n1_A1 2 9 61 91
+n b1_A1 bn_A1 vss 2 9 120 99
+n a1_A1 vss a1n_A1 2 9 136 94
+n b1_A1 a1n_A1 xor1_A1 2 9 146 94
+n bn_A1 xor1_A1 a_158_91# 2 12 156 91
+n a1n_A1 a_158_91# vss 2 12 163 91
+n co_A1 n3_A1 vss 2 9 204 99
+n xor1_A1 vss n4_A1 2 9 220 94
+n co_A1 n4_A1 s1_A1 2 9 230 94
+n n3_A1 s1_A1 a_242_91# 2 12 240 91
+n n4_A1 a_242_91# vss 2 12 247 91
+n zc1_n_A1 c1_A1 vss 2 6 274 97
+p n9_n_A1 n9_A1 vdd 2 12 398 112
+p a2_A1 vdd n9_n_A1 2 10 408 112
+p b2_A1 n9_n_A1 vdd 2 10 418 112
+n co_A1 vss a_288_91# 2 9 286 91
+n xor1_A1 a_288_91# zc1_n_A1 2 9 293 91
+n n9_n_A1 n9_A1 vss 2 6 398 89
+p b2_A1 b2n_A1 vdd 2 27 484 113
+p a2_A1 vdd a_494_86# 2 18 500 113
+p b2n_A1 a_494_86# xor_2_A1 2 18 510 113
+p a_494_86# xor_2_A1 b2n_A1 2 27 520 113
+p s2_A1 n6_A1 vdd 2 27 568 113
+p xor_2_A1 vdd n7_A1 2 18 584 113
+p n6_A1 n7_A1 s3_A1 2 18 594 113
+p n7_A1 s3_A1 n6_A1 2 27 604 113
+p zc2_n_A1 n8_A1 vdd 2 12 630 112
+p s2_A1 vdd zc2_n_A1 2 10 640 112
+p xor_2_A1 zc2_n_A1 vdd 2 10 650 112
+p n17n_A1 n17_A1 vdd 2 12 758 114
+p a4_A1 vdd n17n_A1 2 10 768 114
+p b4_A1 n17n_A1 vdd 2 10 778 114
+n a2_A1 vss a_412_83# 2 9 410 83
+n b2_A1 a_412_83# n9_n_A1 2 9 417 83
+n b2_A1 b2n_A1 vss 2 9 476 91
+n a2_A1 vss a_494_86# 2 9 492 86
+n b2_A1 a_494_86# xor_2_A1 2 9 502 86
+n con_A1 co_A1 vss 2 14 39 65
+n b_A1 vss a_52_59# 2 20 50 59
+n a_A1 a_52_59# con_A1 2 20 57 59
+n a_A1 n2_A1 son_A1 2 14 77 59
+n b_A1 son_A1 n2_A1 2 14 87 59
+n con_A1 n2_A1 vss 2 10 97 66
+n son_A1 vss so_A1 2 13 107 66
+n b2n_A1 xor_2_A1 a_514_83# 2 12 512 83
+n a_494_86# a_514_83# vss 2 12 519 83
+n s2_A1 n6_A1 vss 2 9 560 91
+n xor_2_A1 vss n7_A1 2 9 576 86
+n s2_A1 n7_A1 s3_A1 2 9 586 86
+n n6_A1 s3_A1 a_598_83# 2 12 596 83
+n n7_A1 a_598_83# vss 2 12 603 83
+n zc2_n_A1 n8_A1 vss 2 6 630 89
+n s2_A1 vss a_644_83# 2 9 642 83
+n xor_2_A1 a_644_83# zc2_n_A1 2 9 649 83
+n n17n_A1 n17_A1 vss 2 6 758 91
+p b4_A1 b4n_A1 vdd 2 27 844 115
+p a4_A1 vdd a_854_88# 2 18 860 115
+p b4n_A1 a_854_88# xor_4_A1 2 18 870 115
+p a_854_88# xor_4_A1 b4n_A1 2 27 880 115
+p c3_A1 n14_A1 vdd 2 27 928 115
+p xor_4_A1 vdd n15_A1 2 18 944 115
+p n14_A1 n15_A1 s5_A1 2 18 954 115
+p n15_A1 s5_A1 n14_A1 2 27 964 115
+p zc4_n_A1 n16_A1 vdd 2 12 990 114
+p c3_A1 vdd zc4_n_A1 2 10 1000 114
+p xor_4_A1 zc4_n_A1 vdd 2 10 1010 114
+n a4_A1 vss a_772_85# 2 9 770 85
+n b4_A1 a_772_85# n17n_A1 2 9 777 85
+n b4_A1 b4n_A1 vss 2 9 836 93
+n a4_A1 vss a_854_88# 2 9 852 88
+n b4_A1 a_854_88# xor_4_A1 2 9 862 88
+n b4n_A1 xor_4_A1 a_874_85# 2 12 872 85
+n a_854_88# a_874_85# vss 2 12 879 85
+n c3_A1 n14_A1 vss 2 9 920 93
+n xor_4_A1 vss n15_A1 2 9 936 88
+n c3_A1 n15_A1 s5_A1 2 9 946 88
+n n14_A1 s5_A1 a_958_85# 2 12 956 85
+n n15_A1 a_958_85# vss 2 12 963 85
+n zc4_n_A1 n16_A1 vss 2 6 990 91
+n c3_A1 vss a_1004_85# 2 9 1002 85
+n xor_4_A1 a_1004_85# zc4_n_A1 2 9 1009 85
+n c1_A1 vss cout_n_A1 2 6 135 63
+n n5_A1 cout_n_A1 vss 2 6 145 63
+n cout_n_A1 vss s2_A1 2 6 155 63
+p con_A1 co_A1 vdd 2 28 39 19
+p b_A1 vdd con_A1 2 28 49 19
+p a_A1 con_A1 vdd 2 28 59 19
+p a_A1 vdd a_79_22# 2 25 77 22
+p b_A1 a_79_22# son_A1 2 25 84 22
+n n8_A1 vss cout2_n_A1 2 6 491 55
+n n9_A1 cout2_n_A1 vss 2 6 501 55
+n cout2_n_A1 vss c2_A1 2 6 511 55
+n n16_A1 vss cout4n_A1 2 6 851 57
+n n17_A1 cout4n_A1 vss 2 6 861 57
+n cout4n_A1 vss c4_A1 2 6 871 57
+p con_A1 son_A1 vdd 2 13 94 31
+p son_A1 vdd so_A1 2 25 107 19
+p c1_A1 cout_n_A1 a_137_18# 2 18 135 18
+p n5_A1 a_137_18# vdd 2 18 142 18
+p cout_n_A1 vdd s2_A1 2 12 155 27
+p n8_A1 cout2_n_A1 a_493_10# 2 18 491 10
+p n9_A1 a_493_10# vdd 2 18 498 10
+p cout2_n_A1 vdd c2_A1 2 12 511 19
+p n16_A1 cout4n_A1 a_853_12# 2 18 851 12
+p n17_A1 a_853_12# vdd 2 18 858 12
+p cout4n_A1 vdd c4_A1 2 12 871 21
+C s4_a1 vss 28.38
+C vss so_A1 13.35
+C vdd a5_A1 23.43
+C vss n17n_A1 9.07
+C vdd n17_A1 13.09
+C vss n20_A1 7.28
+C vdd n10_nA1 5.96
+C b5_A1 a5_A1 2.26
+C vss a_494_86# 9.30
+C vdd s2_A1 50.15
+C cout5_n_A1 a5_A1 2.55
+C n11_A1 n12_A1 2.05
+C vdd c1_A1 10.69
+C vss b2_A1 32.31
+C n5_A1 c1_A1 2.19
+C n6_A1 s3_A1 2.91
+C s4_a1 n11_A1 2.73
+C xor_5_A1 vdd 12.52
+C n10_A1 n13_A1 2.06
+C a3_A1 vss 24.25
+C b2n_A1 a_494_86# 2.05
+C vss a5_A1 23.94
+C vdd n18_nA1 5.96
+C vss n17_A1 9.05
+C vdd b4n_A1 16.07
+C b1_A1 a1_A1 3.02
+C vss n10_nA1 9.07
+C vss s2_A1 28.89
+C vdd xor_2_A1 12.89
+C vdd a2_A1 36.16
+C vss c1_A1 16.19
+C a4_A1 b4n_A1 2.13
+C s4_a1 n12_A1 5.26
+C c4_A1 vdd 47.78
+C xor_5_A1 vss 29.74
+C vss n18_nA1 9.07
+C n19_A1 s6_A1 2.73
+C n18_A1 vdd 13.09
+C vss b4n_A1 7.28
+C vdd zc5_n_A1 5.96
+C vss xor_2_A1 30.27
+C vdd n6_A1 16.07
+C b5n_A1 a5_A1 2.13
+C vss a2_A1 18.12
+C vdd n9_n_A1 5.96
+C n19_A1 vdd 5.22
+C c4_A1 vss 29.96
+C b2n_A1 xor_2_A1 2.91
+C a2_A1 b2n_A1 2.13
+C vdd a_854_88# 5.22
+C xor_5_A1 b5n_A1 2.91
+C vdd b1_A1 25.36
+C n21_A1 vdd 11.31
+C n18_A1 vss 7.70
+C vdd con_A1 22.83
+C a1_A1 n1_A1 3.45
+C vss zc5_n_A1 9.07
+C n17_A1 n16_A1 2.06
+C co_A1 n3_A1 4.74
+C vss n6_A1 7.28
+C vdd n7_A1 5.22
+C vss n9_n_A1 9.07
+C b3_A1 vdd 21.16
+C vdd co_A1 30.35
+C n19_A1 vss 9.30
+C vdd cout_n_A1 11.91
+C n5_A1 cout_n_A1 2.15
+C vss a_854_88# 9.30
+C vdd xor_4_A1 12.89
+C vss b1_A1 29.34
+C vdd a1_A1 19.93
+C n21_A1 vss 14.41
+C cout3_n_A1 vdd 11.91
+C vss con_A1 14.27
+C vdd b_A1 24.91
+C c3_A1 n14_A1 4.74
+C a3n_A1 b3n_A1 2.05
+C vss n7_A1 9.30
+C vdd s3_A1 8.22
+C b3_A1 vss 36.66
+C a3n_A1 vdd 5.22
+C vss co_A1 39.91
+C vdd xor1_A1 12.52
+C vss cout_n_A1 8.11
+C vss xor_4_A1 30.27
+C vdd n14_A1 16.07
+C vss a1_A1 23.98
+C vdd n1_A1 5.96
+C n14_A1 n15_A1 2.05
+C cout3_n_A1 vss 8.11
+C c3_A1 vdd 50.98
+C a1_A1 bn_A1 2.13
+C vss b_A1 8.26
+C vdd a_A1 20.55
+C c4_A1 n20_A1 4.74
+C vdd s6_A1 30.09
+C vss s3_A1 6.27
+C vdd b4_A1 23.18
+C xor_3_A1 b3n_A1 2.91
+C a3n_A1 vss 9.30
+C b3n_A1 vdd 16.07
+C vss xor1_A1 29.74
+C vdd n3_A1 16.07
+C bn_A1 xor1_A1 2.91
+C xor_3_A1 vdd 12.52
+C co_A1 n2_A1 2.76
+C vdd cout2_n_A1 11.91
+C vss n14_A1 7.28
+C vdd n15_A1 5.22
+C vdd n5_A1 17.37
+C vss n1_A1 9.07
+C n14_A1 s5_A1 2.91
+C zc3_n_A1 vdd 5.96
+C c3_A1 vss 26.70
+C vss a_A1 12.92
+C vdd b5_A1 25.90
+C n19_A1 n20_A1 2.05
+C vss s6_A1 4.89
+C cout5_n_A1 vdd 11.91
+C n3_A1 n4_A1 2.05
+C vss b4_A1 32.31
+C vdd a4_A1 22.98
+C vdd n9_A1 13.09
+C b3n_A1 vss 7.28
+C vss n3_A1 7.28
+C vdd n4_A1 5.22
+C xor_3_A1 vss 29.74
+C c2_A1 vdd 47.78
+C s4_a1 b3_A1 2.02
+C s2_A1 n6_A1 4.74
+C co_A1 so_A1 2.47
+C vdd cout4n_A1 11.91
+C vss cout2_n_A1 8.11
+C vdd vss 5.08
+C vdd s5_A1 6.75
+C vss n15_A1 9.30
+C vdd bn_A1 16.07
+C vss n5_A1 10.38
+C zc3_n_A1 vss 9.07
+C vdd son_A1 5.32
+C vdd a5n_A1 5.22
+C vss b5_A1 34.54
+C c5_A1 vdd 6.66
+C cout5_n_A1 vss 8.11
+C n3_A1 s1_A1 2.91
+C vdd zc2_n_A1 5.96
+C vss a4_A1 18.12
+C vss n9_A1 9.73
+C vdd b2n_A1 16.07
+C cout5_n_A1 c5_A1 4.04
+C a3_A1 b3_A1 2.26
+C vss n4_A1 9.30
+C vdd s1_A1 32.78
+C c2_A1 vss 29.96
+C n11_A1 vdd 5.22
+C vss cout4n_A1 8.11
+C vdd n10_A1 13.09
+C vdd zc4_n_A1 5.96
+C vss s5_A1 4.89
+C vdd a1n_A1 5.22
+C vss bn_A1 7.28
+C c3_A1 n13_A1 2.29
+C a3_A1 cout3_n_A1 2.00
+C vss son_A1 9.21
+C vdd b5n_A1 16.07
+C vss a5n_A1 9.30
+C c5_A1 vss 2.54
+C vdd n8_A1 11.31
+C vss zc2_n_A1 9.07
+C b4n_A1 a_854_88# 2.05
+C vss b2n_A1 7.28
+C vss s1_A1 7.74
+C n20_A1 s6_A1 5.26
+C vdd zc1_n_A1 5.96
+C n11_A1 vss 9.30
+C n12_A1 vdd 16.07
+C n9_A1 n8_A1 2.06
+C vss n10_A1 7.70
+C vdd n13_A1 11.31
+C vdd n16_A1 11.31
+C vss zc4_n_A1 9.07
+C vss a1n_A1 9.30
+C s4_a1 vdd 10.37
+C bn_A1 a1n_A1 2.05
+C vdd so_A1 2.16
+C vss b5n_A1 7.28
+C vdd n17n_A1 5.96
+C vss n8_A1 14.41
+C vdd n20_A1 16.07
+C b4n_A1 xor_4_A1 2.91
+C son_A1 n2_A1 2.58
+C n18_A1 n21_A1 2.06
+C vdd a_494_86# 5.22
+C a5n_A1 b5n_A1 2.05
+C c2_A1 n12_A1 4.74
+C a3_A1 b3n_A1 2.13
+C vdd b2_A1 22.06
+C vss zc1_n_A1 9.07
+C n12_A1 vss 7.28
+C n6_A1 n7_A1 2.05
+C vss n13_A1 14.41
+C a3_A1 vdd 21.59
+C vss n16_A1 14.41
+R a_853_12# 214
+R a_493_10# 214
+R a_137_18# 214
+R cout4n_A1 822
+R cout2_n_A1 822
+R a_79_22# 298
+R cout_n_A1 822
+R a_1004_85# 48
+R a_958_85# 64
+R a_874_85# 64
+R a_772_85# 48
+C n16_A1 GND 7.87
+R n16_A1 852
+R zc4_n_A1 612
+C s5_A1 GND 7.30
+R s5_A1 312
+R n15_A1 909
+R n14_A1 1529
+R xor_4_A1 1568
+R a_854_88# 909
+R a_644_83# 48
+R a_598_83# 64
+R a_514_83# 64
+R so_A1 338
+R n2_A1 220
+R son_A1 1078
+R a_52_59# 107
+R a_A1 1325
+C b_A1 GND 11.58
+R b_A1 2489
+R con_A1 1767
+R a_412_83# 48
+R b4n_A1 1529
+C n17_A1 GND 9.71
+R n17_A1 856
+R n17n_A1 612
+C n8_A1 GND 7.87
+R n8_A1 852
+R zc2_n_A1 612
+R a4_A1 1347
+R b4_A1 2245
+C s3_A1 GND 31.10
+R s3_A1 316
+R n7_A1 909
+R n6_A1 1529
+R xor_2_A1 1568
+R s2_A1 2518
+R a_494_86# 909
+R a_288_91# 48
+R b2n_A1 1529
+C n9_A1 GND 9.32
+R n9_A1 856
+R a_242_91# 64
+R a_158_91# 64
+R a_56_91# 48
+R n9_n_A1 612
+R a2_A1 1346
+R c1_A1 852
+C b2_A1 GND 64.48
+R b2_A1 2243
+R zc1_n_A1 612
+R s1_A1 333
+R n4_A1 909
+R n3_A1 1529
+R xor1_A1 1568
+R co_A1 2714
+R a1n_A1 909
+R bn_A1 1529
+C n5_A1 GND 2.76
+R n5_A1 857
+R n1_A1 612
+R a1_A1 1343
+R b1_A1 2241
+R a_964_210# 48
+R n18_nA1 612
+R a5_A1 1347
+R a_862_207# 64
+R b5n_A1 1529
+R a5n_A1 909
+C b5_A1 GND 43.51
+R b5_A1 2246
+R s6_A1 315
+R a_778_207# 64
+R a_732_210# 48
+R zc5_n_A1 612
+R a_604_208# 48
+R n10_nA1 612
+R n20_A1 1529
+R n19_A1 909
+C c4_A1 GND 6.04
+R c4_A1 2516
+R xor_5_A1 1568
+C a3_A1 GND 28.91
+R a3_A1 1346
+R a_502_205# 64
+R b3n_A1 1529
+R a3n_A1 909
+R b3_A1 2243
+C s4_a1 GND 51.68
+R s4_a1 321
+R a_418_205# 64
+R a_372_208# 48
+R zc3_n_A1 612
+R n12_A1 1529
+R n11_A1 909
+C c2_A1 GND 6.04
+R c2_A1 2516
+R xor_3_A1 1568
+R a_883_274# 214
+R c5_A1 191
+R cout5_n_A1 822
+R a_523_272# 214
+R c3_A1 2518
+R cout3_n_A1 822
+R n21_A1 852
+C n18_A1 GND 10.29
+R n18_A1 856
+R n13_A1 852
+R n10_A1 856
+C vss GND 207.90
+R vss 12232
+R vdd 116917

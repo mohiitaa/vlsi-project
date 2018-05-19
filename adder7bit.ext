@@ -1,0 +1,888 @@
+timestamp 1523021392
+version 8.1
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_853_12#" 214 0 853 12 pdiff 0 0 90 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_493_10#" 214 0 493 10 pdiff 0 0 90 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_137_18#" 214 0 137 18 pdiff 0 0 90 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "cout4_n_A2" 822 0 844 19 pdiff 48 28 102 50 124 112 0 0 0 0 0 0 320 168 0 0 0 0
+node "cout2_n_A2" 822 0 484 17 pdiff 48 28 102 50 124 112 0 0 0 0 0 0 320 168 0 0 0 0
+node "a_79_19#" 333 0 79 19 pdiff 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_74_19#" 556 0 74 19 pdiff 0 0 84 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "cout_n_A2" 822 0 128 25 pdiff 48 28 102 50 124 112 0 0 0 0 0 0 320 168 0 0 0 0
+node "a_1004_85#" 48 0 1004 85 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_958_85#" 64 0 958 85 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_874_85#" 64 0 874 85 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_772_85#" 48 0 772 85 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "n16_A2" 852 7866 847 43 p 42 26 72 38 142 130 0 0 0 0 0 0 370 202 608 410 0 0
+node "zc4_n_A2" 612 0 990 87 p 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "s5_A2" 311 798 948 88 ndiff 87 40 189 70 0 0 0 0 0 0 0 0 306 158 200 138 0 0
+equiv "s5_A2" "s5_A2"
+node "n15_A2" 909 0 938 88 ndiff 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "n14_A2" 1529 0 913 96 ndiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "xor_4_A2" 1568 0 864 88 ndiff 87 40 189 70 286 250 0 0 0 0 0 0 513 252 522 352 0 0
+node "a_854_88#" 909 0 854 88 ndiff 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "a_644_83#" 48 0 644 83 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_598_83#" 64 0 598 83 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_514_83#" 64 0 514 83 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "so_A2" 364 133664 109 19 pdiff 77 40 151 64 0 0 0 0 0 0 0 0 3091 2026 107 76 0 0
+equiv "so_A2" "so_A2"
+node "n2_A2" 220 0 70 59 ndiff 204 92 0 0 0 0 0 0 0 0 0 0 136 76 0 0 0 0
+node "a_79_59#" 1116 0 79 59 ndiff 112 44 179 72 160 148 0 0 0 0 0 0 216 116 0 0 0 0
+node "a_52_59#" 107 0 52 59 ndiff 100 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_A2" 1918 3648 57 50 p 0 0 0 0 476 396 0 0 0 0 0 0 112 72 0 0 0 0
+equiv "a_A2" "a_A2"
+node "b_A2" 1744 4124 47 50 p 0 0 0 0 354 326 0 0 0 0 0 0 267 142 0 0 0 0
+equiv "b_A2" "b_A2"
+equiv "b_A2" "son_A2"
+node "con_A2" 1767 0 37 50 p 112 54 224 72 296 272 0 0 0 0 0 0 596 304 0 0 0 0
+equiv "con_A2" "con_A2"
+node "a_412_83#" 48 0 412 83 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b4n_A2" 1529 0 829 96 ndiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+equiv "b4n_A2" "a4n_A2"
+node "n17_A2" 856 9544 751 91 ndiff 42 26 72 38 150 134 0 0 0 0 0 0 367 206 542 366 0 0
+node "n17_n_A2" 612 0 758 87 p 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "n8_A2" 852 7866 487 41 p 42 26 72 38 142 130 0 0 0 0 0 0 370 202 608 410 0 0
+node "zc2_n_A2" 612 0 630 85 p 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "a4_A2" 1349 74563 768 108 p 0 0 0 0 304 266 0 0 0 0 0 0 477 254 4125 2146 0 0
+equiv "a4_A2" "a4_A2"
+node "b4_A2" 2249 57340 777 80 p 0 0 0 0 430 406 0 0 0 0 0 0 410 240 3096 2066 0 0
+equiv "b4_A2" "b4_A2"
+node "s3_A2" 318 54515 588 86 ndiff 87 40 189 70 0 0 0 0 0 0 0 0 1319 846 551 372 0 0
+equiv "s3_A2" "s3_A2"
+node "n7_A2" 909 0 578 86 ndiff 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "n6_A2" 1529 0 553 94 ndiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "xor_2_A2" 1568 0 504 86 ndiff 87 40 189 70 286 250 0 0 0 0 0 0 521 256 522 352 0 0
+node "s2_A2" 2518 55500 157 27 pdiff 42 26 72 38 448 422 0 0 0 0 0 0 1500 608 1535 968 0 0
+equiv "s2_A2" "s2_A2"
+equiv "s2_A2" "s2_A2"
+node "a_494_86#" 909 0 494 86 ndiff 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "a_288_91#" 48 0 288 91 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b2n_A2" 1529 0 469 94 ndiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+equiv "b2n_A2" "a2n_A2"
+node "n9_A2" 856 9430 391 89 ndiff 42 26 72 38 150 134 0 0 0 0 0 0 367 206 542 366 0 0
+node "a_242_91#" 64 0 242 91 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_158_91#" 64 0 158 91 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_56_91#" 48 0 56 91 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "n9_n_A2" 612 0 398 85 p 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "a2_A2" 1346 54376 408 106 p 0 0 0 0 304 266 0 0 0 0 0 0 476 240 3145 1454 0 0
+equiv "a2_A2" "a2_A2"
+node "c1_A2" 852 6954 131 49 p 42 26 72 38 142 130 0 0 0 0 0 0 370 202 578 390 0 0
+node "b2_A2" 2243 35188 417 78 p 0 0 0 0 430 406 0 0 0 0 0 0 295 160 2309 1128 0 0
+equiv "b2_A2" "b2_A2"
+node "zc1_n_A2" 612 0 274 93 p 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "s1_A2" 328 140125 232 94 ndiff 87 40 189 70 0 0 0 0 0 0 0 0 3328 2190 201 142 0 0
+equiv "s1_A2" "s1_A2"
+node "n4_A2" 909 0 222 94 ndiff 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "n3_A2" 1529 0 197 102 ndiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "xor1_A2" 1568 912 148 94 ndiff 87 40 189 70 286 250 0 0 0 0 0 0 521 256 522 352 0 0
+node "co_A2" 2714 9656 32 34 pdiff 84 42 166 70 448 422 0 0 0 0 0 0 659 346 822 540 0 0
+node "a1n_A2" 909 0 138 94 ndiff 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "b1n_A2" 1529 0 113 102 ndiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+equiv "b1n_A2" "bn_A2"
+node "n5_A2" 856 2761 35 97 ndiff 42 26 72 38 150 134 0 0 0 0 0 0 367 206 542 366 0 0
+node "n1_A2" 612 0 42 93 p 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "a1_A2" 1343 2394 52 114 p 0 0 0 0 304 266 0 0 0 0 0 0 256 104 704 474 0 0
+equiv "a1_A2" "a1_A2"
+node "b1_A2" 2241 2337 61 86 p 0 0 0 0 430 406 0 0 0 0 0 0 299 162 492 338 0 0
+equiv "b1_A2" "b1_A2"
+node "a_964_210#" 48 0 964 210 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "n18_n_A2" 612 0 955 210 ndiff 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "a5_A2" 1351 50173 879 167 p 0 0 0 0 304 266 0 0 0 0 0 0 420 218 3184 2132 0 0
+equiv "a5_A2" "a5_A2"
+node "a_862_207#" 64 0 862 207 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b5_n_A2" 1529 0 852 168 pdiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "a5_n_A2" 909 0 859 158 p 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "b5_A2" 2250 59605 877 202 p 0 0 0 0 430 406 0 0 0 0 0 0 405 238 3202 2144 0 0
+equiv "b5_A2" "b5_A2"
+node "s6_A2" 315 23459 777 162 pdiff 87 40 189 70 0 0 0 0 0 0 0 0 758 468 670 460 0 0
+equiv "s6_A2" "s6_A2"
+node "a_778_207#" 64 0 778 207 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_732_210#" 48 0 732 210 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "zc5_n_A2" 612 0 723 210 ndiff 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "a_604_208#" 48 0 604 208 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "n1_n_A2" 612 0 595 208 ndiff 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "n20_A2" 1529 0 768 168 pdiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "n19_A2" 909 0 775 158 p 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "c4_A2" 2516 6038 735 169 p 42 26 72 38 448 422 0 0 0 0 0 0 732 408 731 496 0 0
+equiv "c4_A2" "c4_A2"
+node "xor_5_A2" 1568 912 726 201 p 87 40 189 70 286 250 0 0 0 0 0 0 521 256 522 352 0 0
+node "a3_A2" 1350 65423 519 165 p 0 0 0 0 304 266 0 0 0 0 0 0 1574 988 729 490 0 0
+equiv "a3_A2" "a3_A2"
+node "a_502_205#" 64 0 502 205 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b3n_A2" 1529 0 492 166 pdiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "a3n_A2" 909 0 499 156 p 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "b3_A2" 2249 67066 517 200 p 0 0 0 0 430 406 0 0 0 0 0 0 1614 1044 658 442 0 0
+equiv "b3_A2" "b3_A2"
+node "s4_A2" 325 120127 417 160 pdiff 87 40 189 70 0 0 0 0 0 0 0 0 2687 1756 618 350 0 0
+equiv "s4_A2" "s4_A2"
+node "a_418_205#" 64 0 418 205 ndiff 60 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_372_208#" 48 0 372 208 ndiff 45 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "zc3_n_A2" 612 0 363 208 ndiff 57 32 80 36 112 100 0 0 0 0 0 0 258 128 0 0 0 0
+node "n12_A2" 1529 0 408 166 pdiff 57 32 294 136 142 130 0 0 0 0 0 0 472 244 0 0 0 0
+node "n11_A2" 909 0 415 156 p 72 34 144 52 156 144 0 0 0 0 0 0 256 134 0 0 0 0
+node "c2_A2" 2516 6038 375 167 p 42 26 72 38 448 422 0 0 0 0 0 0 732 408 731 496 0 0
+equiv "c2_A2" "c2_A2"
+node "xor_3_A2" 1568 1083 366 199 p 87 40 189 70 286 250 0 0 0 0 0 0 521 256 522 352 0 0
+node "a_787_232#" 107 0 787 232 ndiff 100 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "n2_7_A2" 220 0 747 235 ndiff 204 92 0 0 0 0 0 0 0 0 0 0 136 76 0 0 0 0
+node "a_883_274#" 214 0 883 274 pdiff 0 0 90 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "cout5_n_A2" 822 0 868 237 p 48 28 102 50 124 112 0 0 0 0 0 0 320 168 0 0 0 0
+node "n21_A2" 852 1482 751 178 pdiff 42 26 72 38 142 130 0 0 0 0 0 0 370 202 572 386 0 0
+node "n18_A2" 856 9943 877 256 pc 42 26 72 38 150 134 0 0 0 0 0 0 367 206 542 366 0 0
+node "s8_A2" 390 16462 805 232 ndiff 84 42 166 70 0 0 0 0 0 0 0 0 531 314 441 304 0 0
+equiv "s8_A2" "s8_A2"
+node "a_760_264#" 298 0 760 264 pdiff 0 0 125 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_741_258#" 1791 0 741 258 p 112 54 224 72 300 276 0 0 0 0 0 0 596 304 0 0 0 0
+node "c5_A2" 1521 55896 765 233 p 42 26 72 38 366 290 0 0 0 0 0 0 478 278 3021 2028 0 0
+equiv "c5_A2" "s8_n_A2"
+equiv "c5_A2" "c5_A2"
+node "s7_A2" 356 64516 728 239 ndiff 77 40 151 64 0 0 0 0 0 0 0 0 1540 990 270 190 0 0
+equiv "s7_A2" "s7_A2"
+node "a_523_272#" 214 0 523 272 pdiff 0 0 90 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "c3_A2" 2518 26608 501 239 ndiff 42 26 72 38 448 422 0 0 0 0 0 0 557 292 2324 1362 0 0
+equiv "c3_A2" "c3_A2"
+equiv "c3_A2" "c3_A2"
+node "cout3_n_A2" 822 0 508 235 p 48 28 102 50 124 112 0 0 0 0 0 0 320 168 0 0 0 0
+node "s7_n_A2" 1078 0 735 228 p 112 44 164 66 160 148 0 0 0 0 0 0 216 116 0 0 0 0
+node "n13_A2" 852 7524 391 176 pdiff 42 26 72 38 142 130 0 0 0 0 0 0 370 202 611 412 0 0
+node "n10_A2" 856 10285 517 254 pc 42 26 72 38 150 134 0 0 0 0 0 0 367 206 542 366 0 0
+node "c5_A1" 1747 48235 755 233 p 0 0 0 0 346 322 0 0 0 0 0 0 316 174 2281 1526 0 0
+equiv "c5_A1" "c5_A1"
+node "w_722_258#" 5923 0 722 258 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4576 296
+node "vss" 12481 208043 18 53 pw 4936 2110 1740 880 0 0 0 0 0 0 0 0 18757 4508 1450 502 0 0
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+node "vdd" 117860 369436 18 9 nw 2580 1160 7940 2334 0 0 0 0 0 0 0 0 29993 7150 276 120 74714 3612
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+cap "c3_A2" "b4n_A2" 1790
+cap "vss" "n2_A2" 752
+cap "a3_A2" "b3_A2" 1968
+cap "b2_A2" "s1_A2" 405
+cap "xor_4_A2" "a_854_88#" 1504
+cap "w_722_258#" "vdd" 31490
+cap "b5_A2" "s4_A2" 405
+cap "n20_A2" "c4_A2" 4737
+cap "vss" "zc4_n_A2" 9068
+cap "b2n_A2" "b2_A2" 894
+cap "a_288_91#" "zc1_n_A2" 940
+cap "n16_A2" "zc4_n_A2" 120
+cap "s7_A2" "vss" 2914
+cap "cout3_n_A2" "n10_A2" 945
+cap "a_741_258#" "vdd" 9640
+cap "con_A2" "co_A2" 1350
+cap "a_494_86#" "b2n_A2" 2052
+cap "c5_A2" "s7_A2" 405
+cap "a_79_19#" "b_A2" 940
+cap "a_787_232#" "vss" 470
+cap "c2_A2" "vdd" 47779
+cap "vss" "b1_A2" 29284
+cap "vdd" "n1_A2" 5963
+cap "s3_A2" "n6_A2" 2914
+cap "cout2_n_A2" "vdd" 11909
+cap "cout5_n_A2" "s8_A2" 2352
+cap "s8_A2" "a5_A2" 735
+cap "s4_A2" "c5_A1" 405
+cap "n21_A2" "n18_A2" 2055
+cap "vss" "s1_A2" 4888
+cap "vdd" "b2_A2" 26583
+cap "a3n_A2" "vss" 9296
+cap "c4_A2" "xor_4_A2" 405
+cap "n17_A2" "a4_A2" 405
+cap "b4n_A2" "b4_A2" 894
+cap "c5_A2" "s1_A2" 405
+cap "vss" "b2n_A2" 7281
+cap "vdd" "a_494_86#" 5222
+cap "zc5_n_A2" "vss" 9068
+cap "a1_A2" "b1_A2" 3164
+cap "a3n_A2" "xor_3_A2" 1504
+cap "s4_A2" "n11_A2" 1504
+cap "a_372_208#" "zc3_n_A2" 940
+cap "xor1_A2" "b1n_A2" 2914
+cap "vss" "zc2_n_A2" 9068
+cap "vdd" "n17_n_A2" 5963
+cap "a3_A2" "s4_A2" 540
+cap "b3n_A2" "a3n_A2" 2052
+cap "b5_A2" "a5_A2" 1968
+cap "vdd" "so_A2" 6439
+cap "vss" "a_79_59#" 9209
+cap "vss" "vdd" 5085
+cap "cout2_n_A2" "n9_A2" 945
+cap "vss" "s5_A2" 4888
+cap "n20_A2" "xor_5_A2" 1646
+cap "n19_A2" "c4_A2" 240
+cap "n1_n_A2" "a3_A2" 938
+cap "vdd" "n16_A2" 11306
+cap "n9_A2" "b2_A2" 629
+cap "a_958_85#" "xor_4_A2" 110
+cap "n16_A2" "s5_A2" 718
+cap "c5_A2" "vdd" 7167
+cap "a_732_210#" "zc5_n_A2" 940
+cap "a_79_19#" "con_A2" 1128
+cap "a_74_19#" "b_A2" 564
+cap "n2_7_A2" "vss" 752
+cap "xor_3_A2" "vdd" 12518
+cap "vdd" "a1_A2" 22842
+cap "s3_A2" "xor_2_A2" 754
+cap "n7_A2" "n6_A2" 2052
+cap "n21_A2" "s8_A2" 1056
+cap "zc3_n_A2" "n13_A2" 120
+cap "b3n_A2" "vdd" 16074
+cap "b3_A2" "vss" 34576
+cap "a_760_264#" "a5_A2" 330
+cap "vss" "n4_A2" 9296
+cap "vdd" "zc1_n_A2" 5963
+cap "n17_A2" "b4_A2" 405
+cap "n17_n_A2" "a4_A2" 938
+cap "n8_A2" "zc2_n_A2" 120
+cap "vss" "n9_A2" 9728
+cap "so_A2" "a4_A2" 540
+cap "a_598_83#" "s3_A2" 940
+cap "xor_5_A2" "n21_A2" 1034
+cap "s4_A2" "c2_A2" 38
+cap "xor_5_A2" "a_862_207#" 940
+cap "vdd" "n8_A2" 11306
+cap "vss" "a4_A2" 21344
+cap "xor_4_A2" "b4n_A2" 2914
+cap "n2_A2" "a_79_59#" 2585
+cap "s6_A2" "cout5_n_A2" 574
+cap "b3n_A2" "b3_A2" 894
+cap "c1_A2" "xor1_A2" 1034
+cap "s6_A2" "a5_A2" 405
+cap "vss" "a_52_59#" 470
+cap "a_137_18#" "cout_n_A2" 940
+cap "n19_A2" "xor_5_A2" 1585
+cap "vss" "n15_A2" 9296
+cap "vdd" "zc4_n_A2" 5963
+cap "zc4_n_A2" "s5_A2" 936
+cap "a_874_85#" "xor_4_A2" 940
+cap "n13_A2" "n10_A2" 2055
+cap "s7_A2" "vdd" 1627
+cap "c3_A2" "vss" 26695
+cap "s6_A2" "n20_A2" 5066
+cap "b_A2" "n5_A2" 1710
+cap "a_74_19#" "con_A2" 752
+cap "n21_A2" "c5_A1" 6210
+cap "w_722_258#" "a5_A2" 2109
+cap "vdd" "b1_A2" 25603
+cap "vss" "n18_n_A2" 9068
+cap "n7_A2" "xor_2_A2" 1585
+cap "s3_A2" "s2_A2" 38
+cap "n8_A2" "n9_A2" 2055
+cap "a_412_83#" "n9_n_A2" 940
+cap "n18_A2" "s8_A2" 405
+cap "s4_A2" "vss" 5788
+cap "a3n_A2" "vdd" 5222
+cap "a_741_258#" "a5_A2" 918
+cap "b5_n_A2" "a5_n_A2" 2052
+cap "vdd" "s1_A2" 9104
+cap "vss" "n3_A2" 7281
+cap "cout_n_A2" "n5_A2" 945
+cap "s4_A2" "c5_A2" 405
+cap "zc5_n_A2" "vdd" 5963
+cap "n1_n_A2" "vss" 9068
+cap "vdd" "b2n_A2" 16074
+cap "so_A2" "b4_A2" 405
+cap "cout_n_A2" "c1_A2" 597
+cap "s4_A2" "xor_3_A2" 754
+cap "xor_5_A2" "b5_n_A2" 2914
+cap "vss" "b4_A2" 32279
+cap "vdd" "zc2_n_A2" 5963
+cap "co_A2" "n5_A2" 980
+cap "a1n_A2" "b1n_A2" 2052
+cap "a_854_88#" "b4n_A2" 2052
+cap "cout_n_A2" "s2_A2" 60
+cap "s6_A2" "n21_A2" 38
+cap "b5_A2" "n18_A2" 405
+cap "b3_A2" "s1_A2" 405
+cap "b5_A2" "b5_n_A2" 894
+cap "a3n_A2" "b3_A2" 240
+cap "vdd" "a_79_59#" 5788
+cap "vss" "a_A2" 11016
+cap "c1_A2" "co_A2" 38
+cap "s1_A2" "n4_A2" 1504
+cap "c4_A2" "xor_5_A2" 277
+cap "s2_A2" "co_A2" 763
+cap "vdd" "s5_A2" 6725
+cap "n9_n_A2" "a2_A2" 938
+cap "vss" "n14_A2" 7281
+cap "a_523_272#" "vdd" 470
+cap "cout3_n_A2" "vss" 8113
+cap "s7_n_A2" "w_722_258#" 5078
+cap "s6_A2" "n19_A2" 3865
+cap "con_A2" "n5_A2" 1432
+cap "c3_A2" "zc4_n_A2" 938
+cap "n21_A2" "w_722_258#" 798
+cap "a_741_258#" "s7_n_A2" 1894
+cap "vss" "a5_A2" 26481
+cap "cout5_n_A2" "vss" 8113
+cap "n7_A2" "s2_A2" 240
+cap "n6_A2" "xor_2_A2" 1646
+cap "c5_A2" "a5_A2" 405
+cap "n21_A2" "a_741_258#" 540
+cap "cout5_n_A2" "c5_A2" 60
+cap "vss" "xor1_A2" 29738
+cap "vdd" "n4_A2" 5222
+cap "b3_A2" "vdd" 21156
+cap "a3_A2" "n13_A2" 405
+cap "n20_A2" "vss" 7281
+cap "a_853_12#" "cout4_n_A2" 940
+cap "vdd" "n9_A2" 13092
+cap "a_853_12#" "n17_A2" 423
+cap "a_418_205#" "xor_3_A2" 110
+cap "xor_5_A2" "a5_n_A2" 1504
+cap "vss" "s3_A2" 5563
+cap "vdd" "a4_A2" 21782
+cap "a_79_19#" "n5_A2" 220
+cap "b5_A2" "s8_A2" 405
+cap "s6_A2" "n18_A2" 443
+cap "b5_A2" "a5_n_A2" 240
+cap "vss" "b_A2" 8257
+cap "zc1_n_A2" "xor1_A2" 616
+cap "s1_A2" "n3_A2" 2914
+cap "a_56_91#" "n1_A2" 940
+cap "vss" "xor_4_A2" 30274
+cap "vdd" "n15_A2" 5222
+cap "a_242_91#" "s1_A2" 940
+cap "n16_A2" "xor_4_A2" 1034
+cap "s5_A2" "n15_A2" 1504
+cap "c3_A2" "vdd" 50978
+cap "s7_n_A2" "vss" 9209
+cap "s6_A2" "c4_A2" 38
+cap "c3_A2" "s5_A2" 38
+cap "vss" "cout_n_A2" 8113
+cap "a_883_274#" "vdd" 470
+cap "n21_A2" "vss" 15335
+cap "cout4_n_A2" "c4_A2" 60
+cap "vdd" "n18_n_A2" 5963
+cap "so_A2" "co_A2" 807
+cap "n6_A2" "s2_A2" 4737
+cap "n21_A2" "c5_A2" 540
+cap "s7_A2" "a5_A2" 2160
+cap "s4_A2" "vdd" 6181
+cap "vss" "co_A2" 33667
+cap "vdd" "n3_A2" 16074
+cap "n8_A2" "s3_A2" 718
+cap "b3_A2" "c3_A2" 807
+cap "n1_n_A2" "vdd" 5963
+cap "n19_A2" "vss" 9296
+cap "a_964_210#" "n18_n_A2" 940
+cap "a_598_83#" "xor_2_A2" 110
+cap "b5_A2" "c5_A1" 405
+cap "n12_A2" "n11_A2" 2052
+cap "zc3_n_A2" "c2_A2" 938
+cap "s1_A2" "a5_A2" 405
+cap "vss" "n7_A2" 9296
+cap "vdd" "b4_A2" 21696
+cap "a_74_19#" "n5_A2" 132
+cap "b3_A2" "s4_A2" 540
+cap "s1_A2" "xor1_A2" 716
+cap "zc1_n_A2" "co_A2" 938
+cap "n4_A2" "n3_A2" 2052
+cap "vdd" "a_A2" 11996
+cap "vss" "con_A2" 14870
+cap "vdd" "n14_A2" 16074
+cap "vss" "a_854_88#" 9296
+cap "n9_n_A2" "b2_A2" 930
+cap "zc4_n_A2" "xor_4_A2" 616
+cap "s5_A2" "n14_A2" 2914
+cap "n13_A2" "vss" 14411
+cap "cout3_n_A2" "vdd" 11909
+cap "s6_A2" "xor_5_A2" 1121
+cap "c3_A2" "n15_A2" 240
+cap "a_137_18#" "n5_A2" 423
+cap "a_604_208#" "n1_n_A2" 940
+cap "cout2_n_A2" "a_493_10#" 940
+cap "a_760_264#" "c5_A1" 940
+cap "s8_A2" "w_722_258#" 1739
+cap "a_523_272#" "cout3_n_A2" 940
+cap "n18_A2" "vss" 7703
+cap "cout5_n_A2" "vdd" 11909
+cap "b5_A2" "s6_A2" 405
+cap "vdd" "a5_A2" 22275
+cap "vss" "b5_n_A2" 7281
+cap "n2_A2" "co_A2" 2760
+cap "xor_2_A2" "s2_A2" 805
+cap "xor_3_A2" "n13_A2" 1034
+cap "zc3_n_A2" "vss" 9068
+cap "vdd" "xor1_A2" 12518
+cap "vss" "a1n_A2" 9296
+cap "zc2_n_A2" "s3_A2" 936
+cap "a4_A2" "b4_A2" 2259
+cap "b3_A2" "cout3_n_A2" 804
+cap "vss" "n9_n_A2" 9068
+cap "n20_A2" "vdd" 16074
+cap "c4_A2" "vss" 29964
+cap "c4_A2" "n16_A2" 540
+cap "a_514_83#" "xor_2_A2" 940
+cap "zc3_n_A2" "xor_3_A2" 616
+cap "vdd" "s3_A2" 7243
+cap "n12_A2" "c2_A2" 4737
+cap "vss" "n6_A2" 7281
+cap "zc5_n_A2" "n21_A2" 120
+cap "n4_A2" "xor1_A2" 1585
+cap "s1_A2" "co_A2" 405
+cap "c1_A2" "n5_A2" 2055
+cap "vdd" "b_A2" 14093
+cap "c2_A2" "xor_2_A2" 405
+cap "a2_A2" "b2_A2" 2875
+cap "vdd" "xor_4_A2" 12518
+cap "s5_A2" "xor_4_A2" 754
+cap "n15_A2" "n14_A2" 2052
+cap "s7_n_A2" "vdd" 240
+cap "n10_A2" "vss" 7703
+cap "c5_A1" "w_722_258#" 11807
+cap "a_778_207#" "xor_5_A2" 110
+cap "c3_A2" "n14_A2" 4737
+cap "vdd" "cout_n_A2" 11909
+cap "s2_A2" "c1_A2" 1350
+cap "a_1004_85#" "zc4_n_A2" 940
+cap "s8_A2" "vss" 8085
+cap "a_741_258#" "c5_A1" 1504
+cap "c3_A2" "cout3_n_A2" 714
+cap "vss" "a5_n_A2" 9296
+cap "n21_A2" "vdd" 11504
+cap "a_79_59#" "co_A2" 176
+cap "xor_2_A2" "a_494_86#" 1504
+cap "s8_A2" "c5_A2" 1080
+cap "n2_7_A2" "s7_n_A2" 2585
+cap "a_760_264#" "a_741_258#" 1128
+cap "n12_A2" "vss" 7281
+cap "vss" "b1n_A2" 7281
+cap "vdd" "co_A2" 30183
+cap "a4_A2" "s3_A2" 675
+cap "so_A2" "a2_A2" 675
+cap "n2_7_A2" "n21_A2" 540
+cap "a_883_274#" "cout5_n_A2" 940
+cap "n19_A2" "vdd" 5222
+cap "xor_5_A2" "vss" 29738
+cap "cout4_n_A2" "n17_A2" 945
+cap "n18_n_A2" "a5_A2" 938
+cap "vss" "a2_A2" 21274
+cap "s4_A2" "a5_A2" 405
+cap "n12_A2" "xor_3_A2" 1646
+cap "n11_A2" "c2_A2" 240
+cap "vss" "xor_2_A2" 30274
+cap "vdd" "n7_A2" 5222
+cap "b5_A2" "vss" 31789
+cap "a1n_A2" "b1_A2" 240
+cap "b1n_A2" "a1_A2" 3214
+cap "n5_A2" "n1_A2" 120
+cap "a_79_59#" "con_A2" 1894
+cap "a_853_12#" "vdd" 470
+cap "b5_A2" "c5_A2" 405
+cap "s4_A2" "a_418_205#" 940
+cap "n4_A2" "co_A2" 240
+cap "n3_A2" "xor1_A2" 1646
+cap "vdd" "con_A2" 21670
+cap "vss" "b4n_A2" 7281
+cap "a3_A2" "a_502_205#" 330
+cap "a_242_91#" "xor1_A2" 110
+cap "c2_A2" "s2_A2" 405
+cap "vdd" "a_854_88#" 5222
+cap "n15_A2" "xor_4_A2" 1585
+cap "c5_A1" "vss" 8201
+cap "n13_A2" "vdd" 11306
+cap "zc5_n_A2" "c4_A2" 938
+cap "s2_A2" "b2_A2" 675
+cap "c3_A2" "xor_4_A2" 805
+cap "c5_A2" "c5_A1" 654
+cap "vdd" "b5_n_A2" 16074
+cap "n18_A2" "vdd" 13092
+cap "a_741_258#" "w_722_258#" 13378
+cap "s6_A2" "a_778_207#" 940
+cap "so_A2" "n5_A2" 807
+cap "s2_A2" "a_494_86#" 264
+cap "a_52_59#" "co_A2" 386
+cap "vss" "n5_A2" 10379
+cap "vdd" "a1n_A2" 5222
+cap "zc3_n_A2" "vdd" 5963
+cap "n11_A2" "vss" 9296
+cap "b4_A2" "s3_A2" 405
+cap "n8_A2" "xor_2_A2" 1034
+cap "a_79_19#" "vdd" 470
+cap "b3_A2" "n13_A2" 540
+cap "a_787_232#" "s8_A2" 188
+cap "c4_A2" "vdd" 47779
+cap "a3_A2" "vss" 21217
+cap "vss" "c1_A2" 14411
+cap "vdd" "n9_n_A2" 5963
+cap "n17_A2" "n17_n_A2" 120
+cap "n11_A2" "xor_3_A2" 1585
+cap "s6_A2" "vss" 10423
+cap "n5_A2" "a1_A2" 629
+cap "b1n_A2" "b1_A2" 894
+cap "vss" "s2_A2" 29167
+cap "vdd" "n6_A2" 16074
+cap "cout2_n_A2" "c2_A2" 60
+cap "a_644_83#" "zc2_n_A2" 940
+cap "a_52_59#" "con_A2" 1316
+cap "s6_A2" "c5_A2" 763
+cap "a3_A2" "xor_3_A2" 330
+cap "b5_A2" "s7_A2" 405
+cap "a_493_10#" "vdd" 470
+cap "cout4_n_A2" "vss" 8113
+cap "vss" "n17_A2" 9053
+cap "cout4_n_A2" "n16_A2" 597
+cap "n3_A2" "co_A2" 4737
+cap "n16_A2" "n17_A2" 2055
+cap "a_772_85#" "n17_n_A2" 940
+cap "a3_A2" "b3n_A2" 2134
+cap "c1_A2" "zc1_n_A2" 120
+cap "a_158_91#" "xor1_A2" 940
+cap "n14_A2" "xor_4_A2" 1646
+cap "n10_A2" "vdd" 13092
+cap "zc5_n_A2" "xor_5_A2" 616
+cap "c3_A2" "a_854_88#" 264
+cap "b5_A2" "s1_A2" 405
+cap "a_494_86#" "b2_A2" 240
+cap "b2n_A2" "a2_A2" 3484
+cap "n9_A2" "n9_n_A2" 120
+cap "a_958_85#" "s5_A2" 940
+cap "c3_A2" "n13_A2" 2295
+cap "s7_A2" "c5_A1" 405
+cap "a_523_272#" "n10_A2" 423
+cap "s8_A2" "vdd" 1010
+cap "a_741_258#" "vss" 14870
+cap "c5_A2" "w_722_258#" 9972
+cap "vdd" "a5_n_A2" 5222
+cap "xor_2_A2" "b2n_A2" 2914
+cap "a_741_258#" "c5_A2" 867
+cap "s7_n_A2" "a5_A2" 330
+cap "vdd" "b1n_A2" 16074
+cap "vss" "n1_A2" 9068
+cap "n12_A2" "vdd" 16074
+cap "c2_A2" "vss" 29964
+cap "a_493_10#" "n9_A2" 423
+cap "a_74_19#" "vdd" 282
+cap "zc2_n_A2" "xor_2_A2" 616
+cap "cout2_n_A2" "vss" 8113
+cap "n21_A2" "a5_A2" 405
+cap "cout5_n_A2" "n21_A2" 597
+cap "s4_A2" "n13_A2" 718
+cap "c5_A1" "s1_A2" 405
+cap "n18_A2" "n18_n_A2" 120
+cap "a_883_274#" "n18_A2" 423
+cap "vss" "b2_A2" 29923
+cap "vdd" "a2_A2" 22428
+cap "xor_5_A2" "vdd" 12518
+cap "c4_A2" "c3_A2" 405
+cap "c2_A2" "xor_3_A2" 277
+cap "b5_A2" "vdd" 21696
+cap "n5_A2" "b1_A2" 738
+cap "n1_A2" "a1_A2" 1868
+cap "vdd" "xor_2_A2" 12894
+cap "vss" "a_494_86#" 9296
+cap "a_854_88#" "b4_A2" 240
+cap "s4_A2" "zc3_n_A2" 936
+cap "a_137_18#" "vdd" 470
+cap "a_502_205#" "xor_3_A2" 940
+cap "vdd" "b4n_A2" 16074
+cap "vss" "n17_n_A2" 9068
+cap "xor1_A2" "co_A2" 682
+cap "a3_A2" "s1_A2" 405
+cap "vss" "so_A2" 2914
+cap "c5_A1" "vdd" 4104
+cap "c2_A2" "n8_A2" 540
+cap "n9_A2" "a2_A2" 405
+cap "n20_A2" "n19_A2" 2052
+cap "vss" "n16_A2" 14411
+cap "cout2_n_A2" "n8_A2" 597
+cap "c3_A2" "n10_A2" 945
+cap "cout3_n_A2" "n13_A2" 597
+cap "s7_A2" "w_722_258#" 3310
+cap "c5_A2" "vss" 14160
+cap "a_79_59#" "n5_A2" 895
+cap "s2_A2" "b2n_A2" 1790
+cap "n21_A2" "s7_n_A2" 936
+cap "vdd" "n5_A2" 15787
+cap "vss" "a1_A2" 16638
+cap "n11_A2" "vdd" 5222
+cap "xor_3_A2" "vss" 29738
+cap "zc2_n_A2" "s2_A2" 938
+cap "s3_A2" "n7_A2" 1504
+cap "cout5_n_A2" "n18_A2" 945
+cap "a_787_232#" "a_741_258#" 1316
+cap "vdd" "c1_A2" 11306
+cap "vss" "zc1_n_A2" 9068
+cap "a3_A2" "vdd" 18723
+cap "b3n_A2" "vss" 7281
+cap "a5_A2" "b5_n_A2" 2134
+cap "cout_n_A2" "co_A2" 574
+cap "b4n_A2" "a4_A2" 2134
+cap "n1_A2" "b1_A2" 132
+cap "s6_A2" "vdd" 6454
+cap "n1_n_A2" "n10_A2" 120
+cap "vdd" "s2_A2" 50153
+cap "b_A2" "con_A2" 1504
+cap "b3n_A2" "xor_3_A2" 2914
+cap "s4_A2" "n12_A2" 2914
+cap "cout4_n_A2" "vdd" 11909
+cap "xor1_A2" "a1n_A2" 1504
+cap "vdd" "n17_A2" 13092
+cap "vss" "n8_A2" 14411
+device mosfet pfet 871 21 872 22 2 12 "vdd" "cout4_n_A2" 4 0 "vdd" 12 0 "c4_A2" 12 0
+device mosfet pfet 858 12 859 13 2 18 "vdd" "n17_A2" 4 0 "a_853_12#" 18 0 "vdd" 18 0
+device mosfet pfet 851 12 852 13 2 18 "vdd" "n16_A2" 4 0 "cout4_n_A2" 18 0 "a_853_12#" 18 0
+device mosfet pfet 511 19 512 20 2 12 "vdd" "cout2_n_A2" 4 0 "vdd" 12 0 "c2_A2" 12 0
+device mosfet pfet 498 10 499 11 2 18 "vdd" "n9_A2" 4 0 "a_493_10#" 18 0 "vdd" 18 0
+device mosfet pfet 491 10 492 11 2 18 "vdd" "n8_A2" 4 0 "cout2_n_A2" 18 0 "a_493_10#" 18 0
+device mosfet pfet 155 27 156 28 2 12 "vdd" "cout_n_A2" 4 0 "vdd" 12 0 "s2_A2" 12 0
+device mosfet pfet 142 18 143 19 2 18 "vdd" "n5_A2" 4 0 "a_137_18#" 18 0 "vdd" 18 0
+device mosfet pfet 135 18 136 19 2 18 "vdd" "c1_A2" 4 0 "cout_n_A2" 18 0 "a_137_18#" 18 0
+device mosfet pfet 107 19 108 20 2 25 "vdd" "a_79_59#" 4 0 "vdd" 25 0 "so_A2" 25 0
+device mosfet pfet 94 31 95 32 2 13 "vdd" "con_A2" 4 0 "a_79_59#" 13 0 "vdd" 13 0
+device mosfet nfet 871 57 872 58 2 6 "vss" "cout4_n_A2" 4 0 "vss" 6 0 "c4_A2" 6 0
+device mosfet nfet 861 57 862 58 2 6 "vss" "n17_A2" 4 0 "cout4_n_A2" 6 0 "vss" 6 0
+device mosfet nfet 851 57 852 58 2 6 "vss" "n16_A2" 4 0 "vss" 6 0 "cout4_n_A2" 6 0
+device mosfet nfet 511 55 512 56 2 6 "vss" "cout2_n_A2" 4 0 "vss" 6 0 "c2_A2" 6 0
+device mosfet nfet 501 55 502 56 2 6 "vss" "n9_A2" 4 0 "cout2_n_A2" 6 0 "vss" 6 0
+device mosfet nfet 491 55 492 56 2 6 "vss" "n8_A2" 4 0 "vss" 6 0 "cout2_n_A2" 6 0
+device mosfet pfet 84 19 85 20 2 28 "vdd" "b_A2" 4 0 "a_79_19#" 28 0 "a_79_59#" 28 0
+device mosfet pfet 77 19 78 20 2 28 "vdd" "a_A2" 4 0 "a_74_19#" 28 0 "a_79_19#" 28 0
+device mosfet pfet 72 19 73 20 2 28 "vdd" "a_A2" 4 0 "vdd" 28 0 "a_74_19#" 28 0
+device mosfet pfet 59 19 60 20 2 28 "vdd" "a_A2" 4 0 "con_A2" 28 0 "vdd" 28 0
+device mosfet pfet 49 19 50 20 2 28 "vdd" "b_A2" 4 0 "vdd" 28 0 "con_A2" 28 0
+device mosfet pfet 39 19 40 20 2 28 "vdd" "con_A2" 4 0 "co_A2" 28 0 "vdd" 28 0
+device mosfet nfet 155 63 156 64 2 6 "vss" "cout_n_A2" 4 0 "vss" 6 0 "s2_A2" 6 0
+device mosfet nfet 145 63 146 64 2 6 "vss" "n5_A2" 4 0 "cout_n_A2" 6 0 "vss" 6 0
+device mosfet nfet 135 63 136 64 2 6 "vss" "c1_A2" 4 0 "vss" 6 0 "cout_n_A2" 6 0
+device mosfet nfet 1009 85 1010 86 2 9 "vss" "xor_4_A2" 4 0 "a_1004_85#" 9 0 "zc4_n_A2" 9 0
+device mosfet nfet 1002 85 1003 86 2 9 "vss" "c3_A2" 4 0 "vss" 9 0 "a_1004_85#" 9 0
+device mosfet nfet 990 91 991 92 2 6 "vss" "zc4_n_A2" 4 0 "n16_A2" 6 0 "vss" 6 0
+device mosfet nfet 963 85 964 86 2 12 "vss" "n15_A2" 4 0 "a_958_85#" 12 0 "vss" 12 0
+device mosfet nfet 956 85 957 86 2 12 "vss" "n14_A2" 4 0 "s5_A2" 12 0 "a_958_85#" 12 0
+device mosfet nfet 946 88 947 89 2 9 "vss" "c3_A2" 4 0 "n15_A2" 9 0 "s5_A2" 9 0
+device mosfet nfet 936 88 937 89 2 9 "vss" "xor_4_A2" 4 0 "vss" 9 0 "n15_A2" 9 0
+device mosfet nfet 920 93 921 94 2 9 "vss" "c3_A2" 4 0 "n14_A2" 9 0 "vss" 9 0
+device mosfet nfet 879 85 880 86 2 12 "vss" "a_854_88#" 4 0 "a_874_85#" 12 0 "vss" 12 0
+device mosfet nfet 872 85 873 86 2 12 "vss" "b4n_A2" 4 0 "xor_4_A2" 12 0 "a_874_85#" 12 0
+device mosfet nfet 862 88 863 89 2 9 "vss" "b4_A2" 4 0 "a_854_88#" 9 0 "xor_4_A2" 9 0
+device mosfet nfet 852 88 853 89 2 9 "vss" "a4_A2" 4 0 "vss" 9 0 "a_854_88#" 9 0
+device mosfet nfet 836 93 837 94 2 9 "vss" "b4_A2" 4 0 "b4n_A2" 9 0 "vss" 9 0
+device mosfet nfet 777 85 778 86 2 9 "vss" "b4_A2" 4 0 "a_772_85#" 9 0 "n17_n_A2" 9 0
+device mosfet nfet 770 85 771 86 2 9 "vss" "a4_A2" 4 0 "vss" 9 0 "a_772_85#" 9 0
+device mosfet pfet 1010 114 1011 115 2 10 "vdd" "xor_4_A2" 4 0 "zc4_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 1000 114 1001 115 2 10 "vdd" "c3_A2" 4 0 "vdd" 10 0 "zc4_n_A2" 10 0
+device mosfet pfet 990 114 991 115 2 12 "vdd" "zc4_n_A2" 4 0 "n16_A2" 12 0 "vdd" 12 0
+device mosfet pfet 964 115 965 116 2 27 "vdd" "n15_A2" 4 0 "s5_A2" 27 0 "n14_A2" 27 0
+device mosfet pfet 954 115 955 116 2 18 "vdd" "n14_A2" 4 0 "n15_A2" 18 0 "s5_A2" 18 0
+device mosfet pfet 944 115 945 116 2 18 "vdd" "xor_4_A2" 4 0 "vdd" 18 0 "n15_A2" 18 0
+device mosfet pfet 928 115 929 116 2 27 "vdd" "c3_A2" 4 0 "n14_A2" 27 0 "vdd" 27 0
+device mosfet pfet 880 115 881 116 2 27 "vdd" "a_854_88#" 4 0 "xor_4_A2" 27 0 "b4n_A2" 27 0
+device mosfet pfet 870 115 871 116 2 18 "vdd" "b4n_A2" 4 0 "a_854_88#" 18 0 "xor_4_A2" 18 0
+device mosfet pfet 860 115 861 116 2 18 "vdd" "a4_A2" 4 0 "vdd" 18 0 "a_854_88#" 18 0
+device mosfet pfet 844 115 845 116 2 27 "vdd" "b4_A2" 4 0 "b4n_A2" 27 0 "vdd" 27 0
+device mosfet nfet 758 91 759 92 2 6 "vss" "n17_n_A2" 4 0 "n17_A2" 6 0 "vss" 6 0
+device mosfet nfet 649 83 650 84 2 9 "vss" "xor_2_A2" 4 0 "a_644_83#" 9 0 "zc2_n_A2" 9 0
+device mosfet nfet 642 83 643 84 2 9 "vss" "s2_A2" 4 0 "vss" 9 0 "a_644_83#" 9 0
+device mosfet nfet 630 89 631 90 2 6 "vss" "zc2_n_A2" 4 0 "n8_A2" 6 0 "vss" 6 0
+device mosfet nfet 603 83 604 84 2 12 "vss" "n7_A2" 4 0 "a_598_83#" 12 0 "vss" 12 0
+device mosfet nfet 596 83 597 84 2 12 "vss" "n6_A2" 4 0 "s3_A2" 12 0 "a_598_83#" 12 0
+device mosfet nfet 586 86 587 87 2 9 "vss" "s2_A2" 4 0 "n7_A2" 9 0 "s3_A2" 9 0
+device mosfet nfet 576 86 577 87 2 9 "vss" "xor_2_A2" 4 0 "vss" 9 0 "n7_A2" 9 0
+device mosfet nfet 560 91 561 92 2 9 "vss" "s2_A2" 4 0 "n6_A2" 9 0 "vss" 9 0
+device mosfet nfet 519 83 520 84 2 12 "vss" "a_494_86#" 4 0 "a_514_83#" 12 0 "vss" 12 0
+device mosfet nfet 512 83 513 84 2 12 "vss" "b2n_A2" 4 0 "xor_2_A2" 12 0 "a_514_83#" 12 0
+device mosfet nfet 107 66 108 67 2 13 "vss" "a_79_59#" 4 0 "vss" 13 0 "so_A2" 13 0
+device mosfet nfet 97 66 98 67 2 10 "vss" "con_A2" 4 0 "n2_A2" 10 0 "vss" 10 0
+device mosfet nfet 87 59 88 60 2 14 "vss" "b_A2" 4 0 "a_79_59#" 14 0 "n2_A2" 14 0
+device mosfet nfet 77 59 78 60 2 14 "vss" "a_A2" 4 0 "n2_A2" 14 0 "a_79_59#" 14 0
+device mosfet nfet 57 59 58 60 2 20 "vss" "a_A2" 4 0 "a_52_59#" 20 0 "con_A2" 20 0
+device mosfet nfet 50 59 51 60 2 20 "vss" "b_A2" 4 0 "vss" 20 0 "a_52_59#" 20 0
+device mosfet nfet 39 65 40 66 2 14 "vss" "con_A2" 4 0 "co_A2" 14 0 "vss" 14 0
+device mosfet nfet 502 86 503 87 2 9 "vss" "b2_A2" 4 0 "a_494_86#" 9 0 "xor_2_A2" 9 0
+device mosfet nfet 492 86 493 87 2 9 "vss" "a2_A2" 4 0 "vss" 9 0 "a_494_86#" 9 0
+device mosfet nfet 476 91 477 92 2 9 "vss" "b2_A2" 4 0 "b2n_A2" 9 0 "vss" 9 0
+device mosfet nfet 417 83 418 84 2 9 "vss" "b2_A2" 4 0 "a_412_83#" 9 0 "n9_n_A2" 9 0
+device mosfet nfet 410 83 411 84 2 9 "vss" "a2_A2" 4 0 "vss" 9 0 "a_412_83#" 9 0
+device mosfet pfet 778 114 779 115 2 10 "vdd" "b4_A2" 4 0 "n17_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 768 114 769 115 2 10 "vdd" "a4_A2" 4 0 "vdd" 10 0 "n17_n_A2" 10 0
+device mosfet pfet 758 114 759 115 2 12 "vdd" "n17_n_A2" 4 0 "n17_A2" 12 0 "vdd" 12 0
+device mosfet pfet 650 112 651 113 2 10 "vdd" "xor_2_A2" 4 0 "zc2_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 640 112 641 113 2 10 "vdd" "s2_A2" 4 0 "vdd" 10 0 "zc2_n_A2" 10 0
+device mosfet pfet 630 112 631 113 2 12 "vdd" "zc2_n_A2" 4 0 "n8_A2" 12 0 "vdd" 12 0
+device mosfet pfet 604 113 605 114 2 27 "vdd" "n7_A2" 4 0 "s3_A2" 27 0 "n6_A2" 27 0
+device mosfet pfet 594 113 595 114 2 18 "vdd" "n6_A2" 4 0 "n7_A2" 18 0 "s3_A2" 18 0
+device mosfet pfet 584 113 585 114 2 18 "vdd" "xor_2_A2" 4 0 "vdd" 18 0 "n7_A2" 18 0
+device mosfet pfet 568 113 569 114 2 27 "vdd" "s2_A2" 4 0 "n6_A2" 27 0 "vdd" 27 0
+device mosfet pfet 520 113 521 114 2 27 "vdd" "a_494_86#" 4 0 "xor_2_A2" 27 0 "b2n_A2" 27 0
+device mosfet pfet 510 113 511 114 2 18 "vdd" "b2n_A2" 4 0 "a_494_86#" 18 0 "xor_2_A2" 18 0
+device mosfet pfet 500 113 501 114 2 18 "vdd" "a2_A2" 4 0 "vdd" 18 0 "a_494_86#" 18 0
+device mosfet pfet 484 113 485 114 2 27 "vdd" "b2_A2" 4 0 "b2n_A2" 27 0 "vdd" 27 0
+device mosfet nfet 398 89 399 90 2 6 "vss" "n9_n_A2" 4 0 "n9_A2" 6 0 "vss" 6 0
+device mosfet nfet 293 91 294 92 2 9 "vss" "xor1_A2" 4 0 "a_288_91#" 9 0 "zc1_n_A2" 9 0
+device mosfet nfet 286 91 287 92 2 9 "vss" "co_A2" 4 0 "vss" 9 0 "a_288_91#" 9 0
+device mosfet pfet 418 112 419 113 2 10 "vdd" "b2_A2" 4 0 "n9_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 408 112 409 113 2 10 "vdd" "a2_A2" 4 0 "vdd" 10 0 "n9_n_A2" 10 0
+device mosfet pfet 398 112 399 113 2 12 "vdd" "n9_n_A2" 4 0 "n9_A2" 12 0 "vdd" 12 0
+device mosfet nfet 274 97 275 98 2 6 "vss" "zc1_n_A2" 4 0 "c1_A2" 6 0 "vss" 6 0
+device mosfet nfet 247 91 248 92 2 12 "vss" "n4_A2" 4 0 "a_242_91#" 12 0 "vss" 12 0
+device mosfet nfet 240 91 241 92 2 12 "vss" "n3_A2" 4 0 "s1_A2" 12 0 "a_242_91#" 12 0
+device mosfet nfet 230 94 231 95 2 9 "vss" "co_A2" 4 0 "n4_A2" 9 0 "s1_A2" 9 0
+device mosfet nfet 220 94 221 95 2 9 "vss" "xor1_A2" 4 0 "vss" 9 0 "n4_A2" 9 0
+device mosfet nfet 204 99 205 100 2 9 "vss" "co_A2" 4 0 "n3_A2" 9 0 "vss" 9 0
+device mosfet nfet 163 91 164 92 2 12 "vss" "a1n_A2" 4 0 "a_158_91#" 12 0 "vss" 12 0
+device mosfet nfet 156 91 157 92 2 12 "vss" "b1n_A2" 4 0 "xor1_A2" 12 0 "a_158_91#" 12 0
+device mosfet nfet 146 94 147 95 2 9 "vss" "b1_A2" 4 0 "a1n_A2" 9 0 "xor1_A2" 9 0
+device mosfet nfet 136 94 137 95 2 9 "vss" "a1_A2" 4 0 "vss" 9 0 "a1n_A2" 9 0
+device mosfet nfet 120 99 121 100 2 9 "vss" "b1_A2" 4 0 "b1n_A2" 9 0 "vss" 9 0
+device mosfet nfet 61 91 62 92 2 9 "vss" "b1_A2" 4 0 "a_56_91#" 9 0 "n1_A2" 9 0
+device mosfet nfet 54 91 55 92 2 9 "vss" "a1_A2" 4 0 "vss" 9 0 "a_56_91#" 9 0
+device mosfet pfet 294 120 295 121 2 10 "vdd" "xor1_A2" 4 0 "zc1_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 284 120 285 121 2 10 "vdd" "co_A2" 4 0 "vdd" 10 0 "zc1_n_A2" 10 0
+device mosfet pfet 274 120 275 121 2 12 "vdd" "zc1_n_A2" 4 0 "c1_A2" 12 0 "vdd" 12 0
+device mosfet pfet 248 121 249 122 2 27 "vdd" "n4_A2" 4 0 "s1_A2" 27 0 "n3_A2" 27 0
+device mosfet pfet 238 121 239 122 2 18 "vdd" "n3_A2" 4 0 "n4_A2" 18 0 "s1_A2" 18 0
+device mosfet pfet 228 121 229 122 2 18 "vdd" "xor1_A2" 4 0 "vdd" 18 0 "n4_A2" 18 0
+device mosfet pfet 212 121 213 122 2 27 "vdd" "co_A2" 4 0 "n3_A2" 27 0 "vdd" 27 0
+device mosfet pfet 164 121 165 122 2 27 "vdd" "a1n_A2" 4 0 "xor1_A2" 27 0 "b1n_A2" 27 0
+device mosfet pfet 154 121 155 122 2 18 "vdd" "b1n_A2" 4 0 "a1n_A2" 18 0 "xor1_A2" 18 0
+device mosfet pfet 144 121 145 122 2 18 "vdd" "a1_A2" 4 0 "vdd" 18 0 "a1n_A2" 18 0
+device mosfet pfet 128 121 129 122 2 27 "vdd" "b1_A2" 4 0 "b1n_A2" 27 0 "vdd" 27 0
+device mosfet nfet 42 97 43 98 2 6 "vss" "n1_A2" 4 0 "n5_A2" 6 0 "vss" 6 0
+device mosfet pfet 62 120 63 121 2 10 "vdd" "b1_A2" 4 0 "n1_A2" 10 0 "vdd" 10 0
+device mosfet pfet 52 120 53 121 2 10 "vdd" "a1_A2" 4 0 "vdd" 10 0 "n1_A2" 10 0
+device mosfet pfet 42 120 43 121 2 12 "vdd" "n1_A2" 4 0 "n5_A2" 12 0 "vdd" 12 0
+device mosfet pfet 981 178 982 179 2 12 "vdd" "n18_n_A2" 4 0 "vdd" 12 0 "n18_A2" 12 0
+device mosfet pfet 971 180 972 181 2 10 "vdd" "a5_A2" 4 0 "n18_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 961 180 962 181 2 10 "vdd" "b5_A2" 4 0 "vdd" 10 0 "n18_n_A2" 10 0
+device mosfet nfet 981 207 982 208 2 6 "vss" "n18_n_A2" 4 0 "vss" 6 0 "n18_A2" 6 0
+device mosfet pfet 895 162 896 163 2 27 "vdd" "b5_A2" 4 0 "vdd" 27 0 "b5_n_A2" 27 0
+device mosfet pfet 879 171 880 172 2 18 "vdd" "a5_A2" 4 0 "a5_n_A2" 18 0 "vdd" 18 0
+device mosfet pfet 869 171 870 172 2 18 "vdd" "b5_n_A2" 4 0 "xor_5_A2" 18 0 "a5_n_A2" 18 0
+device mosfet pfet 859 162 860 163 2 27 "vdd" "a5_n_A2" 4 0 "b5_n_A2" 27 0 "xor_5_A2" 27 0
+device mosfet pfet 811 162 812 163 2 27 "vdd" "c4_A2" 4 0 "vdd" 27 0 "n20_A2" 27 0
+device mosfet pfet 795 171 796 172 2 18 "vdd" "xor_5_A2" 4 0 "n19_A2" 18 0 "vdd" 18 0
+device mosfet pfet 785 171 786 172 2 18 "vdd" "n20_A2" 4 0 "s6_A2" 18 0 "n19_A2" 18 0
+device mosfet pfet 775 162 776 163 2 27 "vdd" "n19_A2" 4 0 "n20_A2" 27 0 "s6_A2" 27 0
+device mosfet pfet 749 178 750 179 2 12 "vdd" "zc5_n_A2" 4 0 "vdd" 12 0 "n21_A2" 12 0
+device mosfet pfet 739 180 740 181 2 10 "vdd" "c4_A2" 4 0 "zc5_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 729 180 730 181 2 10 "vdd" "xor_5_A2" 4 0 "vdd" 10 0 "zc5_n_A2" 10 0
+device mosfet pfet 621 176 622 177 2 12 "vdd" "n1_n_A2" 4 0 "vdd" 12 0 "n10_A2" 12 0
+device mosfet pfet 611 178 612 179 2 10 "vdd" "a3_A2" 4 0 "n1_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 601 178 602 179 2 10 "vdd" "b3_A2" 4 0 "vdd" 10 0 "n1_n_A2" 10 0
+device mosfet nfet 969 210 970 211 2 9 "vss" "a5_A2" 4 0 "a_964_210#" 9 0 "vss" 9 0
+device mosfet nfet 962 210 963 211 2 9 "vss" "b5_A2" 4 0 "n18_n_A2" 9 0 "a_964_210#" 9 0
+device mosfet nfet 903 202 904 203 2 9 "vss" "b5_A2" 4 0 "vss" 9 0 "b5_n_A2" 9 0
+device mosfet nfet 887 207 888 208 2 9 "vss" "a5_A2" 4 0 "a5_n_A2" 9 0 "vss" 9 0
+device mosfet nfet 877 207 878 208 2 9 "vss" "b5_A2" 4 0 "xor_5_A2" 9 0 "a5_n_A2" 9 0
+device mosfet nfet 867 207 868 208 2 12 "vss" "b5_n_A2" 4 0 "a_862_207#" 12 0 "xor_5_A2" 12 0
+device mosfet nfet 860 207 861 208 2 12 "vss" "a5_n_A2" 4 0 "vss" 12 0 "a_862_207#" 12 0
+device mosfet nfet 819 202 820 203 2 9 "vss" "c4_A2" 4 0 "vss" 9 0 "n20_A2" 9 0
+device mosfet nfet 803 207 804 208 2 9 "vss" "xor_5_A2" 4 0 "n19_A2" 9 0 "vss" 9 0
+device mosfet nfet 793 207 794 208 2 9 "vss" "c4_A2" 4 0 "s6_A2" 9 0 "n19_A2" 9 0
+device mosfet nfet 783 207 784 208 2 12 "vss" "n20_A2" 4 0 "a_778_207#" 12 0 "s6_A2" 12 0
+device mosfet nfet 776 207 777 208 2 12 "vss" "n19_A2" 4 0 "vss" 12 0 "a_778_207#" 12 0
+device mosfet nfet 749 207 750 208 2 6 "vss" "zc5_n_A2" 4 0 "vss" 6 0 "n21_A2" 6 0
+device mosfet nfet 737 210 738 211 2 9 "vss" "c4_A2" 4 0 "a_732_210#" 9 0 "vss" 9 0
+device mosfet nfet 730 210 731 211 2 9 "vss" "xor_5_A2" 4 0 "zc5_n_A2" 9 0 "a_732_210#" 9 0
+device mosfet nfet 621 205 622 206 2 6 "vss" "n1_n_A2" 4 0 "vss" 6 0 "n10_A2" 6 0
+device mosfet pfet 535 160 536 161 2 27 "vdd" "b3_A2" 4 0 "vdd" 27 0 "b3n_A2" 27 0
+device mosfet pfet 519 169 520 170 2 18 "vdd" "a3_A2" 4 0 "a3n_A2" 18 0 "vdd" 18 0
+device mosfet pfet 509 169 510 170 2 18 "vdd" "b3n_A2" 4 0 "xor_3_A2" 18 0 "a3n_A2" 18 0
+device mosfet pfet 499 160 500 161 2 27 "vdd" "a3n_A2" 4 0 "b3n_A2" 27 0 "xor_3_A2" 27 0
+device mosfet pfet 451 160 452 161 2 27 "vdd" "c2_A2" 4 0 "vdd" 27 0 "n12_A2" 27 0
+device mosfet pfet 435 169 436 170 2 18 "vdd" "xor_3_A2" 4 0 "n11_A2" 18 0 "vdd" 18 0
+device mosfet pfet 425 169 426 170 2 18 "vdd" "n12_A2" 4 0 "s4_A2" 18 0 "n11_A2" 18 0
+device mosfet pfet 415 160 416 161 2 27 "vdd" "n11_A2" 4 0 "n12_A2" 27 0 "s4_A2" 27 0
+device mosfet pfet 389 176 390 177 2 12 "vdd" "zc3_n_A2" 4 0 "vdd" 12 0 "n13_A2" 12 0
+device mosfet pfet 379 178 380 179 2 10 "vdd" "c2_A2" 4 0 "zc3_n_A2" 10 0 "vdd" 10 0
+device mosfet pfet 369 178 370 179 2 10 "vdd" "xor_3_A2" 4 0 "vdd" 10 0 "zc3_n_A2" 10 0
+device mosfet nfet 609 208 610 209 2 9 "vss" "a3_A2" 4 0 "a_604_208#" 9 0 "vss" 9 0
+device mosfet nfet 602 208 603 209 2 9 "vss" "b3_A2" 4 0 "n1_n_A2" 9 0 "a_604_208#" 9 0
+device mosfet nfet 543 200 544 201 2 9 "vss" "b3_A2" 4 0 "vss" 9 0 "b3n_A2" 9 0
+device mosfet nfet 527 205 528 206 2 9 "vss" "a3_A2" 4 0 "a3n_A2" 9 0 "vss" 9 0
+device mosfet nfet 517 205 518 206 2 9 "vss" "b3_A2" 4 0 "xor_3_A2" 9 0 "a3n_A2" 9 0
+device mosfet nfet 507 205 508 206 2 12 "vss" "b3n_A2" 4 0 "a_502_205#" 12 0 "xor_3_A2" 12 0
+device mosfet nfet 500 205 501 206 2 12 "vss" "a3n_A2" 4 0 "vss" 12 0 "a_502_205#" 12 0
+device mosfet nfet 459 200 460 201 2 9 "vss" "c2_A2" 4 0 "vss" 9 0 "n12_A2" 9 0
+device mosfet nfet 443 205 444 206 2 9 "vss" "xor_3_A2" 4 0 "n11_A2" 9 0 "vss" 9 0
+device mosfet nfet 433 205 434 206 2 9 "vss" "c2_A2" 4 0 "s4_A2" 9 0 "n11_A2" 9 0
+device mosfet nfet 423 205 424 206 2 12 "vss" "n12_A2" 4 0 "a_418_205#" 12 0 "s4_A2" 12 0
+device mosfet nfet 416 205 417 206 2 12 "vss" "n11_A2" 4 0 "vss" 12 0 "a_418_205#" 12 0
+device mosfet nfet 389 205 390 206 2 6 "vss" "zc3_n_A2" 4 0 "vss" 6 0 "n13_A2" 6 0
+device mosfet nfet 377 208 378 209 2 9 "vss" "c2_A2" 4 0 "a_372_208#" 9 0 "vss" 9 0
+device mosfet nfet 370 208 371 209 2 9 "vss" "xor_3_A2" 4 0 "zc3_n_A2" 9 0 "a_372_208#" 9 0
+device mosfet nfet 888 241 889 242 2 6 "vss" "n21_A2" 4 0 "cout5_n_A2" 6 0 "vss" 6 0
+device mosfet nfet 878 241 879 242 2 6 "vss" "n18_A2" 4 0 "vss" 6 0 "cout5_n_A2" 6 0
+device mosfet nfet 868 241 869 242 2 6 "vss" "cout5_n_A2" 4 0 "c5_A2" 6 0 "vss" 6 0
+device mosfet nfet 803 232 804 233 2 14 "vss" "a_741_258#" 4 0 "vss" 14 0 "s8_A2" 14 0
+device mosfet nfet 792 232 793 233 2 20 "vss" "c5_A1" 4 0 "a_787_232#" 20 0 "vss" 20 0
+device mosfet nfet 785 232 786 233 2 20 "vss" "c5_A2" 4 0 "a_741_258#" 20 0 "a_787_232#" 20 0
+device mosfet nfet 765 238 766 239 2 14 "vss" "c5_A2" 4 0 "s7_n_A2" 14 0 "n2_7_A2" 14 0
+device mosfet nfet 755 238 756 239 2 14 "vss" "c5_A1" 4 0 "n2_7_A2" 14 0 "s7_n_A2" 14 0
+device mosfet nfet 745 235 746 236 2 10 "vss" "a_741_258#" 4 0 "vss" 10 0 "n2_7_A2" 10 0
+device mosfet nfet 735 232 736 233 2 13 "vss" "s7_n_A2" 4 0 "s7_A2" 13 0 "vss" 13 0
+device mosfet nfet 528 239 529 240 2 6 "vss" "n13_A2" 4 0 "cout3_n_A2" 6 0 "vss" 6 0
+device mosfet nfet 518 239 519 240 2 6 "vss" "n10_A2" 4 0 "vss" 6 0 "cout3_n_A2" 6 0
+device mosfet nfet 508 239 509 240 2 6 "vss" "cout3_n_A2" 4 0 "c3_A2" 6 0 "vss" 6 0
+device mosfet pfet 888 274 889 275 2 18 "vdd" "n21_A2" 4 0 "a_883_274#" 18 0 "cout5_n_A2" 18 0
+device mosfet pfet 881 274 882 275 2 18 "vdd" "n18_A2" 4 0 "vdd" 18 0 "a_883_274#" 18 0
+device mosfet pfet 868 271 869 272 2 12 "vdd" "cout5_n_A2" 4 0 "c5_A2" 12 0 "vdd" 12 0
+device mosfet pfet 803 264 804 265 2 28 "w_722_258#" "a_741_258#" 4 0 "vdd" 28 0 "s8_A2" 28 0
+device mosfet pfet 793 264 794 265 2 28 "w_722_258#" "c5_A1" 4 0 "a_741_258#" 28 0 "vdd" 28 0
+device mosfet pfet 783 264 784 265 2 28 "w_722_258#" "c5_A2" 4 0 "vdd" 28 0 "a_741_258#" 28 0
+device mosfet pfet 765 264 766 265 2 25 "w_722_258#" "c5_A2" 4 0 "a_760_264#" 25 0 "vdd" 25 0
+device mosfet pfet 758 264 759 265 2 25 "w_722_258#" "c5_A1" 4 0 "s7_n_A2" 25 0 "a_760_264#" 25 0
+device mosfet pfet 748 267 749 268 2 13 "w_722_258#" "a_741_258#" 4 0 "vdd" 13 0 "s7_n_A2" 13 0
+device mosfet pfet 735 267 736 268 2 25 "w_722_258#" "s7_n_A2" 4 0 "s7_A2" 25 0 "vdd" 25 0
+device mosfet pfet 528 272 529 273 2 18 "vdd" "n13_A2" 4 0 "a_523_272#" 18 0 "cout3_n_A2" 18 0
+device mosfet pfet 521 272 522 273 2 18 "vdd" "n10_A2" 4 0 "vdd" 18 0 "a_523_272#" 18 0
+device mosfet pfet 508 269 509 270 2 12 "vdd" "cout3_n_A2" 4 0 "c3_A2" 12 0 "vdd" 12 0
+subcap "so_A2" -132587
+subcap "n5_A2" -141
+subcap "a1_A2" -2394
+subcap "vss" -207949
+subcap "c1_A2" -6474
+subcap "xor1_A2" -912
+subcap "s1_A2" -140125
+subcap "a2_A2" -53896
+subcap "b4_A2" -56860
+subcap "s4_A2" -120127
+subcap "n13_A2" -7524
+subcap "a3_A2" -65423
+subcap "b3_A2" -66426
+subcap "n21_A2" -1482
+subcap "s6_A2" -23459
+subcap "s8_A2" -16462
+subcap "a5_A2" -50173
