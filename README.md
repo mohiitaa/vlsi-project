@@ -11,7 +11,6 @@ The following parts have been implemented successfully :-
 * D latch
 * Half adder
 * Full adder
+* 2- bit adder
 
-
-The following modules are under development:-
-* 2 bit adder
+The final 3-tap 3-bit FIR Filter is tested and runs successfully.
