@@ -1,5 +1,5 @@
 # vlsi-project
-For VLSI Lab Project
+For VLSI Lab Project on VLSI Magic Design Tool
 
 _Authors - Mohita Chowdhury and N. Subbalakshmi_
 
